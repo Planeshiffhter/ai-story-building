@@ -1,6 +1,6 @@
 # Maple House English — original 10-episode story ideas
 
-**Each episode gets a 20-minute story first.** The creator may attach separate, custom learning/practice segments later, making the uploaded runtime 20, 25, 30+ minutes. Episodes 01–03 have written 80-shot screenplays. Episodes 02 and 03 also have 20 illustrated four-panel storyboard sheets each, location-reference drafts and the shared cast previews. Creator visual approval, motion first frames, performed voices and video remain pending. Episode 04–10 production folders remain intentionally empty.
+**Each episode gets a 20-minute story first.** The creator may attach separate, custom learning/practice segments later, making the uploaded runtime 20, 25, 30+ minutes. Episodes 01–03 have written 80-shot screenplays. Episodes 02 and 03 also have 20 illustrated four-panel storyboard sheets each, location-reference drafts and the shared cast previews. Creator visual approval, motion first frames, performed voices and video remain pending. Episodes04–10 are now commissioned and have their own80-shot story/visual packages. See their local galleries and checkers for actual current illustrated coverage.
 
 Learning through natural dialogue and character decisions is part of the story. No forced audience pronunciation repetition, vocabulary documentary, quiz, timed learner pause or recap is planned in the first 20 minutes.
 
@@ -58,7 +58,7 @@ Learning through natural dialogue and character decisions is part of the story. 
 
 **Cameos:** Aunt Rose, Maya's sister: 60-90 seconds.
 
-**Production:** Idea only; empty production folder reserved.
+**Production:** Commissioned80-shot story and still-image package; see the corresponding episode folder, gallery, continuity ledger and full checker. Visual acceptance, individual first frames, voices and animation remain pending.
 
 ## Episode 05 — The Picnic Is on the WRONG Bench! | Park English | Family Adventure
 
@@ -72,7 +72,7 @@ Learning through natural dialogue and character decisions is part of the story. 
 
 **Cameos:** No new relative.
 
-**Production:** Idea only; empty production folder reserved.
+**Production:** Commissioned80-shot story and still-image package; see the corresponding episode folder, gallery, continuity ledger and full checker. Visual acceptance, individual first frames, voices and animation remain pending.
 
 ## Episode 06 — Dad Said HOT… But Meant WARM! | Restaurant English | Funny Family Dinner
 
@@ -86,7 +86,7 @@ Learning through natural dialogue and character decisions is part of the story. 
 
 **Cameos:** No new relative; server remains a minor supporting role.
 
-**Production:** Idea only; empty production folder reserved.
+**Production:** Commissioned80-shot story and still-image package; see the corresponding episode folder, gallery, continuity ledger and full checker. Visual acceptance, individual first frames, voices and animation remain pending.
 
 ## Episode 07 — Right Bus, Wrong Stop! | Travel English | Slow Family Comedy
 
@@ -100,7 +100,7 @@ Learning through natural dialogue and character decisions is part of the story. 
 
 **Cameos:** Grandpa Ed, Nina's father: 60-second phone cameo.
 
-**Production:** Idea only; empty production folder reserved.
+**Production:** Commissioned80-shot story and still-image package; see the corresponding episode folder, gallery, continuity ledger and full checker. Visual acceptance, individual first frames, voices and animation remain pending.
 
 ## Episode 08 — Grandma's Suitcase Has Everyone's Socks! | Home English | Family Story
 
@@ -114,7 +114,7 @@ Learning through natural dialogue and character decisions is part of the story. 
 
 **Cameos:** Grandma Ruth, Maya's mother: 90-120 seconds, then off-screen family visit.
 
-**Production:** Idea only; empty production folder reserved.
+**Production:** Commissioned80-shot story and still-image package; see the corresponding episode folder, gallery, continuity ledger and full checker. Visual acceptance, individual first frames, voices and animation remain pending.
 
 ## Episode 09 — Can Dad Grow Money? | Garden English | Funny Learning Story
 
@@ -128,7 +128,7 @@ Learning through natural dialogue and character decisions is part of the story. 
 
 **Cameos:** Uncle Ben, Dan's brother: a 60-second delivery of empty pots.
 
-**Production:** Idea only; empty production folder reserved.
+**Production:** Commissioned80-shot story and still-image package; see the corresponding episode folder, gallery, continuity ledger and full checker. Visual acceptance, individual first frames, voices and animation remain pending.
 
 ## Episode 10 — The Party Cake Went to the Wrong House! | Everyday English | Family Finale
 
@@ -142,5 +142,5 @@ Learning through natural dialogue and character decisions is part of the story. 
 
 **Cameos:** Brief returns of Rose and Ed; no large new cast.
 
-**Production:** Idea only; empty production folder reserved.
+**Production:** Commissioned80-shot story and still-image package; see the corresponding episode folder, gallery, continuity ledger and full checker. Visual acceptance, individual first frames, voices and animation remain pending.
 

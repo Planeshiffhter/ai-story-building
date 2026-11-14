@@ -1,4 +1,4 @@
-# Episode08 — family, ownership, luggage and room continuity
+# Episode 08 — family, ownership, luggage and room continuity
 
 **80×15-second story slots,20:00 story only.** This takes place on a later family afternoon, after the library episode, without asserting a next-day clothing change. All six retain their actual original W01 actors and outfits; the package's14 JPGs are unchanged previews, not replacement PNG masters. Maya and Nina are equally respected partners and practical organizers. The mistake is an inference about destination, not theft, carelessness with children or a failure to recognize family.
 
@@ -13,7 +13,7 @@
 
 ## Ruth's limited cameo
 
-Ruth is **Maya's mother**, not Nina's. New provisional design:67, warm medium-brown skin, silver-gray low bun, brown eyes, oval gold glasses, lavender cardigan/ivory blouse/charcoal trousers/plum flats, pearl studs. [Ruth reference](assets/supporting/RUTH_reference.png) is newly generated for review, not silently approved canon. She appears and speaks only in **SHOT001–008=120seconds**. After008 she rests in an offscreen sitting room: no voiceover, phone call, flashback face or closing return expands her cameo. Her remembered necktie anecdote is speech, never newly shown action.
+Ruth is **Maya's mother**, not Nina's. New provisional design:67, warm medium-brown skin, silver-gray low bun, brown eyes, oval gold glasses, lavender cardigan/ivory blouse/charcoal trousers/plum flats, pearl studs. [Ruth reference](assets/supporting/RUTH_reference.png) is newly generated for review, not silently approved canon. She appears and speaks only in **SHOT001–008=120 seconds**. After008 she rests in an offscreen sitting room: no voiceover, phone call, flashback face or closing return expands her cameo. Her remembered necktie anecdote is speech, never newly shown action.
 
 Ruth gifts six empty gray cubes and six blank tabs. Her own closed lavender pouch is always private and stays in the blue suitcase. She gives permission to use the gifts and borrow the checklist method, not to rummage through her belongings. The family retrieves only its own cubes; the lavender pouch is never opened or handled. Her original checklist is returned in068, while a separate family sorting record goes to the kitchen/table.
 
@@ -65,4 +65,4 @@ There are **six pairs=12individual socks**, always complete matching pairs; no l
 - **HOME_KITCHEN:** unchanged original sage cabinets, fridge rear-left, window/sink rear, stove rear-right, oak island. No laundry sorting or cooking occurs here.
 - **HOME_TABLE:** original table/window/left kitchen doorway; seats Dan near-left, Leo left-end, Ella far-left, Maya far-right, Nina right-end, Max near-right. [Canonical diagram](assets/HOME_TABLE_seating.svg). Cleared table for conversation, no new meal.
 
-Exact names and storage text come from [editable overlays](assets/overlays/), not generated image lettering. New home-view PNGs and illustrated panels are drafts requiring likeness, hands, cube-count/pouch-state and geography review. A four-panel board is not an accepted single-shot motion input. Restore original identity/home PNG masters and obtain separate Task5 authorization before video/voice work.
+Exact names and storage text come from [editable overlays](assets/overlays/), not generated image lettering. New home-view PNGs and illustrated panels are drafts requiring likeness, hands, cube-count/pouch-state and geography review. A four-panel board is not an accepted single-shot motion input. Restore original identity/home PNG masters and obtain separate Task 5 authorization before video/voice work.

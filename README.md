@@ -9,9 +9,15 @@
 | [Episode_01](Episode_01/) | **Current production:** 20-minute story-only screenplay, 80 shot prompts, 12 selected storyboard images, dialogue subtitles and visual references |
 | [Episode_02](Episode_02/) | **Story and visual preproduction draft:** fruit-shop/picnic screenplay, 80 prompts and matching subtitles, 20 four-panel storyboard PNGs illustrating all 80 concepts, 14 shared cast previews, five environment references and editable overlays; creator approval, motion first frames, voices and video pending |
 | [Episode_03](Episode_03/) | **Story and visual preproduction draft:** pancake breakfast comedy, 80 shots and matching prompts/subtitles, 20 illustrated storyboard sheets, shared cast, five home-reference views and editable recipe graphics |
-| Episode_04–Episode_10 | Empty placeholders — create content one at a time; do not prefill with scripts or art |
+| [Episode_04](Episode_04/) | Commissioned 80-shot story and still-image preproduction package; see its gallery, continuity and checker |
+| [Episode_05](Episode_05/) | Commissioned 80-shot story and still-image preproduction package; see its gallery, continuity and checker |
+| [Episode_06](Episode_06/) | Commissioned 80-shot story and still-image preproduction package; see its gallery, continuity and checker |
+| [Episode_07](Episode_07/) | Commissioned 80-shot story and still-image preproduction package; see its gallery, continuity and checker |
+| [Episode_08](Episode_08/) | Commissioned 80-shot story and still-image preproduction package; see its gallery, continuity and checker |
+| [Episode_09](Episode_09/) | Commissioned 80-shot story and still-image preproduction package; see its gallery, continuity and checker |
+| [Episode_10](Episode_10/) | Commissioned 80-shot story and still-image preproduction package; see its gallery, continuity and checker |
 
-Read [EPISODE_IDEAS.md](EPISODE_IDEAS.md) for the planned first ten stories. Episodes 01–03 have story packages; Episodes 04–10 remain ideas. Illustrated packages are visual drafts pending creator approval, not completed animation or performed voices.
+Read [EPISODE_IDEAS.md](EPISODE_IDEAS.md) for the planned first ten stories. Episodes 01–10 have authored story packages; the continuation packages follow the Episode 02/03 handoff structure. Read [SERIES_REVIEW.md](SERIES_REVIEW.md) for the completed Episode 01–03 analysis and [WORK_CHECKPOINT.md](WORK_CHECKPOINT.md) for remote backup/recovery status. Illustrated packages are visual drafts pending creator approval, not completed animation or performed voices.
 
 **Important new format:** Every episode begins with an approximately **20-minute full animated story**: comedy, gentle drama and natural learning through entertaining conversation. **No separate English-practice slots, no documentary recap blocks, no forced repeat pauses or quiz overlays** are included in that story runtime. The creator will design and add optional practice content **after** the 20-minute story; uploads may then be 25, 30 or more minutes in total. This is not a requirement that the finished upload must be 20 minutes.
 
@@ -32,10 +38,27 @@ Read [EPISODE_IDEAS.md](EPISODE_IDEAS.md) for the planned first ten stories. Epi
 
 ## Quality check
 
-Run `python Episode_01/check.py`, `python Episode_02/check.py` and `python Episode_03/check.py`. Episode 01 checks its existing story/assets and the remaining empty folders; Episodes 02/03 check their 80 shot slots, exact screenplay/prompt/subtitle alignment, subtitle timing, local links, storyboard coverage/image integrity and editable SVGs. Episode 03 also checks its recipe quantities. Run each newer episode's `sync.py --check` to detect stale derived documents, and `python -m unittest discover -s tests -v` for validation failure cases. GitHub Actions runs all six commands. These checks do not certify visual likeness, rendered ingredient counts or creator approval.
+Run `python Episode_01/check.py`, `python Episode_02/check.py` and `python Episode_03/check.py`. Episode 01 checks its existing story/assets and the remaining empty folders; Episodes 02/03 check their 80 shot slots, exact screenplay/prompt/subtitle alignment, subtitle timing, local links, storyboard coverage/image integrity and editable SVGs. Episode 03 also checks its recipe quantities. Run each newer episode's `sync.py --check` to detect stale derived documents, and `python -m unittest discover -s tests -v` for validation failure cases. GitHub Actions now runs `python tools/check_series.py` for all ten episodes and the expanded unit suite. The individual commands above remain valid for Episodes 01–03. These checks do not certify visual likeness, rendered ingredient counts or creator approval.
 
 ## Clarification on environment images and project tasks
 
 Each episode's five environment references intentionally show **locations without people**. Clean backgrounds stay separate from populated storyboard compositions and checked individual first frames. See the reference plans for [Episode 01](Episode_01/SCENE_REFERENCE_PLAN.md), [Episode 02](Episode_02/SCENE_REFERENCE_PLAN.md) and [Episode 03](Episode_03/SCENE_REFERENCE_PLAN.md). Do not overwrite clean backgrounds or treat a generated actor likeness as accepted without review. Exact list/receipt/recipe/title graphics live in each episode's `assets/overlays/`; do not recreate the obsolete `assets/props/` directory.
 
 The [original 22-section guide mapping and Tasks 5/6 readiness](Episode_01/PRODUCTION_READINESS.md) use the **current 80-shot / 20-minute story-only** canon, not the obsolete 48-shot + 24 teaching recaps.
+
+## Episodes 04–10: commissioned continuation
+
+The same six original family members continue through school shoes, a park picnic, restaurant clarification, a bus/library trip, Grandma’s visit, gardening and the party-cake finale. Each story has80continuous15-second shots, exact matching prompts/provisional dialogue subtitles, episode-specific continuity and editable graphics. New supporting relatives are explicitly provisional designs; phone-only characters remain offscreen.
+
+Browse each episode’s STORYBOARD_GALLERY.md or assets/storyboards/index.html. The complete target is20four-panel sheets and five clean references per new episode. Generated composition studies remain pending creator visual acceptance and individual motion first frames. Actual saved coverage is shown in each index and checker; partial recovery checkpoints are not completion claims.
+
+```bash
+python tools/check_series.py
+python -m unittest discover -s tests -v
+```
+
+Episodes04–10 share source tooling in tools/episode_package.py, with literal local package.py metadata and explicit Off-screen cast support. Edit each STORY.md first, run its sync.py, inspect derived changes, then run full checks. Full-resolution original identity masters, performed voices, animation, animatic and final film release remain separate production work.
+
+## Generate remaining artwork in your preferred tool
+
+Start with [IMAGE_GENERATION_HANDOFF.md](IMAGE_GENERATION_HANDOFF.md). It links all seven copy-ready episode guides, covering 140 storyboard-sheet prompts, 560 panel briefs and 35 environment prompts, with actual reference images, missing-sheet lists and correction records. The written packages are complete; the current saved art is 110 of 140 sheets and still needs visual corrections.

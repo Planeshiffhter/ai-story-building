@@ -2,7 +2,9 @@
 
 **80 × 15-second story shots = 20:00.** The six Brooks family members plant a modest garden: one mint seedling, one basil seedling and three radish seeds. Max wonders if mint means money; Dan almost gives damp soil an unnecessarily grand drink. Labels, observation, small measured pours and a truthful Day 1 journal bring a warmer success than a money harvest. Uncle Ben, Dan’s brother, delivers three empty pots during a sixty-second cameo and leaves before the family does the work.
 
-This is the same story-and-still-image preproduction format as Episodes 02 and 03: complete screenplay, exact-dialogue prompts and provisional subtitles, twenty four-panel storyboard sheets, fourteen unchanged cast previews, five clean environment references, editable graphics and production plans. All new artwork and the new Ben supporting design remain drafts pending creator review. No voice, animation or approved motion first frame is claimed.
+This is the same story-and-still-image preproduction format as Episodes 02 and 03: complete screenplay, exact-dialogue prompts and provisional subtitles, twenty planned four-panel storyboard sheets (**sixteen currently present; four missing**), fourteen unchanged cast previews, five clean environment references, editable graphics and production plans. All new artwork and the new Ben supporting design remain drafts pending creator review. No voice, animation or approved motion first frame is claimed.
+
+**Visual work is incomplete:** image generation reached its daily usage limit. Missing sheets12,16,19,20 and concrete correction requests are recorded in [CHECKPOINT.md](CHECKPOINT.md) and [storyboard provenance](assets/storyboards/GENERATION_NOTES.md). Written-only checks passed; full readiness is not claimed.
 
 ## Read and view the package
 
@@ -40,3 +42,7 @@ python -m unittest discover -s tests -v
 For authorized written-draft edits, change STORY first, run `python Episode_09/sync.py`, review the derived diff and re-run checks. `--check` is read-only. Images and provenance are retained; later approved media/timing needs a revised workflow before estimates are refreshed. Run the full repository suite before a PR/push. Passing source/image checks do not approve exact rendered likeness, anatomy, plant counts, geography, real performed timing or film production.
 
 The full twenty minutes are family comedy with natural General American conversation. No recap narrator, audience repetition, quiz or countdown belongs in the movie. Creator-authored practice may follow independently after 20:00.
+
+## Continue artwork in another image tool
+
+Use the [complete copy-ready image guide](IMAGE_GENERATION_GUIDE.md) for all 20 sheets, the 80 panel briefs, actual character/location references, clean-view prompts and targeted correction instructions. See [the cross-episode handoff](../IMAGE_GENERATION_HANDOFF.md) for the workflow.

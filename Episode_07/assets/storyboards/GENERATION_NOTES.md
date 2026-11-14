@@ -1,6 +1,6 @@
 # Episode 07 — storyboard generation and review record
 
-The selected package uses 20 actual new four-panel PNG sheets for SHOT_001–080,read top-left,top-right,bottom-left,bottom-right. These are original Episode07 story illustrations,not relabeled earlier boards. Exact source paths and per-sheet inspection records appear in [SHEET_REVIEW.md](SHEET_REVIEW.md).
+The selected package currently has ten actual new four-panel PNG sheets for SHOT_001–040; twenty sheet slots plan SHOT_001–080. BOARD_11–20 remain ungenerated after the image service daily usage limit. Existing sheets have known correction needs documented in the review record. Sheets are,read top-left,top-right,bottom-left,bottom-right. These are original Episode07 story illustrations,not relabeled earlier boards. Exact source paths and per-sheet inspection records appear in [SHEET_REVIEW.md](SHEET_REVIEW.md).
 
 ## Actual visual references
 

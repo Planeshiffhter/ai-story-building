@@ -1,7 +1,7 @@
 # Episode 05 — The Picnic Is on the WRONG Bench! | Park English | Family Adventure
 
 > **Format:** 80 continuous story shots × 15 seconds = **20:00 story runtime**.
-> **Status:** complete written and illustrated preproduction draft; creator approval, individual motion first frames, performed voices and movie remain pending.
+> **Status:** complete written preproduction draft; 18 of 20 storyboard sheets exist (72 of 80 concepts). BOARD_18/19 and factual visual corrections remain blocked by image-generation quota. Creator approval, individual motion first frames, performed voices and movie remain pending.
 > **Story-only:** natural American-English family comedy; optional creator-authored practice belongs after the movie. No audience drills, quiz, narrator recap or countdown.
 
 On a later weekend, the Brooks family takes a new picnic to the public park. Maya, Nina and Ella carry the cold lunch and blanket toward the agreed oak bench. Dan, Leo and Max follow with dry supplies, but Dan holds their sketch upside down and chooses the matching bench beside a stone squirrel. The groups remain on short mutually visible paths with adults; nobody is lost or unsafe. Checking the gate, fountain, statue and oak turns a small detour into a shared laugh and a picnic everyone helped to find.
@@ -1124,7 +1124,7 @@ The public park is distinct from Episode02's backyard. From the SOUTH GATE facin
 
 **Camera:** Close dry basket lid and map sleeve.
 
-**Action:** Ella offers the dry transparent sleeve from her sketch folder carried flat with napkins. Dan slides the map inside, north-up, and tucks it into his right pocket. Leo checks nothing blows away.
+**Action:** Ella offers the dry transparent sleeve from the dry basket where it was packed flat with napkins. Dan slides the map inside, north-up, and tucks it into his right pocket. Leo checks nothing blows away.
 
 **Opening state:** One sketch; sleeve empty flat in basket with napkins; map in Dan hand.
 

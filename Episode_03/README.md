@@ -36,7 +36,7 @@ There is **one batch**, one blue dry/batter bowl and one yellow wet bowl. The re
 
 The vase is empty throughout and is returned to the decoration shelf before preparation. No flower is picked, brought near ingredients or put into food. All six wash hands; adults handle raw eggs, hot pans, knives and flips. Children measure in the cool preparation area. Nobody tastes raw flour, eggs or batter. The stove is switched off after cooking.
 
-The [storyboard generation notes](assets/storyboards/GENERATION_NOTES.md) record source references, inspection and corrections. Creator visual approval, detailed continuity correction, 80 individual motion first frames, performed voices, an animatic and video remain pending. The creator has commissioned the story and still-image package and requested a tested GitHub push; Task 5 video/voice generation still needs separate explicit authorization. Episodes 04–10 remain empty.
+The [storyboard generation notes](assets/storyboards/GENERATION_NOTES.md) record source references, inspection and corrections. Creator visual approval, detailed continuity correction, 80 individual motion first frames, performed voices, an animatic and video remain pending. The creator has commissioned the story and still-image package and requested a tested GitHub push; Task 5 video/voice generation still needs separate explicit authorization. Episodes04–10 are now separately commissioned preproduction packages.
 
 ## Check and refresh
 

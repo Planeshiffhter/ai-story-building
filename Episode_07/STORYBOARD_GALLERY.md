@@ -18,49 +18,49 @@ SHOT_005: Umbrella without a storm · SHOT_006: Cards in their own place · SHOT
 
 ## BOARD_03 — SHOT_009–SHOT_012
 
-Illustration pending.
+![BOARD_03 — SHOT_009–SHOT_012](assets/storyboards/BOARD_03.png)
 
 SHOT_009: A stop that looks familiar · SHOT_010: The pleased-with-himself pose · SHOT_011: A pole with two kinds of information · SHOT_012: A comfortable place to wonder
 
 ## BOARD_04 — SHOT_013–SHOT_016
 
-Illustration pending.
+![BOARD_04 — SHOT_013–SHOT_016](assets/storyboards/BOARD_04.png)
 
 SHOT_013: The timetable seems to agree · SHOT_014: A river in the wrong plan · SHOT_015: The building is not the book · SHOT_016: First look at the street map
 
 ## BOARD_05 — SHOT_017–SHOT_020
 
-Illustration pending.
+![BOARD_05 — SHOT_017–SHOT_020](assets/storyboards/BOARD_05.png)
 
 SHOT_017: A stop with no legs · SHOT_018: Right number, wrong direction · SHOT_019: No need to race · SHOT_020: What we know for certain
 
 ## BOARD_06 — SHOT_021–SHOT_024
 
-Illustration pending.
+![BOARD_06 — SHOT_021–SHOT_024](assets/storyboards/BOARD_06.png)
 
 SHOT_021: A useful call, not a rescue · SHOT_022: Say the place before the problem · SHOT_023: One folder stays zipped · SHOT_024: The opposite roof
 
 ## BOARD_07 — SHOT_025–SHOT_028
 
-Illustration pending.
+![BOARD_07 — SHOT_025–SHOT_028](assets/storyboards/BOARD_07.png)
 
 SHOT_025: A map is not the whole street · SHOT_026: A mistake that stays small · SHOT_027: The call begins · SHOT_028: The small embarrassment
 
 ## BOARD_08 — SHOT_029–SHOT_032
 
-Illustration pending.
+![BOARD_08 — SHOT_029–SHOT_032](assets/storyboards/BOARD_08.png)
 
 SHOT_029: Tell Ed where we are · SHOT_030: Give the destination a direction · SHOT_031: A reassuring grandfather · SHOT_032: A call that leaves room to act
 
 ## BOARD_09 — SHOT_033–SHOT_036
 
-Illustration pending.
+![BOARD_09 — SHOT_033–SHOT_036](assets/storyboards/BOARD_09.png)
 
 SHOT_033: The better question · SHOT_034: Walking to the signal · SHOT_035: A button is not a green light · SHOT_036: Waiting has a purpose
 
 ## BOARD_10 — SHOT_037–SHOT_040
 
-Illustration pending.
+![BOARD_10 — SHOT_037–SHOT_040](assets/storyboards/BOARD_10.png)
 
 SHOT_037: Look before the first step · SHOT_038: Across in one group · SHOT_039: Back on the sidewalk · SHOT_040: The same street from a new side
 

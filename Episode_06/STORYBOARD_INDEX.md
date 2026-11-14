@@ -8,22 +8,22 @@ Twenty four-panel sheet slots map all 80 story shots. Generated images are compo
 | BOARD_02 | SHOT_005–SHOT_008 | Room in the dinner budget | [BOARD_02.png](assets/storyboards/BOARD_02.png) | Illustrated draft; creator approval pending |
 | BOARD_03 | SHOT_009–SHOT_012 | A welcoming doorway | [BOARD_03.png](assets/storyboards/BOARD_03.png) | Illustrated draft; creator approval pending |
 | BOARD_04 | SHOT_013–SHOT_016 | Menus arrive before meals | [BOARD_04.png](assets/storyboards/BOARD_04.png) | Illustrated draft; creator approval pending |
-| BOARD_05 | SHOT_017–SHOT_020 | A menu has neighborhoods | [BOARD_05.png](assets/storyboards/BOARD_05.png) | Illustration pending; creator approval pending |
+| BOARD_05 | SHOT_017–SHOT_020 | A menu has neighborhoods | [BOARD_05.png](assets/storyboards/BOARD_05.png) | Illustrated draft; creator approval pending |
 | BOARD_06 | SHOT_021–SHOT_024 | Ella asks what comes with it | [BOARD_06.png](assets/storyboards/BOARD_06.png) | Illustrated draft; creator approval pending |
-| BOARD_07 | SHOT_025–SHOT_028 | The little pepper picture | [BOARD_07.png](assets/storyboards/BOARD_07.png) | Illustration pending; creator approval pending |
+| BOARD_07 | SHOT_025–SHOT_028 | The little pepper picture | [BOARD_07.png](assets/storyboards/BOARD_07.png) | Illustrated draft; creator approval pending |
 | BOARD_08 | SHOT_029–SHOT_032 | All six dishes in one place | [BOARD_08.png](assets/storyboards/BOARD_08.png) | Illustrated draft; creator approval pending |
 | BOARD_09 | SHOT_033–SHOT_036 | Everyone says their own order | [BOARD_09.png](assets/storyboards/BOARD_09.png) | Illustrated draft; creator approval pending |
-| BOARD_10 | SHOT_037–SHOT_040 | A wait with an ending | [BOARD_10.png](assets/storyboards/BOARD_10.png) | Illustration pending; creator approval pending |
+| BOARD_10 | SHOT_037–SHOT_040 | A wait with an ending | [BOARD_10.png](assets/storyboards/BOARD_10.png) | Illustrated draft; creator approval pending |
 | BOARD_11 | SHOT_041–SHOT_044 | An appetizer stays on the menu | [BOARD_11.png](assets/storyboards/BOARD_11.png) | Illustrated draft; creator approval pending |
 | BOARD_12 | SHOT_045–SHOT_048 | Two children recognize dinner | [BOARD_12.png](assets/storyboards/BOARD_12.png) | Illustrated draft; creator approval pending |
-| BOARD_13 | SHOT_049–SHOT_052 | The soup gets its sentence | [BOARD_13.png](assets/storyboards/BOARD_13.png) | Illustration pending; creator approval pending |
+| BOARD_13 | SHOT_049–SHOT_052 | The soup gets its sentence | [BOARD_13.png](assets/storyboards/BOARD_13.png) | Illustrated draft; creator approval pending |
 | BOARD_14 | SHOT_053–SHOT_056 | Two meanings, no lecture | [BOARD_14.png](assets/storyboards/BOARD_14.png) | Illustrated draft; creator approval pending |
 | BOARD_15 | SHOT_057–SHOT_060 | A pause in the middle | [BOARD_15.png](assets/storyboards/BOARD_15.png) | Illustrated draft; creator approval pending |
 | BOARD_16 | SHOT_061–SHOT_064 | The box has a destination | [BOARD_16.png](assets/storyboards/BOARD_16.png) | Illustrated draft; creator approval pending |
 | BOARD_17 | SHOT_065–SHOT_068 | A clear table keeps one box | [BOARD_17.png](assets/storyboards/BOARD_17.png) | Illustrated draft; creator approval pending |
-| BOARD_18 | SHOT_069–SHOT_072 | A choice for the end | [BOARD_18.png](assets/storyboards/BOARD_18.png) | Illustration pending; creator approval pending |
-| BOARD_19 | SHOT_073–SHOT_076 | Eighty to settle the meal | [BOARD_19.png](assets/storyboards/BOARD_19.png) | Illustration pending; creator approval pending |
-| BOARD_20 | SHOT_077–SHOT_080 | The whole family leaves together | [BOARD_20.png](assets/storyboards/BOARD_20.png) | Illustration pending; creator approval pending |
+| BOARD_18 | SHOT_069–SHOT_072 | A choice for the end | [BOARD_18.png](assets/storyboards/BOARD_18.png) | Illustrated draft; creator approval pending |
+| BOARD_19 | SHOT_073–SHOT_076 | Eighty to settle the meal | [BOARD_19.png](assets/storyboards/BOARD_19.png) | Illustrated draft; creator approval pending |
+| BOARD_20 | SHOT_077–SHOT_080 | The whole family leaves together | [BOARD_20.png](assets/storyboards/BOARD_20.png) | Illustrated draft; creator approval pending |
 
 ## All 80 opening-frame briefs
 

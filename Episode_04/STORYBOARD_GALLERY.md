@@ -78,7 +78,7 @@ SHOT_045: Secure, not squeezed · SHOT_046: His answer matters · SHOT_047: Stan
 
 ## BOARD_13 — SHOT_049–SHOT_052
 
-Illustration pending.
+![BOARD_13 — SHOT_049–SHOT_052](assets/storyboards/BOARD_13.png)
 
 SHOT_049: The mirror is not the judge · SHOT_050: One more careful check · SHOT_051: Ask the price plainly · SHOT_052: No extra pair required
 
@@ -114,13 +114,13 @@ SHOT_069: The correct exit · SHOT_070: The escalator can wait · SHOT_071: Chec
 
 ## BOARD_19 — SHOT_073–SHOT_076
 
-Illustration pending.
+![BOARD_19 — SHOT_073–SHOT_076](assets/storyboards/BOARD_19.png)
 
 SHOT_073: Home, same kitchen · SHOT_074: A clean place for shoes · SHOT_075: Proof of the pair · SHOT_076: The customer reports
 
 ## BOARD_20 — SHOT_077–SHOT_080
 
-Illustration pending.
+![BOARD_20 — SHOT_077–SHOT_080](assets/storyboards/BOARD_20.png)
 
 SHOT_077: The joke finds its limit · SHOT_078: A different picnic plan · SHOT_079: Everyone helped · SHOT_080: One family, the right fit
 

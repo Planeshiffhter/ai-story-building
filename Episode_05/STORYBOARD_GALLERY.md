@@ -30,79 +30,79 @@ SHOT_013: The map takes a turn · SHOT_014: A very convincing green bench · SHO
 
 ## BOARD_05 — SHOT_017–SHOT_020
 
-Illustration pending.
+![BOARD_05 — SHOT_017–SHOT_020](assets/storyboards/BOARD_05.png)
 
 SHOT_017: Three places too few · SHOT_018: The silent local expert · SHOT_019: A bench without a blanket · SHOT_020: A call would be allowed
 
 ## BOARD_06 — SHOT_021–SHOT_024
 
-Illustration pending.
+![BOARD_06 — SHOT_021–SHOT_024](assets/storyboards/BOARD_06.png)
 
 SHOT_021: One color, two places · SHOT_022: A landmark is more than a seat · SHOT_023: The upside-down oak · SHOT_024: Turn the page, keep the park
 
 ## BOARD_07 — SHOT_025–SHOT_028
 
-Illustration pending.
+![BOARD_07 — SHOT_025–SHOT_028](assets/storyboards/BOARD_07.png)
 
 SHOT_025: A small admission · SHOT_026: The better question · SHOT_027: Our quiet friend has a job · SHOT_028: Two landmarks agree
 
 ## BOARD_08 — SHOT_029–SHOT_032
 
-Illustration pending.
+![BOARD_08 — SHOT_029–SHOT_032](assets/storyboards/BOARD_08.png)
 
 SHOT_029: Do not move the picnic · SHOT_030: No shortcuts through flowers · SHOT_031: A wave across the square · SHOT_032: Carry the useful things
 
 ## BOARD_09 — SHOT_033–SHOT_036
 
-Illustration pending.
+![BOARD_09 — SHOT_033–SHOT_036](assets/storyboards/BOARD_09.png)
 
 SHOT_033: Back to a known point · SHOT_034: Face the way we came in · SHOT_035: Listen to the landmark · SHOT_036: Right means this turn
 
 ## BOARD_10 — SHOT_037–SHOT_040
 
-Illustration pending.
+![BOARD_10 — SHOT_037–SHOT_040](assets/storyboards/BOARD_10.png)
 
 SHOT_037: The bench with the people · SHOT_038: Already saving places · SHOT_039: The destination is complete · SHOT_040: A helpful explanation
 
 ## BOARD_11 — SHOT_041–SHOT_044
 
-Illustration pending.
+![BOARD_11 — SHOT_041–SHOT_044](assets/storyboards/BOARD_11.png)
 
 SHOT_041: Good information, better directions · SHOT_042: Both sides of the misunderstanding · SHOT_043: Map gets a clear home · SHOT_044: Food can wait a moment
 
 ## BOARD_12 — SHOT_045–SHOT_048
 
-Illustration pending.
+![BOARD_12 — SHOT_045–SHOT_048](assets/storyboards/BOARD_12.png)
 
 SHOT_045: A short wash trip together · SHOT_046: Our picnic returns once · SHOT_047: Six places, fixed and comfortable · SHOT_048: Room for everyone
 
 ## BOARD_13 — SHOT_049–SHOT_052
 
-Illustration pending.
+![BOARD_13 — SHOT_049–SHOT_052](assets/storyboards/BOARD_13.png)
 
 SHOT_049: The clean plates arrive · SHOT_050: Napkins know where to go · SHOT_051: The cold lid opens · SHOT_052: One parcel for each person
 
 ## BOARD_14 — SHOT_053–SHOT_056
 
-Illustration pending.
+![BOARD_14 — SHOT_053–SHOT_056](assets/storyboards/BOARD_14.png)
 
 SHOT_053: Water follows the same plan · SHOT_054: Wrappers stay with us · SHOT_055: The first quiet bite · SHOT_056: No race to the best shade
 
 ## BOARD_15 — SHOT_057–SHOT_060
 
-Illustration pending.
+![BOARD_15 — SHOT_057–SHOT_060](assets/storyboards/BOARD_15.png)
 
 SHOT_057: What the other bench taught us · SHOT_058: A kind correction travels farther · SHOT_059: A map needs a listener · SHOT_060: The oak gets no medal
 
 ## BOARD_16 — SHOT_061–SHOT_064
 
-Illustration pending.
+![BOARD_16 — SHOT_061–SHOT_064](assets/storyboards/BOARD_16.png)
 
 SHOT_061: A picnic is not a test · SHOT_062: Another sort of good guide · SHOT_063: The tiny tree grows up · SHOT_064: A place everyone can describe
 
 ## BOARD_17 — SHOT_065–SHOT_068
 
-Illustration pending.
+![BOARD_17 — SHOT_065–SHOT_068](assets/storyboards/BOARD_17.png)
 
 SHOT_065: The fountain keeps its voice · SHOT_066: The last bites take time · SHOT_067: The basket changes jobs · SHOT_068: Leave the shade as we found it
 
@@ -120,7 +120,7 @@ SHOT_073: Two benches, one good memory · SHOT_074: Through the gate together ·
 
 ## BOARD_20 — SHOT_077–SHOT_080
 
-Illustration pending.
+![BOARD_20 — SHOT_077–SHOT_080](assets/storyboards/BOARD_20.png)
 
 SHOT_077: The second useful job · SHOT_078: One map, the right way up · SHOT_079: Tomorrow can use a simple question · SHOT_080: The bench with everyone
 

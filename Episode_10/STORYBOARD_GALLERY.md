@@ -6,61 +6,61 @@ Written and still-image preproduction draft. Each slot is a planned 15-second ed
 
 ## BOARD_01 — SHOT_001–SHOT_004
 
-Illustration pending.
+![BOARD_01 — SHOT_001–SHOT_004](assets/storyboards/BOARD_01.png)
 
 SHOT_001: A party for our team · SHOT_002: Six places, no extra guests · SHOT_003: The smallest backup dessert · SHOT_004: Aunt Rose brings ribbon
 
 ## BOARD_02 — SHOT_005–SHOT_008
 
-Illustration pending.
+![BOARD_02 — SHOT_005–SHOT_008](assets/storyboards/BOARD_02.png)
 
 SHOT_005: A bow needs a little room · SHOT_006: Not every mistake is a disaster · SHOT_007: A short visit, a warm goodbye · SHOT_008: The blue door gets its bow
 
 ## BOARD_03 — SHOT_009–SHOT_012
 
-Illustration pending.
+![BOARD_03 — SHOT_009–SHOT_012](assets/storyboards/BOARD_03.png)
 
 SHOT_009: One banner, a clear doorway · SHOT_010: The decoration box closes · SHOT_011: A door and a number · SHOT_012: The confirmation is correct
 
 ## BOARD_04 — SHOT_013–SHOT_016
 
-Illustration pending.
+![BOARD_04 — SHOT_013–SHOT_016](assets/storyboards/BOARD_04.png)
 
 SHOT_013: A clean cake shelf · SHOT_014: The list has a space · SHOT_015: Waiting with company · SHOT_016: A little time passes
 
 ## BOARD_05 — SHOT_017–SHOT_020
 
-Illustration pending.
+![BOARD_05 — SHOT_017–SHOT_020](assets/storyboards/BOARD_05.png)
 
 SHOT_017: Delivered, but not here · SHOT_018: Check the doorstep first · SHOT_019: The fridge is not a hiding place · SHOT_020: A perfect plan feels smaller
 
 ## BOARD_06 — SHOT_021–SHOT_024
 
-Illustration pending.
+![BOARD_06 — SHOT_021–SHOT_024](assets/storyboards/BOARD_06.png)
 
 SHOT_021: What do we actually know? · SHOT_022: Nobody has to accuse anyone · SHOT_023: The wrong color in the picture · SHOT_024: A bow that never went there
 
 ## BOARD_07 — SHOT_025–SHOT_028
 
-Illustration pending.
+![BOARD_07 — SHOT_025–SHOT_028](assets/storyboards/BOARD_07.png)
 
 SHOT_025: Read the message completely · SHOT_026: Ask for help with facts · SHOT_027: The small dessert can wait · SHOT_028: Do not follow every green door
 
 ## BOARD_08 — SHOT_029–SHOT_032
 
-Illustration pending.
+![BOARD_08 — SHOT_029–SHOT_032](assets/storyboards/BOARD_08.png)
 
 SHOT_029: A detail beside the bell · SHOT_030: The full label is blurry · SHOT_031: A reply gives a useful clue · SHOT_032: Keep one question at a time
 
 ## BOARD_09 — SHOT_033–SHOT_036
 
-Illustration pending.
+![BOARD_09 — SHOT_033–SHOT_036](assets/storyboards/BOARD_09.png)
 
 SHOT_033: Who goes and who stays? · SHOT_034: The right direction this time · SHOT_035: A familiar low hedge · SHOT_036: The number is eighteen
 
 ## BOARD_10 — SHOT_037–SHOT_040
 
-Illustration pending.
+![BOARD_10 — SHOT_037–SHOT_040](assets/storyboards/BOARD_10.png)
 
 SHOT_037: A private path is not a shortcut · SHOT_038: At the green door · SHOT_039: One ring is enough · SHOT_040: The quiet waiting beat
 
@@ -84,7 +84,7 @@ SHOT_049: A small admission while waiting · SHOT_050: The box is coming · SHOT
 
 ## BOARD_14 — SHOT_053–SHOT_056
 
-Illustration pending.
+![BOARD_14 — SHOT_053–SHOT_056](assets/storyboards/BOARD_14.png)
 
 SHOT_053: The neighbor explains · SHOT_054: Four became an uncertain mark · SHOT_055: A seal worth checking · SHOT_056: One careful transfer
 

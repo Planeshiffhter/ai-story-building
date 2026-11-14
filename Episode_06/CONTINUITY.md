@@ -65,11 +65,11 @@ Mild describes flavor, not temperature. Warm is a comfort preference, not a subs
 | 017–023 | Select six mains; no appetizer/dessert; choices total $58. |
 | 024–028 | Server pauses ambiguous hot request; mild/warm clarified on draft before any cooking. |
 | 029–036 | Match adult/child chicken portions; verify $58/$5.80/$63.80 and planned $10 tip; confirm ingredient needs; one six-main ticket submitted; six menus collected. |
-| 037–044 | Explicit cooking time; calm conversation; no meal appears instantly; service space cleared. |
-| 045 | Maya pasta and Nina adult chicken/rice replace their empty placeholders. |
-| 046 | Leo sandwich and Ella filled potato replace their placeholders. |
-| 047 | Dan soup and Max child plate replace final two placeholders; six meals served exactly once. |
-| 048–056 | Correct dishes checked, comfortable temperature checked, small bites/swallow before dialogue; portions gradually decrease, no refills. |
+| 037–043 | Explicit cooking time; calm conversation; no meal appears instantly; service space cleared. |
+| 044 | Maya pasta and Nina adult chicken/rice replace their empty placeholders. |
+| 045 | Leo sandwich and Ella filled potato replace their placeholders. |
+| 046 | Dan soup and Max child plate replace final two placeholders; six meals served exactly once. |
+| 047–056 | Correct dishes checked, comfortable temperature checked, small bites/swallow before dialogue; portions gradually decrease, no refills. |
 | 057–059 | Mealtime ellipse; Max chooses to save his remainder; request one empty box and receive it. |
 | 060 | Nina transfers Max's remaining portion ONCE into one box and closes it; Max's plate empty afterward. |
 | 061–064 | Plan direct trip home and prompt refrigeration; finish meal, decline dessert, ask for check. |

@@ -44,6 +44,6 @@ Browse the [storyboard gallery](STORYBOARD_GALLERY.md), [HTML gallery](assets/st
 
 ## Task 6 and validation limits
 
-Episode 03 reuses the earlier episodes' document/visual-handoff structure at the creator's request. It does not certify a filmed reusable production factory or declare earlier movies complete. Episodes 04–10 remain placeholders until individually requested; a brief school-shoes hint does not begin Episode 04.
+Episode 03 reuses the earlier episodes' document/visual-handoff structure at the creator's request. It does not certify a filmed reusable production factory or declare earlier movies complete. Episodes04–10 are now separately commissioned; a brief school-shoes hint does not begin Episode 04.
 
 Run the source/asset checks and regression suite in [README.md](README.md). Passing checks establish source consistency, image integrity and illustrated coverage; they do not certify exact visual likeness, cooked-food appearance, performance timing, real motion-service capability or creator approval. The GitHub push requested by the creator is the tested preproduction package; actual animation, voices and film delivery remain pending.

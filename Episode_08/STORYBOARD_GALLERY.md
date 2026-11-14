@@ -30,67 +30,67 @@ SHOT_013: The wrong destination · SHOT_014: Everyone is accidentally packed · 
 
 ## BOARD_05 — SHOT_017–SHOT_020
 
-Illustration pending.
+![BOARD_05 — SHOT_017–SHOT_020](assets/storyboards/BOARD_05.png)
 
 SHOT_017: A drawer cannot answer · SHOT_018: The clue left behind · SHOT_019: An honest explanation · SHOT_020: A small repair together
 
 ## BOARD_06 — SHOT_021–SHOT_024
 
-Illustration pending.
+![BOARD_06 — SHOT_021–SHOT_024](assets/storyboards/BOARD_06.png)
 
 SHOT_021: At the luggage stand · SHOT_022: Only the family cubes · SHOT_023: Count the containers first · SHOT_024: Travel-size fashion
 
 ## BOARD_07 — SHOT_025–SHOT_028
 
-Illustration pending.
+![BOARD_07 — SHOT_025–SHOT_028](assets/storyboards/BOARD_07.png)
 
 SHOT_025: A description worth hearing · SHOT_026: Privacy is part of helping · SHOT_027: A method, not a race · SHOT_028: A list with room for names
 
 ## BOARD_08 — SHOT_029–SHOT_032
 
-Illustration pending.
+![BOARD_08 — SHOT_029–SHOT_032](assets/storyboards/BOARD_08.png)
 
 SHOT_029: All six back on the counter · SHOT_030: A guest room left tidy · SHOT_031: Six empty name tabs · SHOT_032: Green heels first
 
 ## BOARD_09 — SHOT_033–SHOT_036
 
-Illustration pending.
+![BOARD_09 — SHOT_033–SHOT_036](assets/storyboards/BOARD_09.png)
 
 SHOT_033: Two socks make this pair · SHOT_034: A name where it belongs · SHOT_035: One checked home · SHOT_036: Coral stars next
 
 ## BOARD_10 — SHOT_037–SHOT_040
 
-Illustration pending.
+![BOARD_10 — SHOT_037–SHOT_040](assets/storyboards/BOARD_10.png)
 
 SHOT_037: Recognize and ask · SHOT_038: Ella on the second cube · SHOT_039: Orange heels, larger size · SHOT_040: A question before a label
 
 ## BOARD_11 — SHOT_041–SHOT_044
 
-Illustration pending.
+![BOARD_11 — SHOT_041–SHOT_044](assets/storyboards/BOARD_11.png)
 
 SHOT_041: Leo joins the checked row · SHOT_042: Plum dots from cube four · SHOT_043: Each person knows her things · SHOT_044: Maya gets her own label
 
 ## BOARD_12 — SHOT_045–SHOT_048
 
-Illustration pending.
+![BOARD_12 — SHOT_045–SHOT_048](assets/storyboards/BOARD_12.png)
 
 SHOT_045: Plain teal appears · SHOT_046: Ownership is not a contest · SHOT_047: Nina in clear letters · SHOT_048: The largest pair at last
 
 ## BOARD_13 — SHOT_049–SHOT_052
 
-Illustration pending.
+![BOARD_13 — SHOT_049–SHOT_052](assets/storyboards/BOARD_13.png)
 
 SHOT_049: A joke that stays a joke · SHOT_050: Dad signs his own address · SHOT_051: Read before moving · SHOT_052: Pairs and individual socks
 
 ## BOARD_14 — SHOT_053–SHOT_056
 
-Illustration pending.
+![BOARD_14 — SHOT_053–SHOT_056](assets/storyboards/BOARD_14.png)
 
 SHOT_053: Nothing is missing · SHOT_054: No need to unpack again · SHOT_055: Six places in the cubby · SHOT_056: Left means this view
 
 ## BOARD_15 — SHOT_057–SHOT_060
 
-Illustration pending.
+![BOARD_15 — SHOT_057–SHOT_060](assets/storyboards/BOARD_15.png)
 
 SHOT_057: The three adult cubes · SHOT_058: The three child cubes · SHOT_059: Names on the shelf map · SHOT_060: Cap on, job closed
 

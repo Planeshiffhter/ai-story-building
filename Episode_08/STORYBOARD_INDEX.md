@@ -8,17 +8,17 @@ Twenty four-panel sheet slots map all 80 story shots. Generated images are compo
 | BOARD_02 | SHOT_005–SHOT_008 | A useful checklist | [BOARD_02.png](assets/storyboards/BOARD_02.png) | Illustrated draft; creator approval pending |
 | BOARD_03 | SHOT_009–SHOT_012 | A clean place to sort | [BOARD_03.png](assets/storyboards/BOARD_03.png) | Illustrated draft; creator approval pending |
 | BOARD_04 | SHOT_013–SHOT_016 | The wrong destination | [BOARD_04.png](assets/storyboards/BOARD_04.png) | Illustrated draft; creator approval pending |
-| BOARD_05 | SHOT_017–SHOT_020 | A drawer cannot answer | [BOARD_05.png](assets/storyboards/BOARD_05.png) | Illustration pending; creator approval pending |
-| BOARD_06 | SHOT_021–SHOT_024 | At the luggage stand | [BOARD_06.png](assets/storyboards/BOARD_06.png) | Illustration pending; creator approval pending |
-| BOARD_07 | SHOT_025–SHOT_028 | A description worth hearing | [BOARD_07.png](assets/storyboards/BOARD_07.png) | Illustration pending; creator approval pending |
-| BOARD_08 | SHOT_029–SHOT_032 | All six back on the counter | [BOARD_08.png](assets/storyboards/BOARD_08.png) | Illustration pending; creator approval pending |
-| BOARD_09 | SHOT_033–SHOT_036 | Two socks make this pair | [BOARD_09.png](assets/storyboards/BOARD_09.png) | Illustration pending; creator approval pending |
-| BOARD_10 | SHOT_037–SHOT_040 | Recognize and ask | [BOARD_10.png](assets/storyboards/BOARD_10.png) | Illustration pending; creator approval pending |
-| BOARD_11 | SHOT_041–SHOT_044 | Leo joins the checked row | [BOARD_11.png](assets/storyboards/BOARD_11.png) | Illustration pending; creator approval pending |
-| BOARD_12 | SHOT_045–SHOT_048 | Plain teal appears | [BOARD_12.png](assets/storyboards/BOARD_12.png) | Illustration pending; creator approval pending |
-| BOARD_13 | SHOT_049–SHOT_052 | A joke that stays a joke | [BOARD_13.png](assets/storyboards/BOARD_13.png) | Illustration pending; creator approval pending |
-| BOARD_14 | SHOT_053–SHOT_056 | Nothing is missing | [BOARD_14.png](assets/storyboards/BOARD_14.png) | Illustration pending; creator approval pending |
-| BOARD_15 | SHOT_057–SHOT_060 | The three adult cubes | [BOARD_15.png](assets/storyboards/BOARD_15.png) | Illustration pending; creator approval pending |
+| BOARD_05 | SHOT_017–SHOT_020 | A drawer cannot answer | [BOARD_05.png](assets/storyboards/BOARD_05.png) | Illustrated draft; creator approval pending |
+| BOARD_06 | SHOT_021–SHOT_024 | At the luggage stand | [BOARD_06.png](assets/storyboards/BOARD_06.png) | Illustrated draft; creator approval pending |
+| BOARD_07 | SHOT_025–SHOT_028 | A description worth hearing | [BOARD_07.png](assets/storyboards/BOARD_07.png) | Illustrated draft; creator approval pending |
+| BOARD_08 | SHOT_029–SHOT_032 | All six back on the counter | [BOARD_08.png](assets/storyboards/BOARD_08.png) | Illustrated draft; creator approval pending |
+| BOARD_09 | SHOT_033–SHOT_036 | Two socks make this pair | [BOARD_09.png](assets/storyboards/BOARD_09.png) | Illustrated draft; creator approval pending |
+| BOARD_10 | SHOT_037–SHOT_040 | Recognize and ask | [BOARD_10.png](assets/storyboards/BOARD_10.png) | Illustrated draft; creator approval pending |
+| BOARD_11 | SHOT_041–SHOT_044 | Leo joins the checked row | [BOARD_11.png](assets/storyboards/BOARD_11.png) | Illustrated draft; creator approval pending |
+| BOARD_12 | SHOT_045–SHOT_048 | Plain teal appears | [BOARD_12.png](assets/storyboards/BOARD_12.png) | Illustrated draft; creator approval pending |
+| BOARD_13 | SHOT_049–SHOT_052 | A joke that stays a joke | [BOARD_13.png](assets/storyboards/BOARD_13.png) | Illustrated draft; creator approval pending |
+| BOARD_14 | SHOT_053–SHOT_056 | Nothing is missing | [BOARD_14.png](assets/storyboards/BOARD_14.png) | Illustrated draft; creator approval pending |
+| BOARD_15 | SHOT_057–SHOT_060 | The three adult cubes | [BOARD_15.png](assets/storyboards/BOARD_15.png) | Illustrated draft; creator approval pending |
 | BOARD_16 | SHOT_061–SHOT_064 | An empty basket can rest | [BOARD_16.png](assets/storyboards/BOARD_16.png) | Illustration pending; creator approval pending |
 | BOARD_17 | SHOT_065–SHOT_068 | The towel finds its drawer | [BOARD_17.png](assets/storyboards/BOARD_17.png) | Illustration pending; creator approval pending |
 | BOARD_18 | SHOT_069–SHOT_072 | Clean hands after the job | [BOARD_18.png](assets/storyboards/BOARD_18.png) | Illustration pending; creator approval pending |

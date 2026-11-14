@@ -1,14 +1,14 @@
 # Episode 04 — Dad Tried On the Wrong Shoes! | Shopping Mall English
 
-**80 × 15-second story shots = 20:00.** A warm family comedy about choosing school shoes for Max: a harmless box mix-up, an upside-down map, a brief visit from Aunt Rose and a better fit found by listening. The same six Brooks actors and W01 wardrobes continue from Episodes 01–03. Maya and Nina are equally respected; Max describes his own comfort.
+**80 × 15-second story shots = 20:00.** Twenty generated sheets are saved, but visual corrections remain blocked by the image-service quota. See [the precise checkpoint](CHECKPOINT.md); the package is not yet visually complete. A warm family comedy about choosing school shoes for Max: a harmless box mix-up, an upside-down map, a brief visit from Aunt Rose and a better fit found by listening. The same six Brooks actors and W01 wardrobes continue from Episodes 01–03. Maya and Nina are equally respected; Max describes his own comfort.
 
-## Complete written and visual handoff
+## Written and visual handoff
 
 1. [STORY.md](STORY.md): eighty uniquely staged shots, exact opening/end states, location, camera, physical action and short natural General American dialogue.
 2. [VIDEO_PROMPTS.md](VIDEO_PROMPTS.md): matching single-shot prompts. These are instructions, not generated clips.
 3. [SUBTITLES.srt](SUBTITLES.srt): dialogue-only provisional cues; retime against accepted performances.
 4. [CONTINUITY.md](CONTINUITY.md): family, new provisional Rose design, map orientation, trial/purchase inventory, shoe fitting, money and receipt ledger.
-5. [STORYBOARD_INDEX.md](STORYBOARD_INDEX.md), [illustrated gallery](STORYBOARD_GALLERY.md) and [HTML gallery](assets/storyboards/index.html): twenty four-panel sheet slots map all eighty shots. The generated gallery records actual present images; written coverage alone does not establish delivered artwork.
+5. [STORYBOARD_INDEX.md](STORYBOARD_INDEX.md), [illustrated gallery](STORYBOARD_GALLERY.md) and [HTML gallery](assets/storyboards/index.html): twenty actual generated PNG sheets map all eighty shots. Boards19/20 still need the required two-by-two layout; other listed continuity corrections remain pending. The gallery records actual files, not creator acceptance.
 6. [SCENE_REFERENCE_PLAN.md](SCENE_REFERENCE_PLAN.md): five clean location references and populated-scene targets. The [fourteen cast previews](assets/characters/) are unchanged Episode 01 JPG copies.
 7. [PRODUCTION_READINESS.md](PRODUCTION_READINESS.md): the original twenty-two planning sections with honest motion/audio and approval gates.
 
@@ -27,3 +27,7 @@ All mall movement stays on the ground floor; the elevator and escalator are land
 From the repository root run `python Episode_04/check.py` and `python Episode_04/sync.py --check`, followed by the repository's full validation suite. `--written-only` is a partial source check, not visual-readiness evidence. Edit STORY first, then use `python Episode_04/sync.py` to refresh prompts, provisional subtitles, indexes and galleries; it preserves art and provenance. Preserve later accepted performance timings before regenerating estimates.
 
 Creator editorial/visual acceptance, eighty approved individual motion first frames, recorded voices, an animatic and a finished film remain pending. The still-image commission does not authorize automated video or performed-voice generation. Original full-resolution identity masters remain in the owner's archive.
+
+## Continue artwork in another image tool
+
+Use the [complete copy-ready image guide](IMAGE_GENERATION_GUIDE.md) for all 20 sheets, the 80 panel briefs, actual character/location references, clean-view prompts and targeted correction instructions. See [the cross-episode handoff](../IMAGE_GENERATION_HANDOFF.md) for the workflow.

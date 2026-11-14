@@ -35,3 +35,7 @@ The family orders exactly six mains and six free still waters. Dan's soup reques
 From the repository root run `python Episode_06/check.py` and `python Episode_06/sync.py --check`, plus all earlier episode checks and regression tests. `python Episode_06/sync.py` refreshes prompts, provisional subtitles, indexes and galleries from STORY.md; it preserves artwork and provenance. Preserve later approved timings and production records before changing the draft workflow.
 
 Passing checks establish source alignment, image-file integrity, copy identity, SVG text and local links. They do not certify exact rendered faces, hand anatomy, dish/glass counts, six-seat camera blocking, safe temperature, actual performance timing or creator approval. No video or performed voice generation is included.
+
+## Continue artwork in another image tool
+
+Use the [complete copy-ready image guide](IMAGE_GENERATION_GUIDE.md) for all 20 sheets, the 80 panel briefs, actual character/location references, clean-view prompts and targeted correction instructions. See [the cross-episode handoff](../IMAGE_GENERATION_HANDOFF.md) for the workflow.

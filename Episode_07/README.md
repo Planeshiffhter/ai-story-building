@@ -1,6 +1,6 @@
 # Episode 07 — Right Bus, Wrong Stop! | Travel English | Slow Family Comedy
 
-**80 × 15-second story shots = 20:00.** A complete written and still-image preproduction draft following Episodes 02 and 03: screenplay, exact matching prompts, provisional dialogue subtitles, 20 four-panel PNG storyboard sheets, the 14 unchanged original cast previews, five clean location references and editable graphics. Creator visual acceptance, individual motion first frames, voices and animation remain pending.
+**80 × 15-second story shots = 20:00.** The written preproduction package follows Episodes 02 and 03: screenplay, exact matching prompts, provisional dialogue subtitles, a 20-sheet storyboard plan, the 14 unchanged original cast previews, five clean location references and editable graphics. **Ten four-panel PNG sheets currently illustrate SHOT_001–040; BOARD_11–20 (SHOT_041–080) remain ungenerated because the image service reached its daily usage limit.** Known visual corrections are also pending; read [CHECKPOINT.md](CHECKPOINT.md). Creator visual acceptance, individual motion first frames, voices and animation remain pending.
 
 On a later Saturday after the restaurant outing, Dan brings everyone early to the bakery-side Route 7 stop. The number and time are correct; the direction is not. Maya checks the destination, Nina makes a useful call to her father Ed, and the children help compare landmarks. The family crosses together at the signal, verifies the actual bus, and reaches the library to exchange three books. The comedy stays affectionate: the stop never moved, but Dad can change his mind.
 
@@ -10,7 +10,7 @@ On a later Saturday after the restaurant outing, Dan brings everyone early to th
 2. [VIDEO_PROMPTS.md](VIDEO_PROMPTS.md) — the same action and dialogue in single-shot motion instructions; no clips rendered.
 3. [SUBTITLES.srt](SUBTITLES.srt) — dialogue-only draft cues inside each shot; conform to accepted performances later.
 4. [CONTINUITY.md](CONTINUITY.md) — six identities, stop geography, fictional times/fares, ticket/book/container state and safe travel ledger.
-5. [STORYBOARD_INDEX.md](STORYBOARD_INDEX.md) and [STORYBOARD_GALLERY.md](STORYBOARD_GALLERY.md) — all 20 four-panel sheets and 80 shot briefs; [HTML gallery](assets/storyboards/index.html).
+5. [STORYBOARD_INDEX.md](STORYBOARD_INDEX.md) and [STORYBOARD_GALLERY.md](STORYBOARD_GALLERY.md) — 20 sheet slots, ten actual illustrated sheets and all 80 shot briefs; [HTML gallery](assets/storyboards/index.html).
 6. [SCENE_REFERENCE_PLAN.md](SCENE_REFERENCE_PLAN.md) — five clean views, composition targets and identity/first-frame prerequisites.
 7. [PRODUCTION_READINESS.md](PRODUCTION_READINESS.md) — the same 22-section handoff and remaining motion/audio gates used by the earlier episodes.
 
@@ -35,3 +35,7 @@ Children stay with adults. The family uses a marked signal crossing, checks stop
 From the repository root run `python Episode_07/check.py`, `python Episode_07/sync.py --check` and the repository regression suite. `python Episode_07/check.py --written-only` checks the written handoff separately and cannot certify image completion. For authorized written draft changes, edit STORY.md first and run `python Episode_07/sync.py`, then review all derived differences. Preserve later approved performances, timings and images before changing that draft workflow.
 
 Source checks establish alignment, file integrity, byte-identical references, local links and illustrated mapping. They cannot approve exact generated faces, hands, signal phases, ticket counts, seat positions, speech pace or creator acceptance. Optional creator-authored practice belongs after the story. No video or performed voice generation is included.
+
+## Continue artwork in another image tool
+
+Use the [complete copy-ready image guide](IMAGE_GENERATION_GUIDE.md) for all 20 sheets, the 80 panel briefs, actual character/location references, clean-view prompts and targeted correction instructions. See [the cross-episode handoff](../IMAGE_GENERATION_HANDOFF.md) for the workflow.

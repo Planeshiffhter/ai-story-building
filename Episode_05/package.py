@@ -23,7 +23,7 @@ CONFIG = {'number': 5,
                                             'FOUNTAIN',
                                             'OAK BENCH',
                                             'SQUIRREL BENCH'],
-                           'PICNIC_PACKING.svg': ['6 sandwiches',
-                                                  '6 water bottles',
-                                                  '6 plates',
-                                                  '6 napkins']}}
+                           'PICNIC_PACKING.svg': ['6 sandwiches — wrapped and chilled',
+                                                  '6 water bottles — sealed before serving',
+                                                  '6 plates — one per person',
+                                                  '6 napkins — collect after lunch']}}

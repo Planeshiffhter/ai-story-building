@@ -8,22 +8,22 @@ Twenty four-panel sheet slots map all 80 story shots. Generated images are compo
 | BOARD_02 | SHOT_005–SHOT_008 | Cold passengers | [BOARD_02.png](assets/storyboards/BOARD_02.png) | Illustrated draft; creator approval pending |
 | BOARD_03 | SHOT_009–SHOT_012 | A gate to somewhere new | [BOARD_03.png](assets/storyboards/BOARD_03.png) | Illustrated draft; creator approval pending |
 | BOARD_04 | SHOT_013–SHOT_016 | The map takes a turn | [BOARD_04.png](assets/storyboards/BOARD_04.png) | Illustrated draft; creator approval pending |
-| BOARD_05 | SHOT_017–SHOT_020 | Three places too few | [BOARD_05.png](assets/storyboards/BOARD_05.png) | Illustration pending; creator approval pending |
-| BOARD_06 | SHOT_021–SHOT_024 | One color, two places | [BOARD_06.png](assets/storyboards/BOARD_06.png) | Illustration pending; creator approval pending |
-| BOARD_07 | SHOT_025–SHOT_028 | A small admission | [BOARD_07.png](assets/storyboards/BOARD_07.png) | Illustration pending; creator approval pending |
-| BOARD_08 | SHOT_029–SHOT_032 | Do not move the picnic | [BOARD_08.png](assets/storyboards/BOARD_08.png) | Illustration pending; creator approval pending |
-| BOARD_09 | SHOT_033–SHOT_036 | Back to a known point | [BOARD_09.png](assets/storyboards/BOARD_09.png) | Illustration pending; creator approval pending |
-| BOARD_10 | SHOT_037–SHOT_040 | The bench with the people | [BOARD_10.png](assets/storyboards/BOARD_10.png) | Illustration pending; creator approval pending |
-| BOARD_11 | SHOT_041–SHOT_044 | Good information, better directions | [BOARD_11.png](assets/storyboards/BOARD_11.png) | Illustration pending; creator approval pending |
-| BOARD_12 | SHOT_045–SHOT_048 | A short wash trip together | [BOARD_12.png](assets/storyboards/BOARD_12.png) | Illustration pending; creator approval pending |
-| BOARD_13 | SHOT_049–SHOT_052 | The clean plates arrive | [BOARD_13.png](assets/storyboards/BOARD_13.png) | Illustration pending; creator approval pending |
-| BOARD_14 | SHOT_053–SHOT_056 | Water follows the same plan | [BOARD_14.png](assets/storyboards/BOARD_14.png) | Illustration pending; creator approval pending |
-| BOARD_15 | SHOT_057–SHOT_060 | What the other bench taught us | [BOARD_15.png](assets/storyboards/BOARD_15.png) | Illustration pending; creator approval pending |
-| BOARD_16 | SHOT_061–SHOT_064 | A picnic is not a test | [BOARD_16.png](assets/storyboards/BOARD_16.png) | Illustration pending; creator approval pending |
-| BOARD_17 | SHOT_065–SHOT_068 | The fountain keeps its voice | [BOARD_17.png](assets/storyboards/BOARD_17.png) | Illustration pending; creator approval pending |
+| BOARD_05 | SHOT_017–SHOT_020 | Three places too few | [BOARD_05.png](assets/storyboards/BOARD_05.png) | Illustrated draft; creator approval pending |
+| BOARD_06 | SHOT_021–SHOT_024 | One color, two places | [BOARD_06.png](assets/storyboards/BOARD_06.png) | Illustrated draft; creator approval pending |
+| BOARD_07 | SHOT_025–SHOT_028 | A small admission | [BOARD_07.png](assets/storyboards/BOARD_07.png) | Illustrated draft; creator approval pending |
+| BOARD_08 | SHOT_029–SHOT_032 | Do not move the picnic | [BOARD_08.png](assets/storyboards/BOARD_08.png) | Illustrated draft; creator approval pending |
+| BOARD_09 | SHOT_033–SHOT_036 | Back to a known point | [BOARD_09.png](assets/storyboards/BOARD_09.png) | Illustrated draft; creator approval pending |
+| BOARD_10 | SHOT_037–SHOT_040 | The bench with the people | [BOARD_10.png](assets/storyboards/BOARD_10.png) | Illustrated draft; creator approval pending |
+| BOARD_11 | SHOT_041–SHOT_044 | Good information, better directions | [BOARD_11.png](assets/storyboards/BOARD_11.png) | Illustrated draft; creator approval pending |
+| BOARD_12 | SHOT_045–SHOT_048 | A short wash trip together | [BOARD_12.png](assets/storyboards/BOARD_12.png) | Illustrated draft; creator approval pending |
+| BOARD_13 | SHOT_049–SHOT_052 | The clean plates arrive | [BOARD_13.png](assets/storyboards/BOARD_13.png) | Illustrated draft; creator approval pending |
+| BOARD_14 | SHOT_053–SHOT_056 | Water follows the same plan | [BOARD_14.png](assets/storyboards/BOARD_14.png) | Illustrated draft; creator approval pending |
+| BOARD_15 | SHOT_057–SHOT_060 | What the other bench taught us | [BOARD_15.png](assets/storyboards/BOARD_15.png) | Illustrated draft; creator approval pending |
+| BOARD_16 | SHOT_061–SHOT_064 | A picnic is not a test | [BOARD_16.png](assets/storyboards/BOARD_16.png) | Illustrated draft; creator approval pending |
+| BOARD_17 | SHOT_065–SHOT_068 | The fountain keeps its voice | [BOARD_17.png](assets/storyboards/BOARD_17.png) | Illustrated draft; creator approval pending |
 | BOARD_18 | SHOT_069–SHOT_072 | Fold the meeting place | [BOARD_18.png](assets/storyboards/BOARD_18.png) | Illustration pending; creator approval pending |
 | BOARD_19 | SHOT_073–SHOT_076 | Two benches, one good memory | [BOARD_19.png](assets/storyboards/BOARD_19.png) | Illustration pending; creator approval pending |
-| BOARD_20 | SHOT_077–SHOT_080 | The second useful job | [BOARD_20.png](assets/storyboards/BOARD_20.png) | Illustration pending; creator approval pending |
+| BOARD_20 | SHOT_077–SHOT_080 | The second useful job | [BOARD_20.png](assets/storyboards/BOARD_20.png) | Illustrated draft; creator approval pending |
 
 ## All 80 opening-frame briefs
 

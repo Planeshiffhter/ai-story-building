@@ -647,7 +647,7 @@ Edit STORY.md first; sync.py regenerates this written draft and estimated subtit
 
 **Characters:** ELLA, DAN, LEO. **Location:** PARK_OAK_PICNIC. **Wardrobe:** W01 only.
 **Composition:** Close dry basket lid and map sleeve.
-**Action:** Ella offers the dry transparent sleeve from her sketch folder carried flat with napkins. Dan slides the map inside, north-up, and tucks it into his right pocket. Leo checks nothing blows away.
+**Action:** Ella offers the dry transparent sleeve from the dry basket where it was packed flat with napkins. Dan slides the map inside, north-up, and tucks it into his right pocket. Leo checks nothing blows away.
 **Starting continuity:** One sketch; sleeve empty flat in basket with napkins; map in Dan hand.
 **Ending continuity:** Map in sleeve in Dan right pocket; basket still six plates/napkins/waste pouch.
 **Picture:** [BOARD_11.png](assets/storyboards/BOARD_11.png), panel 3. Generated illustrated draft; creator approval and individual motion first frame pending.

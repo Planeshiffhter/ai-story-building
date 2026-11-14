@@ -30,7 +30,7 @@ SHOT_013: Menus arrive before meals · SHOT_014: Not a book to finish · SHOT_01
 
 ## BOARD_05 — SHOT_017–SHOT_020
 
-Illustration pending.
+![BOARD_05 — SHOT_017–SHOT_020](assets/storyboards/BOARD_05.png)
 
 SHOT_017: A menu has neighborhoods · SHOT_018: Maya chooses vegetables · SHOT_019: Nina knows her dinner · SHOT_020: Leo's comfortable choice
 
@@ -42,7 +42,7 @@ SHOT_021: Ella asks what comes with it · SHOT_022: Max chooses his size · SHOT
 
 ## BOARD_07 — SHOT_025–SHOT_028
 
-Illustration pending.
+![BOARD_07 — SHOT_025–SHOT_028](assets/storyboards/BOARD_07.png)
 
 SHOT_025: The little pepper picture · SHOT_026: The water is not a rescue · SHOT_027: A smaller and clearer request · SHOT_028: A change before the kitchen
 
@@ -60,7 +60,7 @@ SHOT_033: Everyone says their own order · SHOT_034: Both partners finish the or
 
 ## BOARD_10 — SHOT_037–SHOT_040
 
-Illustration pending.
+![BOARD_10 — SHOT_037–SHOT_040](assets/storyboards/BOARD_10.png)
 
 SHOT_037: A wait with an ending · SHOT_038: The fork is not a microphone · SHOT_039: Two meanings can share a word · SHOT_040: A useful memory of flour
 
@@ -78,7 +78,7 @@ SHOT_045: Two children recognize dinner · SHOT_046: A small plate and a warm bo
 
 ## BOARD_13 — SHOT_049–SHOT_052
 
-Illustration pending.
+![BOARD_13 — SHOT_049–SHOT_052](assets/storyboards/BOARD_13.png)
 
 SHOT_049: The soup gets its sentence · SHOT_050: Not a hot-food competition · SHOT_051: The napkin earns its place · SHOT_052: A fork and a choice
 
@@ -108,19 +108,19 @@ SHOT_065: A clear table keeps one box · SHOT_066: The bill is smaller than the 
 
 ## BOARD_18 — SHOT_069–SHOT_072
 
-Illustration pending.
+![BOARD_18 — SHOT_069–SHOT_072](assets/storyboards/BOARD_18.png)
 
 SHOT_069: A choice for the end · SHOT_070: Wallet on the right · SHOT_071: Ask where to pay · SHOT_072: One person uses the clear aisle
 
 ## BOARD_19 — SHOT_073–SHOT_076
 
-Illustration pending.
+![BOARD_19 — SHOT_073–SHOT_076](assets/storyboards/BOARD_19.png)
 
 SHOT_073: Eighty to settle the meal · SHOT_074: The first change is not the remainder · SHOT_075: Ten dollars for the service · SHOT_076: Receipt in its own place
 
 ## BOARD_20 — SHOT_077–SHOT_080
 
-Illustration pending.
+![BOARD_20 — SHOT_077–SHOT_080](assets/storyboards/BOARD_20.png)
 
 SHOT_077: The whole family leaves together · SHOT_078: The budget has an honest ending · SHOT_079: A sentence worth keeping · SHOT_080: A warm evening, clearly said
 
