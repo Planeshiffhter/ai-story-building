@@ -1,6 +1,6 @@
 # Maple House English — original 10-episode story ideas
 
-**Each episode gets a 20-minute story first.** The creator may attach separate, custom learning/practice segments later, making the uploaded runtime 20, 25, 30+ minutes. Episodes 01–03 have written 80-shot screenplays. Episodes 02 and 03 also have 20 illustrated four-panel storyboard sheets each, location-reference drafts and the shared cast previews. Creator visual approval, motion first frames, performed voices and video remain pending. Episode 04–10 production folders remain intentionally empty.
+**Each episode gets a 20-minute story first.** The creator may attach separate, custom learning/practice segments later, making the uploaded runtime 20, 25, 30+ minutes. Episodes 01–03 each have an 80-shot screenplay and twenty illustrated four-panel storyboard sheets using the same consecutive shot numbers, along with location references and the permanent cast previews. Creator visual approval, motion first frames, performed voices and video remain pending. Episode 04–10 production folders remain intentionally empty.
 
 Learning through natural dialogue and character decisions is part of the story. No forced audience pronunciation repetition, vocabulary documentary, quiz, timed learner pause or recap is planned in the first 20 minutes.
 
@@ -16,7 +16,7 @@ Learning through natural dialogue and character decisions is part of the story. 
 
 **Cameos:** None; establish all six permanent characters.
 
-**Production:** See Episode_01/ for revised story-only 20-minute screenplay.
+**Production:** [Episode_01](Episode_01/) has been rebuilt as one sequential 80-shot / 20-minute story, with synchronized prompts/subtitles and [twenty regenerated four-panel storyboard sheets](Episode_01/STORYBOARD_GALLERY.md). BOARD_01 covers SHOT_001–004 through BOARD_20 / SHOT_077–080. The original cast, locations, salad/soup quantities and $18.50 purchase remain fixed. Still images are review drafts; motion first frames, performed voices and animation remain pending.
 
 ## Episode 02 — Dad Bought the Sourest Fruit! | Fruit Shop English
 

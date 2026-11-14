@@ -1,61 +1,66 @@
-# Five character-populated scene reference briefs (pending generation)
+# Episode 01 — clean locations, populated compositions and shot-frame review
 
-**Status: NOT GENERATED.** The five files in `assets/environments/` are intentionally empty location reference masters. A background-only image is not an error: it locks the place's layout, color and camera geography. The creator separately requests images showing the **original cast standing/acting in these environments**. Those **new composites must use the original master portraits**, not newly invented similar-looking people. Never overwrite the empty masters.
+**Current visual package:** 20 regenerated four-panel PNG sheets illustrate the same **SHOT_001–SHOT_080** sequence as the 20-minute screenplay. Browse the [gallery](STORYBOARD_GALLERY.md), [HTML gallery](assets/storyboards/index.html) and [shot index](STORYBOARD_INDEX.md). These are populated storyboard composition drafts pending creator approval, not accepted individual motion first frames.
 
-## Actor identity reference lock
+The original five clean environment JPGs and fourteen cast JPGs remain unchanged. Clean environments, standalone populated location references and camera-specific production first frames are separate deliverables. A wide composition cannot supply every close-up, prop state or actor subset. Read [STORY.md](STORY.md), [CONTINUITY.md](CONTINUITY.md) and the [storyboard generation notes](assets/storyboards/GENERATION_NOTES.md) for the current states and actual visual-input records.
 
-The original full-resolution source PNGs are in the owner-controlled `Maple_House_Episode_01_Production_Package.zip` under `Maple_House_Episode_01/characters/`. The six JPGs below are available for preview and identity checking, but are not replacements for PNGs.
+## Original identity references
 
-| Character | Identity cue and fixed wardrobe | Current portrait |
+The owner's Episode 01 production archive holds the original full-resolution PNG portraits/sheets. These local JPGs are viewing previews of the same six actors. Use actual image references to preserve faces, skin/eye/hair details, height, age and W01 clothing; text-only resemblance is not identity continuity.
+
+| Actor | Fixed identity / wardrobe | Original previews |
 |---|---|---|
-| Dan | 42, warm medium-tan skin; brown swept hair, mustache; sky-blue polo/navy pants, watch LEFT wrist | [Dan](assets/characters/DAN_portrait.jpg) |
-| Maya | 39, warm medium-brown skin; dark low ponytail; plum blouse, cream pants, gold studs | [Maya](assets/characters/MAYA_portrait.jpg) |
-| Nina | 37, warm light-brown skin; auburn wavy bob; teal blouse, beige pants, silver studs | [Nina](assets/characters/NINA_portrait.jpg) |
-| Leo | 12, warm medium-brown skin; chestnut quiff; orange shirt, navy shorts | [Leo](assets/characters/LEO_portrait.jpg) |
-| Ella | 9, warm medium-brown skin; two brown braids, coral shirt, full-length denim overalls | [Ella](assets/characters/ELLA_portrait.jpg) |
-| Max | 7, warm light-brown skin; auburn waves, green shirt, tan shorts | [Max](assets/characters/MAX_portrait.jpg) |
+| **Dan** | 42, warm medium-tan skin, swept brown hair and mustache; sky-blue polo/navy trousers/brown shoes; LEFT-wrist watch | [Portrait](assets/characters/DAN_portrait.jpg) · [Sheet](assets/characters/DAN_sheet.jpg) |
+| **Maya** | 39, warm medium-brown skin, dark low ponytail; plum blouse/cream trousers/gold studs | [Portrait](assets/characters/MAYA_portrait.jpg) · [Sheet](assets/characters/MAYA_sheet.jpg) |
+| **Nina** | 37, warm light-brown skin, auburn wavy bob; teal blouse/beige trousers/silver studs | [Portrait](assets/characters/NINA_portrait.jpg) · [Sheet](assets/characters/NINA_sheet.jpg) |
+| **Leo** | 12, warm medium-brown skin, chestnut quiff; orange T-shirt/navy shorts | [Portrait](assets/characters/LEO_portrait.jpg) · [Sheet](assets/characters/LEO_sheet.jpg) |
+| **Ella** | 9, warm medium-brown skin, two brown braids; coral T-shirt/full-length denim overalls | [Portrait](assets/characters/ELLA_portrait.jpg) · [Sheet](assets/characters/ELLA_sheet.jpg) |
+| **Max** | 7, warm light-brown skin, short auburn waves; green T-shirt/tan shorts | [Portrait](assets/characters/MAX_portrait.jpg) · [Sheet](assets/characters/MAX_sheet.jpg) |
 
-### Environment 1 — HOME_KITCHEN: both lists at the family island
+Use the [adult lineup](assets/characters/ADULTS_lineup.jpg) and [children's lineup](assets/characters/CHILDREN_lineup.jpg) for body ratios. Maya and Nina remain distinct equally respected partners. Leo must read as twelve, not Max in an orange shirt. No extra family member, visible vendor face or recap narrator is required.
 
-- **Master image:** [HOME_KITCHEN.jpg](assets/environments/HOME_KITCHEN.jpg)
-- **Visible cast:** Dan, Maya, Nina (the children enter in later shots). All three show their original distinct faces, heights and skin colors; Maya and Nina are equals, neither is a background servant.
-- **Composition:** 16:9 polished original stylized-3D family-film still. Kitchen matches the source: sage lower cabinets, fridge rear-left, sink beneath rear window, stove rear-right and oak island. Maya left holds one BLUE shopping note for salad. Nina right holds one YELLOW note for soup. Dan stands between/near them; cheerful overconfident reaction. Both notes blank or use editorial overlays, no generated text. Three people only.
-- **Reference shot IDs:** SHOT_001–SHOT_004, with speaker-specific framing later.
+## 1. HOME_KITCHEN — two lists and later preparation
 
-### Environment 2 — MARKET_WIDE: arrival and left-to-right movement
+- **Unchanged clean reference:** [HOME_KITCHEN.jpg](assets/environments/HOME_KITCHEN.jpg). Sage lower cabinets, fridge rear-left, sink beneath rear window, stove rear-right and pale-oak island remain fixed.
+- **Opening composition target:** The exact scripted adult/child subset around the island. One separate BLUE salad note belongs to Maya and one separate YELLOW soup note to Nina. Both headings remain correct even when Dan reverses them in his memory. Basket/totes have no purchased vegetables before departure.
+- **Return/preparation target:** Correctly filled BLUE and YELLOW totes arrive, then unload into separate preparation zones. Show washing and adult cutting/cooking stages without duplicating whole raw purchases beside their finished dishes.
+- **Current ranges:** SHOT_001–SHOT_007 and SHOT_062–SHOT_070. Handwashing SHOT_065 includes all six through a washing-time ellipsis; produce wash SHOT_066, adult salad preparation SHOT_067, soup work SHOT_068–SHOT_069 and explicit cooking-time passage precede the meal.
+- **Text/props:** Use [Maya's list](assets/overlays/MAYA_LIST.svg) and [Nina's list](assets/overlays/NINA_LIST.svg). Exact letter/number graphics are editorial inputs, not generated lettering. Children remain away from knives and hot cookware.
 
-- **Master:** [MARKET_WIDE.jpg](assets/environments/MARKET_WIDE.jpg)
-- **Cast:** Dan, Leo, Ella, Max only; Maya and Nina stay home.
-- **Composition:** Sunny red/cream-awning outdoor produce market; original storefront and stall geography. Dan leads the three children left-to-right, Max carrying **empty** woven basket on arrival, Ella carrying **empty** folded blue/yellow totes, Leo beside Dan. No duplicated children, no extra front-row strangers, no shopping bags mysteriously filled.
-- **Reference shots:** Market arrival segment, such as the retained legacy S05 and new bridges.
+## 2. MARKET_WIDE — four shoppers, one route
 
-### Environment 3 — MARKET_STALL: close family shopping
+- **Unchanged clean reference:** [MARKET_WIDE.jpg](assets/environments/MARKET_WIDE.jpg). Preserve the sunny red/cream awning, original storefront, entrance at left and stalls/checkout to right.
+- **Visible family:** **Dan, Leo, Ella and Max only.** Maya and Nina remain home for the whole shopping trip. Do not add them to a wide crowd or phone-call inset.
+- **Arrival target:** SHOT_008 follows a clear travel cut. Max has the empty basket and Ella the empty folded BLUE/YELLOW totes according to the shot's handoff state. No purchases appear before selection.
+- **Departure target:** SHOT_061 uses correctly sorted totes and an empty basket. Keep every child with the adults/group, preserve established travel direction within the camera axis and do not multiply containers.
 
-- **Master:** [MARKET_STALL.jpg](assets/environments/MARKET_STALL.jpg)
-- **Cast:** Dan, Ella, Leo and Max (choose smaller subsets when framing individual shots).
-- **Composition:** Same awning, buyer-side camera. Vegetables in fixed order: carrots/tomatoes left; cucumber/zucchini next; potatoes/onions middle; broccoli, peppers and corn to right, leafy greens far-right. Dan and Ella examining **exactly four selected carrots** in a clear counted insert, Leo helping, Max reacting. Unpurchased crate stock is separate from purchases. No invented food labels or prop text; basket inventory governed by `CONTINUITY.md`.
-- **Reference shots:** Original shopping beats including four-vs-forty carrots.
+## 3. MARKET_STALL — purchases and off-screen calls
 
-### Environment 4 — MARKET_CHECKOUT: $18.50 payment
+- **Unchanged clean reference:** [MARKET_STALL.jpg](assets/environments/MARKET_STALL.jpg). Buyer-side camera; carrots/tomatoes left, cucumber/zucchini beside them, potatoes/onions center, broccoli/peppers/corn to right and leafy greens far-right. Display stock is separate from selected food.
+- **Visible family:** Exact subsets of Dan, Leo, Ella and Max. Do not populate every close-up with all four. The shot's cast and starting inventory decide what is in frame.
+- **Selection targets:** SHOT_013 four carrots; SHOT_016 three protected tomatoes; SHOT_019 one cucumber; SHOT_023 six potatoes; SHOT_026 two onions; SHOT_029 one broccoli; SHOT_033 one red bell pepper; SHOT_036 two corn; SHOT_039 one loose-leaf lettuce; SHOT_042 one bag of spinach. Any compared zucchini/cabbage stays shop stock.
+- **Reveal/call target:** SHOT_043–SHOT_044 separate correctly labeled notes. SHOT_045 Maya and SHOT_046 Nina speak by phone; SHOT_047 may include both voices. They remain **off-screen**, never extra visible market actors. Dan holds phone to RIGHT ear; watch LEFT wrist. No headshot insert, split screen or talking-face phone display is required.
+- **Sorting target:** Empty totes wait until SHOT_052 BLUE salad transfer and SHOT_053 YELLOW soup transfer. Then the basket is empty. Respect counted quantities, heavy-produce placement, protected tomatoes and lettuce on top; no duplicate purchase remains in basket/display/hand.
 
-- **Master:** [MARKET_CHECKOUT.jpg](assets/environments/MARKET_CHECKOUT.jpg)
-- **Cast:** Dan, Leo, Ella, Max; vendor may remain off-screen or hands only (not a seventh recurring family member).
-- **Composition:** Same red/cream awning at right-end counter, dark register behind counter, original bright daylight; two correctly sorted totes — BLUE for Maya's salad, YELLOW for Nina's soup. Dan presents a twenty-dollar bill while Leo checks the receipt; children nearby. Exact $18.50 total / $1.50 change must be added using saved editorial overlays in `assets/overlays/`, not fabricated AI-rendered lettering or coins.
-- **Reference shots:** Checkout/pay/change/receipt section.
+## 4. MARKET_CHECKOUT — exact payment and change
 
-### Environment 5 — HOME_TABLE: six-person dinner ending
+- **Unchanged clean reference:** [MARKET_CHECKOUT.jpg](assets/environments/MARKET_CHECKOUT.jpg), right end of the same stall, dark register behind counter and original bright daylight.
+- **Visible family:** Source subsets of Dan and the three children. Vendor is off-screen or hands-only; no named new face or seventh family member. Preserve any explicitly listed off-screen vendor audio without adding a visible speaker.
+- **Current range:** SHOT_055–SHOT_059: confirm $18.50, pay one $20 bill, receive $1.50 as one $1 bill and two quarters, then verify/store receipt and change in the right-pocket wallet. The two correctly sorted totes retain all ten purchased lines; basket stays empty.
+- **Readable artwork:** Use [MARKET_RECEIPT.svg](assets/overlays/MARKET_RECEIPT.svg) and exact editorial currency/labels. No invented extra fee, duplicate payment, extra change, random bank card or model-generated digits.
 
-- **Master:** [HOME_TABLE.jpg](assets/environments/HOME_TABLE.jpg) and [the canonical seating diagram](assets/HOME_TABLE_seating.svg)
-- **Cast:** **all six only**, with their correct body proportions and original distinctive faces.
-- **Composition:** Prepared salad and cooked soup after the script's cooking-time ellipsis. Dining table has six chairs, window rear and kitchen doorway left. Seat plan: Dan near-left, Leo left-end, Ella far-left, Maya far-right, Nina right-end, Max near-right; do not rearrange to simplify composition. Full-family warm emotional/comedic closing scene. Avoid extra characters, extra chairs, or raw whole potatoes presented as ready soup.
-- **Reference shots:** Final family dinner and next fruit-shopping teaser.
+## 5. HOME_TABLE — two dishes, six fixed places
 
-## Acceptance criteria for each newly created image
+- **Unchanged clean reference:** [HOME_TABLE.jpg](assets/environments/HOME_TABLE.jpg) and [HOME_TABLE_seating.svg](assets/HOME_TABLE_seating.svg). Window rear, kitchen doorway left and exactly six chairs.
+- **Visible family:** All six only where scripted; smaller source subsets in close shots. **Dan near-left, Leo left-end, Ella far-left, Maya far-right, Nina right-end, Max near-right.** Keep these positions across coverage.
+- **Food target:** Properly prepared salad and cooked soup after the explicit cooking-time passage. No whole raw potatoes, unwashed market produce, extra purchased food or duplicate finished dishes. Adults control serving hot soup; individual bowls/utensils remain clean.
+- **Current range:** SHOT_071 begins serving, SHOT_072–SHOT_077 carry the meal/resolution, and SHOT_078–SHOT_080 close the story with a future fruit-picnic premise. A blank future planning card may appear as scripted, but no Episode 02 fruit purchase/cooler/budget appears during this meal.
 
-1. Use actual named cast and environment master **as visual image references**; do not generate identities from text-only descriptions if exact likeness is required.
-2. Match face, skin tone, hairstyle, body proportions, age, earrings, clothing, shoe colors and Dan's LEFT-wrist watch. A visually plausible but different person is a failed frame.
-3. Match scene geometry and axis, not just the general environment category. Characters must be scaled to the same floor plane and lighting.
-4. Check visible hands, children count, shopping list colors, unique basket and tote contents. No watermark or generated subtitles.
-5. Record image version, input masters, shot IDs and creator approval before treating the picture as a generation first frame. These 5 scene masters do **not** automatically supply 80 camera-specific first frames.
+## Acceptance before motion production
 
-**Generation blocker at this stage:** The available image-generation session did not recognize an uploaded/reference image as an editable target, despite the source ZIP and reviewed originals being available in the project. No fabricated "generated" output or GitHub scene image is claimed. To create source-preserving image edits here, the reference environment/portrait image must be uploaded in the image conversation as an image input. The current five master backgrounds remain in place and unchanged.
+1. Restore and verify actual original PNG identity/location masters, then review reference versions. The existing viewing JPGs and regenerated boards remain composition inputs rather than automatic creator acceptance.
+2. Check each panel against the current SHOT number, exact visible cast/off-screen voices, face/skin/hair/body ratios, W01 clothes, watch/phone/pocket sides, hand anatomy and camera axis.
+3. Inspect notes, single basket, two totes, exact produce inventory, transfers, price/payment/change, washing/cutting/cooking stage and six dining positions. Reject a plausible but different face or unexplained extra food.
+4. Preserve clean backgrounds. Select or create standalone populated location references as needed, then stage **80 individual accepted motion first frames** with the exact camera/starting state. A four-panel sheet cannot be one continuous motion input.
+5. Log real input references, selected image versions, corrections and creator acceptance. The source/asset checker can verify files and mappings but cannot certify visual likeness, physical quantities or motion quality.
+6. No video or performed voice job is included in these still-image briefs. Task 5 requires separate creator authorization, original-master access and verified service duration/features/costs before actual production.

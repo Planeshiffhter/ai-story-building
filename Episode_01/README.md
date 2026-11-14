@@ -1,30 +1,67 @@
 # Episode 01 — Two Lists, One Dad: The Vegetable Market Mix-Up
 
-**Story-only runtime: exactly 20 minutes.** 80 planned 15-second shots, no separate practice, recap narration, quiz, countdown or viewer-repeat pauses.
+**Story-only runtime: exactly 20 minutes.** The rebuilt package uses **80 consecutive 15-second shots and 20 newly illustrated four-panel storyboard sheets**, all numbered from the same screenplay. The same six original family members turn a shopping-list misunderstanding into a shared salad-and-soup meal.
 
-The story includes family-friendly comedy and emotional teamwork. Natural American English vocabulary, descriptions, questions and corrections happen **inside the characters' dialogue**, not in an imposed lesson. The creator may later append a separate, custom practice segment after the 20-minute story (so upload length may be 25, 30 minutes or longer).
+**[Open the complete storyboard gallery](STORYBOARD_GALLERY.md)** · [HTML gallery](assets/storyboards/index.html) · [Shot-by-shot index](STORYBOARD_INDEX.md)
 
-## Start here
+## One numbering system for the whole episode
 
-1. [STORY.md](STORY.md) — **complete revised 80-shot, 00:00–20:00 screenplay**; actions, camera, characters, dialogue, states and original storyboard mapping.
-2. [STORYBOARD_INDEX.md](STORYBOARD_INDEX.md) — 12 final image sheets, 48 original shot illustrations and 32 still-unillustrated expansion beats.
-3. [VIDEO_PROMPTS.md](VIDEO_PROMPTS.md) — all 80 prompts for story-only shots (no learner practice instructions).
-4. [SUBTITLES.srt](SUBTITLES.srt) — provisional **dialogue only**; 20-minute story timing, not the former practice captions.
-5. [CONTINUITY.md](CONTINUITY.md) — character, world, shopping, phone, money and food locks.
-6. `assets/characters/` — six portraits, six reference sheets and two lineup previews, all based on frozen original master images.
-7. `assets/environments/` — five location previews; `assets/overlays/` — five useful **editable SVG** graphics (Maya’s blue list, Nina’s yellow list, exact receipt, title and ending); these are *not* character or scene images.
-8. `assets/storyboards/` — only current 12 final reviewed storyboard sheet images; **no `_v01`/`_v02`/`_v03` duplicates**.
+Each sheet covers four consecutive screenplay slots, read **top-left, top-right, bottom-left, bottom-right**. The panel labels, screenplay, prompts, subtitles and index all refer to `SHOT_001` through `SHOT_080`.
 
-## Production readiness and populated scenes
+| Sheet | Four illustrated shots |
+|---|---|
+| BOARD_01 | SHOT_001–SHOT_004 |
+| BOARD_13 | SHOT_049–SHOT_052 |
+| BOARD_20 | SHOT_077–SHOT_080 |
 
-- [PRODUCTION_READINESS.md](PRODUCTION_READINESS.md) — verified original 22-section workflow mapped to this **new 80-shot story**, plus specific Task 5 and Task 6 prerequisites and acceptance gates.
-- [SCENE_REFERENCE_PLAN.md](SCENE_REFERENCE_PLAN.md) — the five original location masters, precisely which original characters belong in each location and the instructions for generating character-populated **scene-specific** images while matching the official skin, face, height, hairstyle and clothes.
-- Existing images in `assets/environments/` are **deliberately clean location masters**; do not overwrite them with a scene full of people. The five character-populated scene references are **not generated yet**. This is a real pending deliverable, not an empty-folder defect.
+The general rule is `BOARD_n = SHOT_(4n−3)` through `SHOT_(4n)`. All twenty sheets are regenerated from the current story; this does not append eight sheets to an older partial sequence. Earlier artwork remains recoverable from Git history and is not an alternate numbering system for the current package.
 
-## Important limits
+## Read the package
 
-- **No real animation/video/audio** has been produced. Task 5 stays deferred until the creator authorizes generation.
-- The 12 selected 4-panel sheets cover the retained original 48 beats; the 32 newly written bridging scenes **still need their own storyboard visuals / first-frame concepts** before actual production.
-- Preview images are faithful smaller JPEGs; full-resolution original PNG master assets remain available in the owner-supplied ZIP and past Git history, not in this simplified repository.
-- The voice/SRT timings are **planned**; verify them against actual performances before final export.
-- Story ending is 20:00. Any creator-designed practice segment comes **after** 20:00, independently, without modifying the story timeline.
+1. [STORY.md](STORY.md) — complete 80-shot screenplay, camera/action, explicit opening/end states, visible cast, off-screen voices, dialogue and board/panel links.
+2. [VIDEO_PROMPTS.md](VIDEO_PROMPTS.md) — all 80 matching single-shot instructions and exact screenplay dialogue. These are written motion prompts, not produced clips.
+3. [SUBTITLES.srt](SUBTITLES.srt) — dialogue-only provisional cues inside their corresponding shot slots; retime against actual accepted performances before delivery.
+4. [CONTINUITY.md](CONTINUITY.md) — cast, locations, ten produce lines, shopping containers, phone voices, money, preparation and fixed dining seats.
+5. [STORYBOARD_INDEX.md](STORYBOARD_INDEX.md) — every shot mapped to its actual regenerated PNG sheet and panel; [STORYBOARD_GALLERY.md](STORYBOARD_GALLERY.md) displays the images.
+6. [SCENE_REFERENCE_PLAN.md](SCENE_REFERENCE_PLAN.md) — unchanged location/cast previews, populated composition targets and individual first-frame review criteria.
+7. [PRODUCTION_READINESS.md](PRODUCTION_READINESS.md) — the 22-section guide structure and the distinction between delivered story/still work and pending motion/audio production.
+
+## Original references and editable graphics
+
+The [14 cast JPGs](assets/characters/) and [five clean environment JPGs](assets/environments/) retain the original six identities and home/market geography. They are viewing previews; original full-resolution PNG masters remain in the owner's archive. The regenerated storyboards use actual image references and remain visual drafts pending creator approval.
+
+Exact editorial artwork stays separate from scene images:
+
+- [MAYA_LIST.svg](assets/overlays/MAYA_LIST.svg) — BLUE salad list: 4 carrots, 3 tomatoes, 1 cucumber, 1 loose-leaf lettuce, 1 red bell pepper.
+- [NINA_LIST.svg](assets/overlays/NINA_LIST.svg) — YELLOW soup list: 6 potatoes, 2 onions, 1 broccoli head, 2 ears of corn, 1 bag of spinach.
+- [MARKET_RECEIPT.svg](assets/overlays/MARKET_RECEIPT.svg) — $18.50 purchase, $20 payment and $1.50 change.
+- [TITLE_overlay.svg](assets/overlays/TITLE_overlay.svg) and [END_CARD_overlay.svg](assets/overlays/END_CARD_overlay.svg) — text inside existing story slots.
+- [HOME_TABLE_seating.svg](assets/HOME_TABLE_seating.svg) — canonical six-place planning diagram, not a generated scene.
+
+The notes themselves remain correctly labeled. Dan reverses their purposes in his memory; the BLUE note/tote always belongs to Maya's salad and YELLOW always belongs to Nina's soup. Maya and Nina stay home during the market trip and speak only as off-screen phone voices when scripted. Adults handle knives and hot cooking; the soup requires explicit cooking-time passage.
+
+## Review and production status
+
+Read [storyboard generation notes](assets/storyboards/GENERATION_NOTES.md) for actual inputs, selected sources, corrections and inspection limits. All 80 concepts are illustrated, while **creator visual approval and 80 individual motion first frames remain pending**. A four-panel sheet is a composition study, not one motion input. Clean environments, standalone populated location references and camera-specific first frames are separate deliverables.
+
+The [printed shot-label audit](assets/storyboards/SHOT_LABEL_AUDIT.md) checks the numbers actually visible inside each PNG, with a saved image hash for every sheet. This prevents a correctly named file from hiding a mismatched panel label.
+
+No animation, performed voices, lip-sync, timed animatic or finished movie is claimed. Task 5 still requires original-master access, checked service capabilities/costs and separate explicit creator authorization. Optional creator-designed English practice belongs **after** the 20-minute story; there are no audience drills, recap narrators, quizzes or countdowns in this movie. The ending leads naturally to Episode 02's one-list/two-colors family fruit trip. Episodes 04–10 remain placeholders until requested.
+
+## Check and refresh
+
+From the repository root:
+
+```bash
+python Episode_01/check.py
+python Episode_01/sync.py --check
+python Episode_02/check.py
+python Episode_02/sync.py --check
+python Episode_03/check.py
+python Episode_03/sync.py --check
+python -m unittest discover -s tests -v
+```
+
+Edit `STORY.md` first, then run `python Episode_01/sync.py` to refresh prompts, provisional subtitles, the index and galleries while preserving image/provenance files. Review the diff and rerun checks. Preserve later approved performance timings and production-frame records before changing this draft workflow. File/source validation cannot certify actor likeness, rendered quantities, performed timing or creator approval.
+
+After changing storyboard artwork, refresh its visible-number audit with `python Episode_01/audit_labels.py`. This optional local OCR tool requires Pillow and Tesseract; it uses temporary analysis crops without changing the artwork. The normal checker and CI need only Python's standard library to verify the saved observations and current image hashes.

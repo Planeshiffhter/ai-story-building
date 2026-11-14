@@ -12,6 +12,8 @@ jobs:
           python-version: '3.11'
       - name: Check Episode 01 and remaining episode placeholders
         run: python Episode_01/check.py
+      - name: Check Episode 01 derived sequential handoff
+        run: python Episode_01/sync.py --check
       - name: Check Episode 02 screenplay, prompts, subtitles and assets
         run: python Episode_02/check.py
       - name: Check Episode 02 derived written handoff
