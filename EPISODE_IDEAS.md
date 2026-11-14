@@ -1,6 +1,6 @@
 # Maple House English — original 10-episode story ideas
 
-**Each episode gets a 20-minute story first.** The creator may attach separate, custom learning/practice segments later, making the uploaded runtime 20, 25, 30+ minutes. These are *ideas*; only Episode 01 currently has a complete expanded screenplay. Episode 02–10 production folders remain intentionally empty.
+**Each episode gets a 20-minute story first.** The creator may attach separate, custom learning/practice segments later, making the uploaded runtime 20, 25, 30+ minutes. Episodes 01 and 02 have complete written 80-shot screenplays. Episode 02 also has 20 new four-panel storyboard sheets illustrating all 80 concepts, four new clean environment drafts and the shared kitchen/cast previews. Creator visual approval, motion first frames, performed voices and video remain pending. Episode 03–10 production folders remain intentionally empty.
 
 Learning through natural dialogue and character decisions is part of the story. No forced audience pronunciation repetition, vocabulary documentary, quiz, timed learner pause or recap is planned in the first 20 minutes.
 
@@ -30,7 +30,7 @@ Learning through natural dialogue and character decisions is part of the story. 
 
 **Cameos:** None.
 
-**Production:** Idea only; empty production folder reserved.
+**Production:** [Episode_02](Episode_02/) contains the complete 80-shot / 20-minute fruit-shop and backyard-picnic package, matching prompts/subtitles, continuity, editable overlays and [20 illustrated storyboard sheets](Episode_02/STORYBOARD_GALLERY.md). Four new clean location PNG drafts accompany the unchanged shared kitchen and 14 cast-preview JPGs. Read the [environment notes](Episode_02/assets/environments/GENERATION_NOTES.md) and [storyboard notes](Episode_02/assets/storyboards/GENERATION_NOTES.md) for provenance and visual limitations. These are still-image drafts; creator approval, individual motion first frames, recorded voices and animation remain pending.
 
 ## Episode 03 — Flowers in the Pancakes?! | Kitchen English | Family Comedy
 
