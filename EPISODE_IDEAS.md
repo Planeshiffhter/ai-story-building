@@ -1,6 +1,6 @@
 # Maple House English — original 10-episode story ideas
 
-**Each episode gets a 20-minute story first.** The creator may attach separate, custom learning/practice segments later, making the uploaded runtime 20, 25, 30+ minutes. Episodes 01 and 02 have complete written 80-shot screenplays. Episode 02 also has 20 new four-panel storyboard sheets illustrating all 80 concepts, four new clean environment drafts and the shared kitchen/cast previews. Creator visual approval, motion first frames, performed voices and video remain pending. Episode 03–10 production folders remain intentionally empty.
+**Each episode gets a 20-minute story first.** The creator may attach separate, custom learning/practice segments later, making the uploaded runtime 20, 25, 30+ minutes. Episodes 01–03 have written 80-shot screenplays. Episodes 02 and 03 also have 20 illustrated four-panel storyboard sheets each, location-reference drafts and the shared cast previews. Creator visual approval, motion first frames, performed voices and video remain pending. Episode 04–10 production folders remain intentionally empty.
 
 Learning through natural dialogue and character decisions is part of the story. No forced audience pronunciation repetition, vocabulary documentary, quiz, timed learner pause or recap is planned in the first 20 minutes.
 
@@ -44,7 +44,7 @@ Learning through natural dialogue and character decisions is part of the story. 
 
 **Cameos:** None; adults handle the hot stove.
 
-**Production:** Idea only; empty production folder reserved.
+**Production:** [Episode_03](Episode_03/) contains the 80-shot / 20-minute screenplay, matching prompts/subtitles, [20 illustrated storyboard sheets](Episode_03/STORYBOARD_GALLERY.md), continuity, five home-reference views and editable recipe/label/cooking-plan SVGs. One batch makes twelve small pancakes, two per person. Still illustrations are drafts pending creator review; motion first frames, voices and animation remain separate production work.
 
 ## Episode 04 — Dad Tried On the Wrong Shoes! | Shopping Mall English
 

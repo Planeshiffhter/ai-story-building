@@ -44,6 +44,6 @@ Browse the [illustrated gallery](STORYBOARD_GALLERY.md) or [HTML gallery](assets
 
 ## Task 6 and validation limits
 
-Episode 02 reuses Episode 01's **document and visual-handoff structure** at the creator's request, with its own fruit-shop/garden storyboards and environment designs. It does not mark the filmed production factory complete or approve the Episode 01 movie. Episodes 03–10 remain ideas/placeholders until individually requested. Only the very brief future-breakfast line in this ending hints at Episode 03.
+Episode 02 reuses Episode 01's **document and visual-handoff structure** at the creator's request, with its own fruit-shop/garden storyboards and environment designs. It does not mark the filmed production factory complete or approve the Episode 01 movie. Episode 03 now has its own commissioned story and visual package; Episodes 04–10 remain ideas/placeholders until individually requested. Only the very brief future-breakfast line in this ending hints at Episode 03.
 
 Run `python Episode_02/check.py` and the validation regression tests listed in [README.md](README.md). They check current source/asset relationships and can expose drift; they cannot certify creator acceptance, performed timing, exact visual identity or fruit inventories, actual motion-service availability or production safety. The still-image drafts exist; motion/audio work and individual production-frame acceptance remain pending.
