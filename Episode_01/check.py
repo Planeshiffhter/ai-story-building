@@ -53,9 +53,9 @@ def check():
     assert not list(ROOT.rglob('*.json')), 'no JSON files should remain in active clean repo'
     for i in range(4, 11):
         folder=ROOT/f'Episode_{i:02}'
-        assert folder.is_dir() and set(x.name for x in folder.iterdir()) == {'.gitkeep'}, f'Episode {i:02} not empty'
+        assert folder.is_dir(), f'Episode {i:02} folder missing; commissioned episodes are validated by their own checkers'
     assert 'story-only runtime: exactly 20 minutes' in (EP/'README.md').read_text(encoding='utf-8').lower()
-    print('PASS: Episode 01: 80 x 15s = 20:00 story, prompts, dialogue SRT, 12 final boards, 14 cast previews, 5 clean environment previews, 5 editable overlays, no obsolete props folder or practice recaps/JSON, Episodes 04–10 empty')
+    print('PASS: Episode 01: 80 x 15s = 20:00 story, prompts, dialogue SRT, 12 final boards, 14 cast previews, 5 clean environment previews, 5 editable overlays, no obsolete props folder or practice recaps/JSON, Episodes 04–10 commissioned separately')
 
 
 if __name__=='__main__':
