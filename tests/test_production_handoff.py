@@ -83,6 +83,11 @@ class ProductionHandoffTests(unittest.TestCase):
             self.assertEqual(data[0]["episode"], "01")
             self.assertEqual(len((target / "shot-production-index.tsv").read_text().splitlines()), 801)
             self.assertEqual(len((target / "adjacent-shot-continuity-review.tsv").read_text().splitlines()), 791)
+            self.assertEqual(len((target / "episode-dialogue-qa.tsv").read_text().splitlines()), 11)
+            voice = (target / "voice-dialogue-workload.tsv").read_text()
+            self.assertIn("ED", voice)
+            self.assertIn("ROSE", voice)
+            self.assertIn("not_recorded_or_verified", voice)
             self.assertTrue((target / "README.md").is_file())
 
     def test_prompt_mutation_is_rejected(self):
