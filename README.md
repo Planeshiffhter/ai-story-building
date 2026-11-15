@@ -73,3 +73,13 @@ This repository combines [PR #8](https://github.com/anneshabiswaas22-collab/ai-s
 The combined series has **170/200** existing storyboard sheets, with **30 missing**. All ten have 80 timed story shots and matching written prompts/subtitles, but only Episodes 01–04 and 06 have 20-board sets. These are illustrated composition drafts, **not** creator-approved motion first frames. Scripts and file tests cannot verify exact faces, clothing, prop counts or camera geometry in the pictures.
 
 Read [VALIDATION_REPORT.md](VALIDATION_REPORT.md), [CODEX_IMAGE_TASKS.md](CODEX_IMAGE_TASKS.md), and each episode's `CHECKPOINT.md` before editing. No image/video generation is performed in the non-image maintenance branch; Codex will handle the remaining artwork as a separate task. No finished animated movie or recorded voices are claimed.
+
+## Source of truth for new contributors
+
+- [Series character and geography canon](SERIES_CANON.md)
+- [Non-image engineering completion report](AUDIT_AND_COMPLETION_REPORT.md)
+- [Codex's exact image backlog (delegated; not generated here)](CODEX_IMAGE_TASKS.md)
+- [Optional A1–B2 English-learning review](ENGLISH_LEARNING_QA.md)
+- [Dynamic verification and 800-shot manifest script](tools/audit_series.py)
+
+The GitHub Actions workflow uploads the current `episode-audit-and-shot-manifest` artifact. Code validation is not a substitute for visual creator approval.

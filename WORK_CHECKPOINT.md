@@ -25,4 +25,8 @@ As of 2026-11-15, PR [#8](https://github.com/anneshabiswaas22-collab/ai-story-bu
 2. For **image work**, Codex must follow each episode's `STORY.md`, `CONTINUITY.md`, `CHECKPOINT.md` and production image guides. Create real missing images or targeted corrections. Never make placeholders to satisfy checks. The 30 filenames are listed precisely in `CODEX_IMAGE_TASKS.md`.
 3. For **video/voice**, wait for separate explicit production authorization and original high-resolution masters. No video/voice outputs are present in the repository.
 
-Previous `WORK_CHECKPOINT.md` assertions that the PR was unmerged or that only 53 tests existed are historical. The latest observed baseline CI on `main` ran **85 tests**, all passing, but five episodes were only written-validated because of missing artwork. GitHub Actions should continue to state this distinction.
+Previous `WORK_CHECKPOINT.md` assertions that the PR was unmerged or that only 53 tests existed are historical. The merged baseline CI on `main` ran **85 tests**; the new non-image audit branch ran **89 tests**, all passing, but five episodes were only written-validated because of missing artwork. GitHub Actions should continue to state this distinction.
+
+## Non-image implementation continuation
+
+See `AUDIT_AND_COMPLETION_REPORT.md`, `SERIES_CANON.md` and `CODEX_IMAGE_TASKS.md`. The new auditor emits the true current 800-shot status TSV; regenerate it after any script/image changes. Image files are not generated or edited by this non-image maintenance branch.

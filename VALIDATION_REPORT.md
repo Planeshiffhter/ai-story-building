@@ -38,3 +38,7 @@ The connected image service reached its daily limit; its reported reset is15 Nov
 ## Related non-image audit
 
 The dynamic source/asset audit is implemented in `tools/audit_series.py` and the current Codex image-only handoff is `CODEX_IMAGE_TASKS.md`. **No artwork is being generated in this engineering task.** The latest merge is already on `main`; the old checkpoint branch is not pending merge.
+
+## Latest non-image audit branch result
+
+On commit `fa0a32fbb781d1bbe31c3004e60a0e5f1481c75e` of `audit/non-image-consistency-20261115`, GitHub Actions validated all 10 written packages and 170 existing storyboard sheets, confirmed the 30 pending board names and passed **89 automated tests**. It published the `episode-audit-and-shot-manifest` artifact. Later docs-only commits do not change that assessment, but rerun CI on the final integration commit. See [implementation report](AUDIT_AND_COMPLETION_REPORT.md).
