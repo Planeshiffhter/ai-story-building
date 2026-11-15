@@ -401,8 +401,9 @@ def validate(repo_root=None):
     require(not list(root.rglob('*.json')), 'repository: no JSON files in the active source tree')
     for number in range(4, 11):
         folder = root / f'Episode_{number:02}'
-        require(folder.is_dir() and {file.name for file in folder.iterdir()} == {'.gitkeep'},
-                f'Episode_{number:02}: expected an empty placeholder')
+        require(folder.is_dir() and (folder / 'STORY.md').is_file()
+                and (folder / 'check.py').is_file(),
+                f'Episode_{number:02}: missing commissioned episode package')
     require(not (episode / 'assets' / 'props').exists(),
             'Episode 01: obsolete props directory must not return')
     return f'PASS: Episode 01 — 80 x 15s = 20:00; story/prompt fields and {cue_count} dialogue/SRT cues match; 20 PNG boards map all 80 shot concepts with a matching printed-label/hash audit; five environment previews, 14 unchanged cast JPGs, {svg_count} editable SVGs, {link_count} local links; visual/first-frame approval remains pending'

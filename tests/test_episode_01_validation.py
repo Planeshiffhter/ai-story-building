@@ -237,9 +237,9 @@ class Episode01ValidationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Off-screen voices differs from story'):
             CHECK.validate(self.root)
 
-    def test_future_episode_placeholder_must_remain_empty(self):
-        (self.root / 'Episode_04' / 'STORY.md').write_text('Unrequested future story')
-        with self.assertRaisesRegex(ValueError, 'Episode_04: expected an empty placeholder'):
+    def test_commissioned_episode_package_is_required(self):
+        (self.root / 'Episode_04' / 'STORY.md').unlink()
+        with self.assertRaisesRegex(ValueError, 'Episode_04: missing commissioned episode package'):
             CHECK.validate(self.root)
 
     def test_json_helpers_are_not_added_to_the_source_tree(self):
