@@ -241,6 +241,46 @@ def export(records: list[dict], output_dir: Path) -> None:
         "review_objects", "ending_state_from_previous", "opening_state_from_next",
         "review_status",
     ])
+    # Source-only voice workload and performance timing; no synthetic voices.
+    voice_workload = {}
+    for row in records:
+        for turn in row["dialogue"]:
+            key = (row["episode"], turn["speaker"])
+            stats = voice_workload.setdefault(key, {
+                "episode": row["episode"], "speaker": turn["speaker"],
+                "turns": 0, "words": 0, "shot_ids": set(),
+                "performed_voice_status": "not_recorded_or_verified",
+            })
+            stats["turns"] += 1
+            stats["words"] += len(turn["text"].split())
+            stats["shot_ids"].add(row["shot_id"])
+    voice_rows = []
+    for stats in voice_workload.values():
+        stats = dict(stats)
+        stats["distinct_shots"] = len(stats.pop("shot_ids"))
+        voice_rows.append(stats)
+    voice_rows.sort(key=lambda row: (row["episode"], row["speaker"]))
+    write_tsv(output_dir / "voice-dialogue-workload.tsv", voice_rows, [
+        "episode", "speaker", "turns", "words", "distinct_shots",
+        "performed_voice_status",
+    ])
+    episode_rows = []
+    for number in range(1, 11):
+        filtered = [row for row in records if row["episode"] == f"{number:02}"]
+        episode_rows.append({
+            "episode": f"{number:02}", "shot_count": len(filtered),
+            "spoken_words": sum(row["dialogue_words"] for row in filtered),
+            "subtitle_cues": sum(len(row["subtitle_cues"]) for row in filtered),
+            "pacing_review_shots_over_24_words": sum(row["dialogue_words"] > 24
+                                                      for row in filtered),
+            "total_editorial_seconds": 80 * 15,
+            "performed_timing": "not_verified",
+        })
+    write_tsv(output_dir / "episode-dialogue-qa.tsv", episode_rows, [
+        "episode", "shot_count", "spoken_words", "subtitle_cues",
+        "pacing_review_shots_over_24_words", "total_editorial_seconds",
+        "performed_timing",
+    ])
     missing = [f"{r['episode']}/{r['board_name']}" for r in records
                if r["board_panel"] == 1 and not r["references"]["board_exists"]]
     crowded = [f"{r['episode']}/{r['shot_id']} ({r['dialogue_words']} words)"
@@ -266,6 +306,8 @@ def export(records: list[dict], output_dir: Path) -> None:
         "- shot-production.jsonl: 800 rich shot specs, dialogue/cue mapping, reference candidates and honest statuses.",
         "- shot-production-index.tsv: compact 800-row production inventory.",
         "- adjacent-shot-continuity-review.tsv: 790 transitions needing human/source review (no invented auto-pass).",
+        "- voice-dialogue-workload.tsv: character speaking turns, words and shot counts by episode; no recorded voice inferred.",
+        "- episode-dialogue-qa.tsv: episode word/cue totals and pacing review counts.",
         "",
         "Run this again after Codex adds artwork. It does not create image/audio/video files.",
         "",
