@@ -12,3 +12,22 @@ Two feature forks were reconciled with a three-parent integration commit (previo
 The media and scripts are preproduction drafts; this commit does not mean animation, dialogue audio or final videos are generated.
 
 Source: [PR #8](https://github.com/anneshabiswaas22-collab/ai-story-building/pull/8), [PR #9](https://github.com/anneshabiswaas22-collab/ai-story-building/pull/9).
+
+## Real storyboard coverage when integrated
+
+Each episode plans 20 boards for 80 × 15-second shots. Actual images committed:
+
+| Episode | Storyboard PNGs | Coverage |
+|---|---:|---|
+| 01 | 20 | Full storyboard concept coverage |
+| 02 | 20 | Full storyboard concept coverage |
+| 03 | 20 | Full storyboard concept coverage |
+| 04 | 20 | Full storyboard concept coverage |
+| 05 | 18 | Partial: 2 boards pending |
+| 06 | 20 | Full storyboard concept coverage |
+| 07 | 10 | Partial: 10 boards pending |
+| 08 | 15 | Partial: 5 boards pending |
+| 09 | 16 | Partial: 4 boards pending |
+| 10 | 11 | Partial: 9 boards pending |
+
+The merged CI runs full image and link checks only for Episodes 01–04 and 06, while validating the written 80-shot packages and derived handoffs for Episodes 05 and 07–10. These statuses describe illustrated preproduction, not finished animation.
