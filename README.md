@@ -83,3 +83,19 @@ Read [VALIDATION_REPORT.md](VALIDATION_REPORT.md), [CODEX_IMAGE_TASKS.md](CODEX_
 - [Dynamic verification and 800-shot manifest script](tools/audit_series.py)
 
 The GitHub Actions workflow uploads the current `episode-audit-and-shot-manifest` artifact. Code validation is not a substitute for visual creator approval.
+
+## Source-only production assembly and QA
+
+Generate a reproducible complete source-derived handoff **without images, audio or video**:
+
+```bash
+python tools/production_handoff.py --output-dir /tmp/maple-production-handoff
+python tools/audit_series.py --report /tmp/series-audit.md --manifest /tmp/shot-manifest.tsv
+python tools/check_root_docs.py
+python tools/check_series.py
+python -m unittest discover -s tests -v
+```
+
+The production handoff includes **800 shot-level JSONL specifications**, an 800-row status index, **790 adjacent-shot continuity-review pairs**, a voice-dialogue workload table, and episode-level subtitle/pacing statistics. All reference candidates, action/open/end states and script dialogue are extracted from current episode sources and validated against prompts/SRT. No motion first frame, voice performance, generated image or finished film is claimed. GitHub Actions uploads these files in its `episode-audit-and-shot-manifest` artifact.
+
+The strict structural art gate (`python tools/check_series.py --strict-art`) must fail until all 200 genuine board sheets exist. Exact missing images and visual correction targets remain in `CODEX_IMAGE_TASKS.md`.

@@ -61,3 +61,9 @@ Until the 30 boards are produced, **strict-art must fail**; do not change that c
 6. **Future maintenance:** always recompute dynamic status after Codex adds artwork; rerun full source tests and strict-art once the visual inventory reaches 200.
 
 **Interpretation:** This non-image task resolves stale instructions and strengthens reproducible technical checks and handoffs. It does **not** resolve image-only continuity defects, and no claim of production-ready animation or complete educational course should be inferred.
+
+## Follow-up non-image production and QA hardening
+
+The subsequent `fix/non-image-production-hardening-20261115` branch adds a deterministic 800-shot JSONL source handoff, 800-shot production index, 790 adjacent-shot state-review tasks, speaker voice-workload and episode subtitle-pacing reports. Source references are validated before export, and there are no generated images or media. The standalone asset audit now verifies partial-episode environment previews and supporting actor PNG references instead of skipping their integrity checks just because storyboard sheets are absent. Root-document links and obsolete guidance now have automated regressions.
+
+`tools/production_handoff.py`, `tools/check_root_docs.py`, their tests and extended GitHub Actions make these exports available for Codex and developers. Performed pronunciation/acting, visual likeness, prop continuity in the actual rendered frames, human acceptance, video and post-story learning recordings remain separate unfinished work. See the follow-up PR for tested commit and final CI.

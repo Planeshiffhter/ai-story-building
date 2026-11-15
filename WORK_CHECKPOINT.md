@@ -30,3 +30,7 @@ Previous `WORK_CHECKPOINT.md` assertions that the PR was unmerged or that only 5
 ## Non-image implementation continuation
 
 See `AUDIT_AND_COMPLETION_REPORT.md`, `SERIES_CANON.md` and `CODEX_IMAGE_TASKS.md`. The new auditor emits the true current 800-shot status TSV; regenerate it after any script/image changes. Image files are not generated or edited by this non-image maintenance branch.
+
+## Extended non-image production source handoff
+
+The `fix/non-image-production-hardening-20261115` work adds a complete source-derived 800-shot production JSONL index and a 790-transition editorial review TSV, alongside voice and episode dialogue QA, more thorough partial-episode asset integrity verification, root documentation checks and additional tests. It generates **no** new storyboards, media, voices, or images. Consult CI and this branch's merged PR for its final state; the active latest `main` always governs.

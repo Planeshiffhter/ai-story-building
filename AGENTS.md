@@ -33,3 +33,9 @@ The ten episodes have complete written 80-shot packages. **170/200** four-panel 
 ### Non-image technical handoff
 
 Before new image work, read `SERIES_CANON.md`, `CODEX_IMAGE_TASKS.md`, `AUDIT_AND_COMPLETION_REPORT.md` and the per-episode checkpoint. A verified full storyboard set still requires human image inspection. The scheduled CI audit generates an 800-shot TSV manifest for downstream production planning. Optional A1–B2 learning work is tracked separately in `ENGLISH_LEARNING_QA.md` and must not interrupt the 20-minute story.
+
+## Source-only manifest and check tooling
+
+After story edits, run `python tools/production_handoff.py --output-dir /tmp/maple-production-handoff`. This validates exact story/video-prompt/subtitle relationships for all 800 shots and exports a continuity-review queue. It does **not** write images, voices, animatics or video. The 790 transitions remain pending editorial review; never infer actual image correctness from matching text fields.
+
+CI also runs `tools/check_root_docs.py` to prevent stale root links and outdated 12-board Episode 01 guidance. Leave all approval, performed voice and video status fields pending until actual accepted media exists.
