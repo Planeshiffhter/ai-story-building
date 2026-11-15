@@ -11,15 +11,27 @@ concurrency:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Validate all ten episodes and local links
+      - name: Validate all ten screenplay packages and current full board sets
         run: python tools/check_series.py
-      - name: Check Episode 01 regenerated sequential handoff
+      - name: Independently audit existing images, family references, shot states and missing links
+        run: python tools/audit_series.py --report "$RUNNER_TEMP/series-audit.md" --manifest "$RUNNER_TEMP/shot-manifest.tsv"
+      - name: Check Episode 01 sequential written handoff
         run: python Episode_01/sync.py --check
-      - name: Run all episode regression tests
+      - name: Run all source and audit regression tests
         run: python -m unittest discover -s tests -v
+      - name: Upload non-image audit and 800-shot manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: episode-audit-and-shot-manifest
+          path: |
+            ${{ runner.temp }}/series-audit.md
+            ${{ runner.temp }}/shot-manifest.tsv
+          if-no-files-found: warn
+          retention-days: 30

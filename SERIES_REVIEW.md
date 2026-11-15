@@ -1,4 +1,6 @@
-# Series review — Episodes01–03 and the continuation standard
+# Series review — Episodes 01–03 and the continuation standard
+
+> **Archive-aware review note (2026-11-15):** This file includes analysis from a **pre-merge historical checkout**, not a new complete visual audit of the rebuilt Episode 01. Older claims describing 12 Episode 01 boards/48 illustrated beats, or Episode 04–10 as empty folders, were superseded by merged PRs #8/#9. The **active** Episode 01 has 20 regenerated boards (80 shot concepts) and Episodes 04–10 have authored content. Consult `VALIDATION_REPORT.md` and `CODEX_IMAGE_TASKS.md` for current status. Keep the historical observations below as provenance, not instructions to overwrite new art.
 
 
 
@@ -12,7 +14,7 @@ The creator requested analysis first, followed by complete Episodes04–10 using
 
 # Episode 01 character and story analysis
 
-Analysis of the current checkout, not older Git versions. Read the root README/AGENTS and Episode 01 README, complete 80-shot STORY, CONTINUITY, STORYBOARD_INDEX, SCENE_REFERENCE_PLAN, production-readiness and prompt structure. Visually inspected both actual cast lineups, HOME_KITCHEN, HOME_TABLE and BOARD_12. No Episode 01–03 content was changed.
+**Historical analysis of the checkout at the time this section was authored, prior to the Episode 01 20-board rebuild.** Read the root README/AGENTS and Episode 01 README, complete 80-shot STORY, CONTINUITY, STORYBOARD_INDEX, SCENE_REFERENCE_PLAN, production-readiness and prompt structure. Visually inspected both actual cast lineups, HOME_KITCHEN, HOME_TABLE and BOARD_12. No Episode 01–03 content was changed.
 
 ## Canonical format and identity
 
@@ -75,7 +77,7 @@ Do not transplant this episode's inventory, geography or finances into Episodes 
 
 The root README links each episode. A complete newer-style package should have its own README, 80-shot STORY, matching VIDEO_PROMPTS and dialogue SRT, explicit CONTINUITY, STORYBOARD_INDEX and galleries, SCENE_REFERENCE_PLAN, 22-section PRODUCTION_READINESS, local cast/reference/overlay/storyboard assets, source provenance and meaningful validation/synchronization scripts. Shot source fields are Visible cast, Location, Camera, Action, Opening state, End state, Picture, Continuity and Dialogue. Every generated prompt must reproduce the source dialogue exactly.
 
-Episode 01 itself currently has **12** retained four-panel PNGs covering **48** legacy beats and **32 unillustrated** connecting beats. Its old-S numbering is not a template for new packages; use new shot IDs 001–080 and the Episode 02/03 twenty-board mapping. Do not relabel old market boards as new episode illustrations. The currently selected art is composition study material, not approved motion first frames.
+**Historical state (superseded):** Episode 01 then had **12** retained four-panel PNGs covering **48** legacy beats and **32 unillustrated** connecting beats. **Current active state:** 20 regenerated sheets covering 80 consecutive shot concepts. Its old-S numbering is not a template for new packages; use new shot IDs 001–080 and the Episode 02/03 twenty-board mapping. Do not relabel old market boards as new episode illustrations. The currently selected art is composition study material, not approved motion first frames.
 
 ## Existing limitations to avoid copying into new work
 
