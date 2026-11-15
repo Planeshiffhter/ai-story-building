@@ -9,13 +9,13 @@
 | [Episode_01](Episode_01/) | **Rebuilt 80-shot preproduction:** 20-minute script, 20 regenerated storyboard sheets illustrating SHOT_001–SHOT_080, aligned prompts and subtitles, original cast references |
 | [Episode_02](Episode_02/) | **Story and visual preproduction draft:** fruit-shop/picnic screenplay, 80 prompts and matching subtitles, 20 four-panel storyboard PNGs illustrating all 80 concepts, 14 shared cast previews, five environment references and editable overlays; creator approval, motion first frames, voices and video pending |
 | [Episode_03](Episode_03/) | **Story and visual preproduction draft:** pancake breakfast comedy, 80 shots and matching prompts/subtitles, 20 illustrated storyboard sheets, shared cast, five home-reference views and editable recipe graphics |
-| [Episode_04](Episode_04/) | Commissioned 80-shot story and still-image preproduction package; see its gallery, continuity and checker |
-| [Episode_05](Episode_05/) | Commissioned 80-shot story and still-image preproduction package; see its gallery, continuity and checker |
-| [Episode_06](Episode_06/) | Commissioned 80-shot story and still-image preproduction package; see its gallery, continuity and checker |
-| [Episode_07](Episode_07/) | Commissioned 80-shot story and still-image preproduction package; see its gallery, continuity and checker |
-| [Episode_08](Episode_08/) | Commissioned 80-shot story and still-image preproduction package; see its gallery, continuity and checker |
-| [Episode_09](Episode_09/) | Commissioned 80-shot story and still-image preproduction package; see its gallery, continuity and checker |
-| [Episode_10](Episode_10/) | Commissioned 80-shot story and still-image preproduction package; see its gallery, continuity and checker |
+| [Episode_04](Episode_04/) | 80-shot written package; **20/20** storyboard sheets; documented shoe, prop and panel-layout corrections pending |
+| [Episode_05](Episode_05/) | 80-shot written package; **18/20** boards; missing 18, 19 and visual corrections pending |
+| [Episode_06](Episode_06/) | 80-shot written package; **20/20** boards; known restaurant visual corrections pending |
+| [Episode_07](Episode_07/) | 80-shot written package; **10/20** boards; missing 11–20 and visual corrections pending |
+| [Episode_08](Episode_08/) | 80-shot written package; **15/20** boards; missing 16–20 and visual corrections pending |
+| [Episode_09](Episode_09/) | 80-shot written package; **16/20** boards; missing 12, 16, 19, 20 and visual corrections pending |
+| [Episode_10](Episode_10/) | 80-shot written package; **11/20** boards; missing 11–13, 15–20 and visual corrections pending |
 
 Read [EPISODE_IDEAS.md](EPISODE_IDEAS.md) for the planned first ten stories. Episodes 01–10 have authored story packages; the continuation packages follow the Episode 02/03 handoff structure. Read [SERIES_REVIEW.md](SERIES_REVIEW.md) for the completed Episode 01–03 analysis and [WORK_CHECKPOINT.md](WORK_CHECKPOINT.md) for remote backup/recovery status. Illustrated packages are visual drafts pending creator approval, not completed animation or performed voices.
 
@@ -29,16 +29,16 @@ Read [EPISODE_IDEAS.md](EPISODE_IDEAS.md) for the planned first ten stories. Epi
 
 ## Scope and production status
 
-- Episode 01 contains 48 retained original visual beats plus 32 additional story beats (80 × 15 seconds = 1,200 seconds). The 12 selected storyboard sheets illustrate the **48 retained beats only**; the new 32 shots need visuals before actual animation.
+- Episode 01's **active rebuilt** 80-shot story has **20 newly illustrated four-panel boards**, sequentially covering SHOT_001–SHOT_080. Its superseded 12-sheet studies are historical and preserved under `MERGE_ARCHIVE/PRE_MERGE_MAIN/`.
 - Episode 02 has 20 new four-panel storyboard sheets illustrating all 80 planned shots, plus four newly generated clean fruit-shop/garden environment PNG drafts. Its 14 cast-preview JPGs and kitchen JPG are unchanged copies of Episode 01 references. See the [storyboard generation notes](Episode_02/assets/storyboards/GENERATION_NOTES.md) and [environment generation notes](Episode_02/assets/environments/GENERATION_NOTES.md) for provenance and known limits. These visual drafts need creator review; no individual motion first frame is approved.
 - Episode 03 has 20 illustrated four-panel sheets for all 80 pancake-story shots. Its 14 cast previews, kitchen/table JPGs and seating diagram preserve the original references; three new clean kitchen-view PNG drafts support the pantry, island and stove coverage. Its [generation notes](Episode_03/assets/storyboards/GENERATION_NOTES.md) distinguish illustrated studies from approved production frames.
-- There are no other active script versions or board v1/v2/v3 files. Older material remains recoverable from **Git commit history** or the owner's original production ZIP; deleting it from current tree does not erase historical commits.
+- No other board v1/v2/v3 alternatives are used by the live episode folders. Superseded files and fork alternatives are preserved in **MERGE_ARCHIVE** and Git history; the owner-controlled original production ZIP is a separate source.
 - Original full-resolution 3D character/environment PNG masters remain in the owner-controlled ZIP. Shared JPGs are viewing previews; new environment PNGs are generated visual drafts, not recovered archive masters.
 - **Task 5 actual video and audio generation is deferred.** No finished movie, recorded voices, or generated animation is claimed. The selected studies and illustrated drafts are distinct from creator-approved motion first frames.
 
 ## Quality check
 
-Run `python Episode_01/check.py`, `python Episode_02/check.py` and `python Episode_03/check.py`. Episode 01 checks its existing story/assets and the remaining empty folders; Episodes 02/03 check their 80 shot slots, exact screenplay/prompt/subtitle alignment, subtitle timing, local links, storyboard coverage/image integrity and editable SVGs. Episode 03 also checks its recipe quantities. Run each newer episode's `sync.py --check` to detect stale derived documents, and `python -m unittest discover -s tests -v` for validation failure cases. GitHub Actions now runs `python tools/check_series.py` for all ten episodes and the expanded unit suite. The individual commands above remain valid for Episodes 01–03. These checks do not certify visual likeness, rendered ingredient counts or creator approval.
+Run `python tools/check_series.py` (dynamic written/full-art scope), `python tools/audit_series.py` (cross-episode consistency and inventory), and the strict `python tools/audit_series.py --strict-art` once all 200 boards exist. Also run the episode-specific checkers as appropriate. Episode 01 checks its active 80-shot story, 20 boards and authored assets; Episodes 02/03 check their 80 shot slots, exact screenplay/prompt/subtitle alignment, subtitle timing, local links, storyboard coverage/image integrity and editable SVGs. Episode 03 also checks its recipe quantities. Run each newer episode's `sync.py --check` to detect stale derived documents, and `python -m unittest discover -s tests -v` for validation failure cases. GitHub Actions now runs `python tools/check_series.py` for all ten episodes and the expanded unit suite. The individual commands above remain valid for Episodes 01–03. These checks do not certify visual likeness, rendered ingredient counts or creator approval.
 
 ## Clarification on environment images and project tasks
 
@@ -67,3 +67,9 @@ Start with [IMAGE_GENERATION_HANDOFF.md](IMAGE_GENERATION_HANDOFF.md). It links 
 ## Contributor merge
 
 This repository combines [PR #8](https://github.com/anneshabiswaas22-collab/ai-story-building/pull/8) and [PR #9](https://github.com/anneshabiswaas22-collab/ai-story-building/pull/9). Original differing variants and the earlier Episode 01 board studies are retained in [MERGE_ARCHIVE](MERGE_ARCHIVE/). Read [MERGE_REPORT.md](MERGE_REPORT.md) for the merge decisions.
+
+## Current non-image audit and future image work
+
+The combined series has **170/200** existing storyboard sheets, with **30 missing**. All ten have 80 timed story shots and matching written prompts/subtitles, but only Episodes 01–04 and 06 have 20-board sets. These are illustrated composition drafts, **not** creator-approved motion first frames. Scripts and file tests cannot verify exact faces, clothing, prop counts or camera geometry in the pictures.
+
+Read [VALIDATION_REPORT.md](VALIDATION_REPORT.md), [CODEX_IMAGE_TASKS.md](CODEX_IMAGE_TASKS.md), and each episode's `CHECKPOINT.md` before editing. No image/video generation is performed in the non-image maintenance branch; Codex will handle the remaining artwork as a separate task. No finished animated movie or recorded voices are claimed.

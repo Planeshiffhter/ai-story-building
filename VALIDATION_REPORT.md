@@ -5,7 +5,7 @@ The complete written continuation is saved. Current artwork: **110/140 sheets**.
 ## Results
 
 - All ten episode source workflows and derived freshness checks pass with `python tools/check_series.py --written-only` (continuation artwork is explicitly skipped in this mode).
-- All 53 unit tests pass.
+- The latest merged-main run completed **85 unit tests**, passing as of 2026-11-15; recheck current CI before relying on this count.
 - Every currently saved PNG asset in Episodes 04–10 passes structural/chunk-checksum validation. All 98 shared family JPGs and reused environment references are byte-identical to their originals.
 - Every episode SVG validates, including required exact editorial text.
 - All 140 sheet prompt blocks, 560 panel briefs and 35 environment prompt sections exist.
@@ -21,7 +21,7 @@ The complete written continuation is saved. Current artwork: **110/140 sheets**.
 |09|16/20|12, 16, 19, 20|FAIL: required sheets missing|
 |10|11/20|11, 12, 13, 15, 16, 17, 18, 19, 20|FAIL: required sheets missing|
 
-Full all-series validation intentionally fails while required images remain missing. Existing full-sheet counts and source checks cannot certify creator visual acceptance. Known likeness/layout/prop/state corrections are in each CHECKPOINT.md and generation notes; use the portable guides for missing images and targeted edits.
+The **strict full-artwork gate** intentionally fails while required images remain missing. The default combined CI passes written checks for all ten and full structural artwork checks only for episodes with all 20 boards. Never mistake this for full-series visual completion. Existing full-sheet counts and source checks cannot certify creator visual acceptance. Known likeness/layout/prop/state corrections are in each CHECKPOINT.md and generation notes; use the portable guides for missing images and targeted edits.
 
 ## Commands for the next tool/session
 
@@ -34,3 +34,7 @@ python tools/check_series.py
 ```
 
 The connected image service reached its daily limit; its reported reset is15 November 2026, 23:14:42 IST. Another tool can use the saved text/reference handoff immediately without this cloud machine.
+
+## Related non-image audit
+
+The dynamic source/asset audit is implemented in `tools/audit_series.py` and the current Codex image-only handoff is `CODEX_IMAGE_TASKS.md`. **No artwork is being generated in this engineering task.** The latest merge is already on `main`; the old checkpoint branch is not pending merge.
