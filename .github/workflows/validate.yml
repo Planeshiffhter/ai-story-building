@@ -21,6 +21,8 @@ jobs:
         run: python tools/check_series.py
       - name: Independently audit existing images, family references, shot states and missing links
         run: python tools/audit_series.py --report "$RUNNER_TEMP/series-audit.md" --manifest "$RUNNER_TEMP/shot-manifest.tsv"
+      - name: Generate full non-image production handoff and continuity-review queue
+        run: python tools/production_handoff.py --output-dir "$RUNNER_TEMP/production-handoff"
       - name: Check Episode 01 sequential written handoff
         run: python Episode_01/sync.py --check
       - name: Run all source and audit regression tests
@@ -33,5 +35,6 @@ jobs:
           path: |
             ${{ runner.temp }}/series-audit.md
             ${{ runner.temp }}/shot-manifest.tsv
+            ${{ runner.temp }}/production-handoff/
           if-no-files-found: warn
           retention-days: 30
