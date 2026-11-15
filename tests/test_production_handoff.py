@@ -34,11 +34,20 @@ class ProductionHandoffTests(unittest.TestCase):
             self.assertTrue(all((ROOT / p).is_file() for p in refs["character_lineup"]))
             self.assertTrue(all((ROOT / p).is_file() for p in refs["overlay_candidates"]))
             if not refs["board_exists"]:
+                self.assertFalse((ROOT / refs["board"]).is_file())
                 missing.add((row["episode"], row["board_name"]))
                 self.assertEqual(row["board_visual_status"], "missing")
             else:
+                self.assertTrue((ROOT / refs["board"]).is_file())
                 self.assertEqual(row["board_visual_status"], "unapproved_illustrated_draft")
-        self.assertEqual(len(missing), 30)
+        expected_missing = {
+            (f"{episode:02}", f"BOARD_{board:02}.png")
+            for episode in range(1, 11)
+            for board in range(1, 21)
+            if not (ROOT / f"Episode_{episode:02}" / "assets/storyboards"
+                    / f"BOARD_{board:02}.png").is_file()
+        }
+        self.assertEqual(missing, expected_missing)
 
     def test_every_subtitle_cue_is_assigned_to_exact_speaker(self):
         for row in self.records:

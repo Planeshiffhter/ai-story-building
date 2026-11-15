@@ -21,8 +21,8 @@ Twenty four-panel sheet slots map all 80 story shots. Generated images are compo
 | BOARD_15 | SHOT_057–SHOT_060 | What the other bench taught us | [BOARD_15.png](assets/storyboards/BOARD_15.png) | Illustrated draft; creator approval pending |
 | BOARD_16 | SHOT_061–SHOT_064 | A picnic is not a test | [BOARD_16.png](assets/storyboards/BOARD_16.png) | Illustrated draft; creator approval pending |
 | BOARD_17 | SHOT_065–SHOT_068 | The fountain keeps its voice | [BOARD_17.png](assets/storyboards/BOARD_17.png) | Illustrated draft; creator approval pending |
-| BOARD_18 | SHOT_069–SHOT_072 | Fold the meeting place | [BOARD_18.png](assets/storyboards/BOARD_18.png) | Illustration pending; creator approval pending |
-| BOARD_19 | SHOT_073–SHOT_076 | Two benches, one good memory | [BOARD_19.png](assets/storyboards/BOARD_19.png) | Illustration pending; creator approval pending |
+| BOARD_18 | SHOT_069–SHOT_072 | Fold the meeting place | [BOARD_18.png](assets/storyboards/BOARD_18.png) | Illustrated draft; creator approval pending |
+| BOARD_19 | SHOT_073–SHOT_076 | Two benches, one good memory | [BOARD_19.png](assets/storyboards/BOARD_19.png) | Illustrated draft; creator approval pending |
 | BOARD_20 | SHOT_077–SHOT_080 | The second useful job | [BOARD_20.png](assets/storyboards/BOARD_20.png) | Illustrated draft; creator approval pending |
 
 ## All 80 opening-frame briefs
