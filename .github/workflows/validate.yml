@@ -1,4 +1,4 @@
-name: Verify clean 20-minute story
+name: Validate all ten episode story packages
 on:
   push:
   pull_request:
@@ -11,13 +11,15 @@ concurrency:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Check runtime, illustrated coverage, PNG integrity, source mapping and links
-        run: python Episode_01/check.py
-      - name: Ensure validation rejects missing art, duplicate shots, corruption and broken links
-        run: python Episode_01/test_checks.py
+      - name: Validate all ten episodes and local links
+        run: python tools/check_series.py
+      - name: Check Episode 01 regenerated sequential handoff
+        run: python Episode_01/sync.py --check
+      - name: Run all episode regression tests
+        run: python -m unittest discover -s tests -v
