@@ -170,11 +170,40 @@ def audit(root: Path = ROOT) -> tuple[list[dict], list[str], list[dict]]:
             if not local_rose.is_file() or local_rose.read_bytes() != rose_ref.read_bytes():
                 issues.append("Episode 10: Aunt Rose reference differs from Episode 04")
         if number >= 4:
+            # Check ALL five environments and supporting actor references even
+            # when missing storyboards prevent the full episode image checker.
+            # Written-only is never permission to skip existing asset integrity.
             try:
                 cfg = load_config(ep)
                 validate_graphics(ep, cfg)
+                env_dir = ep / "assets/environments"
+                expected_env = set(cfg["locations"].values())
+                actual_env = {p.name for p in env_dir.iterdir()
+                              if p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp"}}
+                if actual_env != expected_env:
+                    issues.append(f"Episode {number:02}: environment preview inventory differs: "
+                                  f"{sorted(actual_env ^ expected_env)}")
+                for name in sorted(expected_env & actual_env):
+                    candidate = env_dir / name
+                    shared = cfg.get("shared_environments", {})
+                    if name in shared:
+                        original = root / shared[name]
+                        if not original.is_file() or candidate.read_bytes() != original.read_bytes():
+                            issues.append(f"Episode {number:02}: shared environment {name} differs from "
+                                          f"{shared[name]}")
+                    elif candidate.suffix.lower() == ".png":
+                        validate_png(candidate)
+                    else:
+                        issues.append(f"Episode {number:02}: unapproved non-PNG new environment {name}")
+                for actor, spec in cfg.get("supporting_cast", {}).items():
+                    if spec["mode"] == "visible":
+                        name = spec.get("reference")
+                        if not name or not (ep / name).is_file():
+                            issues.append(f"Episode {number:02}: missing visible cameo reference for {actor}")
+                        else:
+                            validate_png(ep / name)
             except (ValueError, OSError) as exc:
-                issues.append(f"Episode {number:02}: editorial SVGs: {exc}")
+                issues.append(f"Episode {number:02}: existing assets/SVGs: {exc}")
         story_file = ep / "STORY.md"
         shots = parse_shots(story_file.read_text(encoding="utf-8")) if story_file.is_file() else []
         issues.extend(f"Episode {number:02}: {message}" for message in structural_shot_problems(shots))
@@ -218,7 +247,7 @@ def markdown_report(episodes: list[dict], issues: list[str], manifest: list[dict
     lines += [
         "", "## Remaining production gates",
         "",
-        "- 30 missing board files from five episodes must be generated as genuine images by Codex/image-capable tools.",
+        f"- {200 - total} missing board files must be generated as genuine images by Codex/image-capable tools.",
         "- Saved visuals require human correction/approval according to per-episode CHECKPOINT.md and generation notes.",
         "- Original high-resolution masters, 800 approved individual motion first frames, performed voices, and rendered films are not established by this audit.",
         "",
