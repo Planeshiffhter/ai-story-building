@@ -4,6 +4,8 @@
 
 ## Mandatory startup procedure
 
+**LIVE BACKLOG RULE:** First run `python tools/list_missing_storyboards.py --limit 12` after fetching the working branch. If a file listed below already exists, preserve it. The tables below are a historical baseline, not executable instructions to regenerate completed work.
+
 1. Fetch fresh `main` (or the current approved working branch) and read `AGENTS.md`, `README.md`, `VALIDATION_REPORT.md`, `WORK_CHECKPOINT.md` and this handoff.
 2. Read the affected episode's `STORY.md`, `CONTINUITY.md`, `SCENE_REFERENCE_PLAN.md`, `CHECKPOINT.md` and `assets/storyboards/GENERATION_NOTES.md`. When present, read `IMAGE_GENERATION_GUIDE.md`, `RESUME_PROMPTS.md` and `assets/storyboards/PENDING_ART.md`.
 3. Inspect the actual 14 original recurring family JPG previews, clean environment images and specific selected board needing correction. The owner-controlled high-resolution PNG masters are separate and must not be invented.
@@ -11,7 +13,7 @@
 5. Work one storyboard sheet or localized edit at a time. Preserve the original output and record source identity, input references, prompt version, validation/review, file hash and any corrections.
 6. Never generate a dummy board or copy an unrelated PNG to reach 20/20. Do not treat a four-panel sheet as an approved individual motion first frame.
 
-## Exact remaining 30 images (20 boards × 4 panels per episode)
+## Historical missing-image baseline: 30 sheets on 2026-11-15 (NOT the current backlog)
 
 | Episode | Board file | Required screenplay shot range |
 |---|---|---|
@@ -46,7 +48,7 @@
 | 10 | `assets/storyboards/BOARD_19.png` | SHOT_073–076 |
 | 10 | `assets/storyboards/BOARD_20.png` | SHOT_077–080 |
 
-All paths above are relative to the appropriate `Episode_XX/` folder. Do not assume a missing board means the screenplay shot itself is missing.
+All paths above were missing at the original checkpoint. **Many now exist and are merged.** Never overwrite them based on this table: first run `python tools/list_missing_storyboards.py` on the latest target branch. The table remains for history and original shot mapping. Paths are relative to `Episode_XX/`. A missing board never means the screenplay shot is missing.
 
 ## Existing images requiring targeted correction/review
 
@@ -88,4 +90,4 @@ Treat this list as known issues, **not** an exhaustive picture-by-picture certif
 
 A separate engineering branch is fixing documentation, structural audits, metadata, CI and reports. **Do not conflict with that branch by replacing text/scripts unnecessarily.** Start a fresh Codex image-work branch from the updated approved `main` after non-image fixes merge. Keep image assets and status records in the appropriate episode folders.
 
-**Current actual image work executed by this handoff: NONE.** The 30 missing files remain assigned to Codex/image generation.
+**Historical note:** the original non-image engineering handoff itself generated no artwork. Codex subsequently pushed storyboard images on separate branches; consult latest Git and `python tools/list_missing_storyboards.py` for current counts and missing filenames.

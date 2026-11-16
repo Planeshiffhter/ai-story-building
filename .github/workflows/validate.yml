@@ -19,6 +19,8 @@ jobs:
           python-version: '3.11'
       - name: Validate all ten screenplay packages and current full board sets
         run: python tools/check_series.py
+      - name: List live missing boards for safe Codex handoff
+        run: python tools/list_missing_storyboards.py --limit 12
       - name: Independently audit existing images, family references, shot states and missing links
         run: python tools/audit_series.py --report "$RUNNER_TEMP/series-audit.md" --manifest "$RUNNER_TEMP/shot-manifest.tsv"
       - name: Generate full non-image production handoff and continuity-review queue
