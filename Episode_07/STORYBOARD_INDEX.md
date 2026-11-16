@@ -14,7 +14,7 @@ Twenty four-panel sheet slots map all 80 story shots. Generated images are compo
 | BOARD_08 | SHOT_029–SHOT_032 | Tell Ed where we are | [BOARD_08.png](assets/storyboards/BOARD_08.png) | Illustrated draft; creator approval pending |
 | BOARD_09 | SHOT_033–SHOT_036 | The better question | [BOARD_09.png](assets/storyboards/BOARD_09.png) | Illustrated draft; creator approval pending |
 | BOARD_10 | SHOT_037–SHOT_040 | Look before the first step | [BOARD_10.png](assets/storyboards/BOARD_10.png) | Illustrated draft; creator approval pending |
-| BOARD_11 | SHOT_041–SHOT_044 | Northbound at last | [BOARD_11.png](assets/storyboards/BOARD_11.png) | Illustration pending; creator approval pending |
+| BOARD_11 | SHOT_041–SHOT_044 | Northbound at last | [BOARD_11.png](assets/storyboards/BOARD_11.png) | Illustrated draft; creator approval pending |
 | BOARD_12 | SHOT_045–SHOT_048 | The fare has no surprise | [BOARD_12.png](assets/storyboards/BOARD_12.png) | Illustration pending; creator approval pending |
 | BOARD_13 | SHOT_049–SHOT_052 | A quiet hello to the driver | [BOARD_13.png](assets/storyboards/BOARD_13.png) | Illustration pending; creator approval pending |
 | BOARD_14 | SHOT_053–SHOT_056 | Three pairs of seats | [BOARD_14.png](assets/storyboards/BOARD_14.png) | Illustration pending; creator approval pending |
