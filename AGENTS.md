@@ -24,9 +24,9 @@ Read SERIES_REVIEW.md and the selected episode’s README, STORY, CONTINUITY, SC
 
 For an authorized story edit, update STORY.md then run that episode’s sync.py and inspect all derived changes. Do not overwrite accepted performance timing with draft subtitle estimates. Run `python tools/check_series.py` and `python -m unittest discover -s tests -v` before a PR or push. Shared checks cover all ten episodes and local Markdown/HTML path links. Neither passing code nor completed storyboard files imply creator visual acceptance, approved single-shot first frames, performed voices or finished movies.
 
-## Current status and image-generation delegation (2026-11-15)
+## Historical image-generation delegation checkpoint (2026-11-15)
 
-The ten episodes have complete written 80-shot packages. **170/200** four-panel storyboard sheets exist; **30** are genuinely missing in Episodes 05, 07, 08, 09 and 10. Full structural art checks currently apply only to Episodes 01–04 and 06. Never interpret a written-only green run as proof of completed artwork. See `VALIDATION_REPORT.md`, `IMAGE_GENERATION_HANDOFF.md` and the new `CODEX_IMAGE_TASKS.md` for file-level gaps.
+The ten episodes have complete written 80-shot packages. The original 2026-11-15 checkpoint had 170/200 images, but that number is historical: new images have since been merged. Always run `python tools/list_missing_storyboards.py` in the currently checked-out branch for live missing filenames; run `python tools/audit_series.py` and `python tools/check_series.py` for actual structural validation. Never interpret a written-only green run as proof of completed artwork. See `CODEX_IMAGE_TASKS.md` for the original issue inventory and repair requirements, **not** an authoritative live backlog.
 
 **Image and video generation are outside this non-image engineering pass.** Codex or another authorized image-capable environment should create/correct image assets later using original references, exact shot text and reviewed notes. Do not write dummy boards, duplicate existing PNGs to meet a count or silently relabel historical artwork. Human visual approval, approved first frames, voice, animation and final rendered movies remain pending.
 
@@ -39,3 +39,7 @@ Before new image work, read `SERIES_CANON.md`, `CODEX_IMAGE_TASKS.md`, `AUDIT_AN
 After story edits, run `python tools/production_handoff.py --output-dir /tmp/maple-production-handoff`. This validates exact story/video-prompt/subtitle relationships for all 800 shots and exports a continuity-review queue. It does **not** write images, voices, animatics or video. The 790 transitions remain pending editorial review; never infer actual image correctness from matching text fields.
 
 CI also runs `tools/check_root_docs.py` to prevent stale root links and outdated 12-board Episode 01 guidance. Leave all approval, performed voice and video status fields pending until actual accepted media exists.
+
+## Safe small-batch image work across Codex cloud workspaces
+
+Start each session with `python tools/list_missing_storyboards.py --limit 12` **after fetching the newest remote branch**. Use the actual missing list from the current branch; do not overwrite existing sheets or trust historical counts. Push and verify *each generated image* before the next request. Do not depend on the workspace surviving between sessions. The live inventory checks existence only; do not call it a visual QA pass. When a PR branch is ahead of `main`, branch from that remote head or merge it first before assigning new work.

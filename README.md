@@ -10,12 +10,12 @@
 | [Episode_02](Episode_02/) | **Story and visual preproduction draft:** fruit-shop/picnic screenplay, 80 prompts and matching subtitles, 20 four-panel storyboard PNGs illustrating all 80 concepts, 14 shared cast previews, five environment references and editable overlays; creator approval, motion first frames, voices and video pending |
 | [Episode_03](Episode_03/) | **Story and visual preproduction draft:** pancake breakfast comedy, 80 shots and matching prompts/subtitles, 20 illustrated storyboard sheets, shared cast, five home-reference views and editable recipe graphics |
 | [Episode_04](Episode_04/) | 80-shot written package; **20/20** storyboard sheets; documented shoe, prop and panel-layout corrections pending |
-| [Episode_05](Episode_05/) | 80-shot written package; **18/20** boards; missing 18, 19 and visual corrections pending |
+| [Episode_05](Episode_05/) | 80-shot written package; 20-board set saved in Git; visual corrections and creator acceptance pending |
 | [Episode_06](Episode_06/) | 80-shot written package; **20/20** boards; known restaurant visual corrections pending |
-| [Episode_07](Episode_07/) | 80-shot written package; **10/20** boards; missing 11–20 and visual corrections pending |
-| [Episode_08](Episode_08/) | 80-shot written package; **15/20** boards; missing 16–20 and visual corrections pending |
-| [Episode_09](Episode_09/) | 80-shot written package; **16/20** boards; missing 12, 16, 19, 20 and visual corrections pending |
-| [Episode_10](Episode_10/) | 80-shot written package; **11/20** boards; missing 11–13, 15–20 and visual corrections pending |
+| [Episode_07](Episode_07/) | 80-shot written package; 20-board set saved in Git; visual corrections and creator acceptance pending |
+| [Episode_08](Episode_08/) | 80-shot written package; check the live image inventory below; visual corrections and creator acceptance pending |
+| [Episode_09](Episode_09/) | 80-shot written package; check the live image inventory below; visual corrections and creator acceptance pending |
+| [Episode_10](Episode_10/) | 80-shot written package; check the live image inventory below; visual corrections and creator acceptance pending |
 
 Read [EPISODE_IDEAS.md](EPISODE_IDEAS.md) for the planned first ten stories. Episodes 01–10 have authored story packages; the continuation packages follow the Episode 02/03 handoff structure. Read [SERIES_REVIEW.md](SERIES_REVIEW.md) for the completed Episode 01–03 analysis and [WORK_CHECKPOINT.md](WORK_CHECKPOINT.md) for remote backup/recovery status. Illustrated packages are visual drafts pending creator approval, not completed animation or performed voices.
 
@@ -70,7 +70,7 @@ This repository combines [PR #8](https://github.com/anneshabiswaas22-collab/ai-s
 
 ## Current non-image audit and future image work
 
-The combined series has **170/200** existing storyboard sheets, with **30 missing**. All ten have 80 timed story shots and matching written prompts/subtitles, but only Episodes 01–04 and 06 have 20-board sets. These are illustrated composition drafts, **not** creator-approved motion first frames. Scripts and file tests cannot verify exact faces, clothing, prop counts or camera geometry in the pictures.
+Board coverage changes after each saved Codex image. Run `python tools/list_missing_storyboards.py` for the exact current board count and missing filenames; use `--limit 12` for the next twelve genuine missing sheets and `--json` for machines. All ten episodes have 80 timed story shots and matching written prompts/subtitles. These are illustrated composition drafts, **not** creator-approved motion first frames. Scripts and file tests cannot verify exact faces, clothing, prop counts or camera geometry in the pictures.
 
 Read [VALIDATION_REPORT.md](VALIDATION_REPORT.md), [CODEX_IMAGE_TASKS.md](CODEX_IMAGE_TASKS.md), and each episode's `CHECKPOINT.md` before editing. No image/video generation is performed in the non-image maintenance branch; Codex will handle the remaining artwork as a separate task. No finished animated movie or recorded voices are claimed.
 
@@ -99,3 +99,17 @@ python -m unittest discover -s tests -v
 The production handoff includes **800 shot-level JSONL specifications**, an 800-row status index, **790 adjacent-shot continuity-review pairs**, a voice-dialogue workload table, and episode-level subtitle/pacing statistics. All reference candidates, action/open/end states and script dialogue are extracted from current episode sources and validated against prompts/SRT. No motion first frame, voice performance, generated image or finished film is claimed. GitHub Actions uploads these files in its `episode-audit-and-shot-manifest` artifact.
 
 The strict structural art gate (`python tools/check_series.py --strict-art`) must fail until all 200 genuine board sheets exist. Exact missing images and visual correction targets remain in `CODEX_IMAGE_TASKS.md`.
+
+## Live storyboard inventory (for Codex cloud checkpoints)
+
+Always fetch the newest approved Git branch and run:
+
+```bash
+python tools/list_missing_storyboards.py
+python tools/list_missing_storyboards.py --limit 12
+python tools/list_missing_storyboards.py --json
+```
+
+This is a **filename-presence** counter only. It never changes artwork and never certifies image quality, character likeness, or creator approval. Run `python tools/audit_series.py` and the episode checker for structural image validation; review all generated pixels against the original cast and continuity references.
+
+Do **not** use the historical missing-board list in `CODEX_IMAGE_TASKS.md` to regenerate boards already pushed. After each new board: image generation → inspect → commit → push → verify remote SHA → regenerate the next live inventory. Branches awaiting merge must be checked separately from `main` to avoid losing Codex work.
