@@ -96,31 +96,31 @@ SHOT_057: Thanks before leaving · SHOT_058: Homeward with the right box · SHOT
 
 ## BOARD_16 — SHOT_061–SHOT_064
 
-Illustration pending.
+![BOARD_16 — SHOT_061–SHOT_064](assets/storyboards/BOARD_16.png)
 
 SHOT_061: Close the delivery question · SHOT_062: Hands before dessert · SHOT_063: The emergency strawberry earns a job · SHOT_064: Open the right box once
 
 ## BOARD_17 — SHOT_065–SHOT_068
 
-Illustration pending.
+![BOARD_17 — SHOT_065–SHOT_068](assets/storyboards/BOARD_17.png)
 
 SHOT_065: A place for the empty packaging · SHOT_066: Six slices from one cake · SHOT_067: The first two plates · SHOT_068: Two more, not a refill
 
 ## BOARD_18 — SHOT_069–SHOT_072
 
-Illustration pending.
+![BOARD_18 — SHOT_069–SHOT_072](assets/storyboards/BOARD_18.png)
 
 SHOT_069: The last pair completes the table · SHOT_070: Sharp tools stay in the kitchen · SHOT_071: One honest box on the list · SHOT_072: Six seats, one celebration
 
 ## BOARD_19 — SHOT_073–SHOT_076
 
-Illustration pending.
+![BOARD_19 — SHOT_073–SHOT_076](assets/storyboards/BOARD_19.png)
 
 SHOT_073: A short hello from Grandpa Ed · SHOT_074: An address beats a lucky guess · SHOT_075: The first bite is finally simple · SHOT_076: More than the decoration
 
 ## BOARD_20 — SHOT_077–SHOT_080
 
-Illustration pending.
+![BOARD_20 — SHOT_077–SHOT_080](assets/storyboards/BOARD_20.png)
 
 SHOT_077: A different kind of perfect · SHOT_078: The little assistant retires · SHOT_079: One last useful question · SHOT_080: The right place all along
 

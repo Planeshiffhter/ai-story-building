@@ -55,3 +55,9 @@ Each image commit is pushed and its fetched remote commit/blob verified before i
 - Targeted correction: None before selection.
 - Review: Canonical seats, correct cast subsets, empty Leo gesture/fork resting077, Max sole strawberry fully eaten078, six existing partly eaten portions/no refill/no berry079–080, no Ed face/active call/new guest inspected. Creator approval pending.
 - Status: illustrated composition draft; creator approval and individual motion first frames pending.
+
+## Final validation and completion scope
+
+All **five** requested new PNGs (BOARD_16–20) were individually pushed and remotely verified before the next generation. Episode 10 now has **20/20** saved sheets and the series has **200/200**; no board file is missing. Previous 195 PNGs, source screenplays, dialogue, prompts, subtitles and Python validation code were preserved. Only final-five artwork, derived gallery/index/HTML inventory and generation records changed.
+
+Passed: Episode 10 sync and sync check; full Episode 10 checker; `python tools/check_series.py`; `python tools/audit_series.py`; 800-shot production handoff; all **101** discovered unit tests; strict series checks (`--strict-art`); and strict structural audit (`--strict-art`). All checks exited zero. These results establish file/source structural coverage, not creator visual acceptance. Older recorded correction needs remain unapproved and were not repaired. The new sheets are composition drafts; individual motion first frames, performed voices, animation and final films remain separate work.
