@@ -15,15 +15,15 @@ Twenty four-panel sheet slots map all 80 story shots. Generated images are compo
 | BOARD_09 | SHOT_033–SHOT_036 | Two plants, two names | [BOARD_09.png](assets/storyboards/BOARD_09.png) | Illustrated draft; creator approval pending |
 | BOARD_10 | SHOT_037–SHOT_040 | The first seed | [BOARD_10.png](assets/storyboards/BOARD_10.png) | Illustrated draft; creator approval pending |
 | BOARD_11 | SHOT_041–SHOT_044 | Write before you stick | [BOARD_11.png](assets/storyboards/BOARD_11.png) | Illustrated draft; creator approval pending |
-| BOARD_12 | SHOT_045–SHOT_048 | Day one means day one | [BOARD_12.png](assets/storyboards/BOARD_12.png) | Illustration pending; creator approval pending |
+| BOARD_12 | SHOT_045–SHOT_048 | Day one means day one | [BOARD_12.png](assets/storyboards/BOARD_12.png) | Illustrated draft; creator approval pending |
 | BOARD_13 | SHOT_049–SHOT_052 | Wait for the water | [BOARD_13.png](assets/storyboards/BOARD_13.png) | Illustrated draft; creator approval pending |
 | BOARD_14 | SHOT_053–SHOT_056 | Water for the hidden seeds | [BOARD_14.png](assets/storyboards/BOARD_14.png) | Illustrated draft; creator approval pending |
 | BOARD_15 | SHOT_057–SHOT_060 | Drainage is not a bath | [BOARD_15.png](assets/storyboards/BOARD_15.png) | Illustrated draft; creator approval pending |
-| BOARD_16 | SHOT_061–SHOT_064 | A place for quiet beginnings | [BOARD_16.png](assets/storyboards/BOARD_16.png) | Illustration pending; creator approval pending |
+| BOARD_16 | SHOT_061–SHOT_064 | A place for quiet beginnings | [BOARD_16.png](assets/storyboards/BOARD_16.png) | Illustrated draft; creator approval pending |
 | BOARD_17 | SHOT_065–SHOT_068 | Gloves off the right way | [BOARD_17.png](assets/storyboards/BOARD_17.png) | Illustrated draft; creator approval pending |
 | BOARD_18 | SHOT_069–SHOT_072 | A promise without a timer | [BOARD_18.png](assets/storyboards/BOARD_18.png) | Illustrated draft; creator approval pending |
-| BOARD_19 | SHOT_073–SHOT_076 | The quiet pot has company | [BOARD_19.png](assets/storyboards/BOARD_19.png) | Illustration pending; creator approval pending |
-| BOARD_20 | SHOT_077–SHOT_080 | A very small ambition | [BOARD_20.png](assets/storyboards/BOARD_20.png) | Illustration pending; creator approval pending |
+| BOARD_19 | SHOT_073–SHOT_076 | The quiet pot has company | [BOARD_19.png](assets/storyboards/BOARD_19.png) | Illustrated draft; creator approval pending |
+| BOARD_20 | SHOT_077–SHOT_080 | A very small ambition | [BOARD_20.png](assets/storyboards/BOARD_20.png) | Illustrated draft; creator approval pending |
 
 ## All 80 opening-frame briefs
 

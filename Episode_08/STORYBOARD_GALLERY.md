@@ -102,25 +102,25 @@ SHOT_061: An empty basket can rest · SHOT_062: Find it without opening it · SH
 
 ## BOARD_17 — SHOT_065–SHOT_068
 
-Illustration pending.
+![BOARD_17 — SHOT_065–SHOT_068](assets/storyboards/BOARD_17.png)
 
 SHOT_065: The towel finds its drawer · SHOT_066: A blanket already at home · SHOT_067: An empty hanger can stay empty · SHOT_068: The checklist comes back with us
 
 ## BOARD_18 — SHOT_069–SHOT_072
 
-Illustration pending.
+![BOARD_18 — SHOT_069–SHOT_072](assets/storyboards/BOARD_18.png)
 
 SHOT_069: Clean hands after the job · SHOT_070: Two good organizers · SHOT_071: Helping is more than speed · SHOT_072: A very short journey
 
 ## BOARD_19 — SHOT_073–SHOT_076
 
-Illustration pending.
+![BOARD_19 — SHOT_073–SHOT_076](assets/storyboards/BOARD_19.png)
 
 SHOT_073: Six people, familiar seats · SHOT_074: The sock that stayed home · SHOT_075: Labels do not replace people · SHOT_076: A place we can explain
 
 ## BOARD_20 — SHOT_077–SHOT_080
 
-Illustration pending.
+![BOARD_20 — SHOT_077–SHOT_080](assets/storyboards/BOARD_20.png)
 
 SHOT_077: Tomorrow can wait · SHOT_078: No labels on grandmothers · SHOT_079: One record, finished · SHOT_080: An ordinary kind of welcome
 

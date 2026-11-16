@@ -1,5 +1,7 @@
 # Episode 09 — storyboard sources, inspection and incomplete-art checkpoint
 
+**Task 3 current inventory: 20/20 sheets are saved.** BOARD_12, BOARD_16, BOARD_19 and BOARD_20 were generated and individually pushed on `codex/next-12-storyboards`. [The generation/push log](TASK3_GENERATION_LOG.md) records source identities, references, final hashes, verified image commits and visual review. The full episode checker and sync check passed. Missing-sheet and quota statements below describe earlier checkpoints; the historical correction backlog remains unapproved and was not repaired in this task. All new sheets remain composition drafts pending creator approval.
+
 **16 actual four-panel PNG sheets are present (64 representative shot panels); 4 planned sheets are missing.** All eighty written shot briefs, matching prompts and provisional SRT cues exist. The package is not visually complete. Identified continuity corrections remain blocked by the image service daily usage limit. Creator acceptance and individual motion first frames remain pending.
 
 All new images were generated with the image-generation tool using actual original adult/child lineup previews and the relevant selected clean environment images; BOARD03 also used the new provisional Ben reference. Existing sheets were targets for localized edits. No prior episode board was relabeled, no synthetic placeholder raster was substituted, and no video/voice render occurred.

@@ -1,5 +1,7 @@
 # Episode08 — storyboard generation and review record
 
+**Task 3 current inventory:** 20/20 sheets are now saved. BOARD_17–20 were generated and individually pushed on `codex/next-12-storyboards`; see [the per-image generation/push log](TASK3_GENERATION_LOG.md) for source identities, hashes, verified image commits and the targeted BOARD_19 seating correction. The full episode checker and sync check passed. Earlier missing-sheet/quota statements below describe their historical checkpoints. Creator visual approval remains pending, including previously recorded faults in older artwork; those images were not repaired in this task.
+
 All selected images are real image-generation outputs using actual supplied adult/child lineups and scene-appropriate home references. No earlier episode board was relabeled as new art. Read panels top-left, top-right, bottom-left, bottom-right. These are composition drafts, not approved individual motion first frames.
 
 | Sheet | Shots | Actual selected source under /workspace/generated_images | Inspection / correction record |

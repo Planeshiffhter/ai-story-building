@@ -14,16 +14,16 @@ Twenty four-panel sheet slots map all 80 story shots. Generated images are compo
 | BOARD_08 | SHOT_029–SHOT_032 | A detail beside the bell | [BOARD_08.png](assets/storyboards/BOARD_08.png) | Illustrated draft; creator approval pending |
 | BOARD_09 | SHOT_033–SHOT_036 | Who goes and who stays? | [BOARD_09.png](assets/storyboards/BOARD_09.png) | Illustrated draft; creator approval pending |
 | BOARD_10 | SHOT_037–SHOT_040 | A private path is not a shortcut | [BOARD_10.png](assets/storyboards/BOARD_10.png) | Illustrated draft; creator approval pending |
-| BOARD_11 | SHOT_041–SHOT_044 | It is all right to leave a note | [BOARD_11.png](assets/storyboards/BOARD_11.png) | Illustration pending; creator approval pending |
-| BOARD_12 | SHOT_045–SHOT_048 | The question gives room to answer | [BOARD_12.png](assets/storyboards/BOARD_12.png) | Illustration pending; creator approval pending |
-| BOARD_13 | SHOT_049–SHOT_052 | A small admission while waiting | [BOARD_13.png](assets/storyboards/BOARD_13.png) | Illustration pending; creator approval pending |
+| BOARD_11 | SHOT_041–SHOT_044 | It is all right to leave a note | [BOARD_11.png](assets/storyboards/BOARD_11.png) | Illustrated draft; creator approval pending |
+| BOARD_12 | SHOT_045–SHOT_048 | The question gives room to answer | [BOARD_12.png](assets/storyboards/BOARD_12.png) | Illustrated draft; creator approval pending |
+| BOARD_13 | SHOT_049–SHOT_052 | A small admission while waiting | [BOARD_13.png](assets/storyboards/BOARD_13.png) | Illustrated draft; creator approval pending |
 | BOARD_14 | SHOT_053–SHOT_056 | The neighbor explains | [BOARD_14.png](assets/storyboards/BOARD_14.png) | Illustrated draft; creator approval pending |
-| BOARD_15 | SHOT_057–SHOT_060 | Thanks before leaving | [BOARD_15.png](assets/storyboards/BOARD_15.png) | Illustration pending; creator approval pending |
-| BOARD_16 | SHOT_061–SHOT_064 | Close the delivery question | [BOARD_16.png](assets/storyboards/BOARD_16.png) | Illustration pending; creator approval pending |
-| BOARD_17 | SHOT_065–SHOT_068 | A place for the empty packaging | [BOARD_17.png](assets/storyboards/BOARD_17.png) | Illustration pending; creator approval pending |
-| BOARD_18 | SHOT_069–SHOT_072 | The last pair completes the table | [BOARD_18.png](assets/storyboards/BOARD_18.png) | Illustration pending; creator approval pending |
-| BOARD_19 | SHOT_073–SHOT_076 | A short hello from Grandpa Ed | [BOARD_19.png](assets/storyboards/BOARD_19.png) | Illustration pending; creator approval pending |
-| BOARD_20 | SHOT_077–SHOT_080 | A different kind of perfect | [BOARD_20.png](assets/storyboards/BOARD_20.png) | Illustration pending; creator approval pending |
+| BOARD_15 | SHOT_057–SHOT_060 | Thanks before leaving | [BOARD_15.png](assets/storyboards/BOARD_15.png) | Illustrated draft; creator approval pending |
+| BOARD_16 | SHOT_061–SHOT_064 | Close the delivery question | [BOARD_16.png](assets/storyboards/BOARD_16.png) | Illustrated draft; creator approval pending |
+| BOARD_17 | SHOT_065–SHOT_068 | A place for the empty packaging | [BOARD_17.png](assets/storyboards/BOARD_17.png) | Illustrated draft; creator approval pending |
+| BOARD_18 | SHOT_069–SHOT_072 | The last pair completes the table | [BOARD_18.png](assets/storyboards/BOARD_18.png) | Illustrated draft; creator approval pending |
+| BOARD_19 | SHOT_073–SHOT_076 | A short hello from Grandpa Ed | [BOARD_19.png](assets/storyboards/BOARD_19.png) | Illustrated draft; creator approval pending |
+| BOARD_20 | SHOT_077–SHOT_080 | A different kind of perfect | [BOARD_20.png](assets/storyboards/BOARD_20.png) | Illustrated draft; creator approval pending |
 
 ## All 80 opening-frame briefs
 
