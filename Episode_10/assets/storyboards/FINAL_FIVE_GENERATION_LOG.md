@@ -45,3 +45,13 @@ Each image commit is pushed and its fetched remote commit/blob verified before i
 - Targeted correction: Targeted edit replaced mistaken kitchen backdrops across073–076 with original dining room; kept cast, phone ownership, full-to-bitten wedge progression and sole strawberry. Rechecked before image commit.
 - Review: Nina right-hand audio call073 with no Ed face, call ended/phone face-down074, six partly eaten original wedges075, Max berry still present, no refills; creator approval pending.
 - Status: illustrated composition draft; creator approval and individual motion first frames pending.
+
+## BOARD_20.png — SHOT_077–080
+
+- Image commit: `e2d15a37d721a74e52477b8fa8dde979667e4a31` (push and remote PNG verified).
+- Selected source: `exec-e8bd8ba7-4237-4430-bfdb-87a128a1eed4.png`; source SHA-256 `41261b4ef4ff8ebcfe1550a2fce7c6b3cf5ccf3c6a61ca2c46c380745ffc50e2`.
+- Final PNG SHA-256: `4b7d1b3870e5254cf98bb133466b7411e8db29420370a2628625cf24c2a1ef4a`.
+- Additional supplied image references: BOARD_19.png; HOME_TABLE.jpg; rendered shared seating diagram; END_CARD_overlay.svg wording composited for final two-second ending.
+- Targeted correction: None before selection.
+- Review: Canonical seats, correct cast subsets, empty Leo gesture/fork resting077, Max sole strawberry fully eaten078, six existing partly eaten portions/no refill/no berry079–080, no Ed face/active call/new guest inspected. Creator approval pending.
+- Status: illustrated composition draft; creator approval and individual motion first frames pending.
