@@ -35,3 +35,13 @@ Each image commit is pushed and its fetched remote commit/blob verified before i
 - Targeted correction: Targeted image-tool edit replaced changing round logo with the same smudged rectangular lid label across050–052; staging, cast, single Maya-held phone and resident box ownership preserved and rechecked.
 - Review: No box049; resident-only cropped brown-sleeved hands retain one sealed closed box050–052; no face/body, exposed cake, family handover, extra phone or broken seal. Creator approval pending.
 - Status: illustrated composition draft; creator approval and individual motion first frames pending.
+
+## BOARD_15.png — SHOT_057–060
+
+- Image commit: `7ed52ea082fad073a016fbdd6672c7ac4eadfc5f` (push and remote PNG verified).
+- Selected source: `exec-8bc48d7c-6289-4408-95ef-0d97563ce8dc.png`; source SHA-256 `381dbac4e3d9800701dbe822ba30d6631160d17985996e62bee479ffe6832c67`.
+- Final PNG SHA-256: `c96530161bbb45e96a64530d3564e267de9c1d07e3dfdf23ebdfb7f4c85626db`.
+- Additional supplied image references: BOARD_13.png; BOARD_03.png for bow/banner only; HOME_KITCHEN.jpg; Welcome banner and refrigeration text composited.
+- Targeted correction: None before selection.
+- Review: One closed box intact red seal/same smudged lid label, Dan supports level while carrying, original blue bow/cream banner, no resident/phone/extra cake, prompt refrigeration onto one shelf and empty island inspected. Creator approval pending.
+- Status: illustrated composition draft; creator approval and individual motion first frames pending.
