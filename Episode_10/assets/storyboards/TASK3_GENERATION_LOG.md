@@ -15,3 +15,13 @@ Each image commit is pushed and its fetched remote commit/blob verified before i
 - Targeted correction: None before selection.
 - Review: Checklist out then right-pocketed, clear threshold, exact cast subsets, Nina sole phone holder044, delivery box only within photograph, no physical box/resident face inspected. Creator approval pending.
 - Status: illustrated composition draft; creator approval and individual motion first frames pending.
+
+## BOARD_12.png — SHOT_045–048
+
+- Image commit: `810973d9299a285b5adcaf1b9270b4796efbe0d0` (push and remote PNG verified).
+- Selected source: `exec-f3371bf0-f1d9-4777-8156-3b30f22fe3b6.png`; source SHA-256 `d8a228e21b17519842f30d267303cd909116047ee48962723e09f4209335c83f`.
+- Final PNG SHA-256: `0addb996d71eabb64b05bed48c1faa1fd0fb9eac125e3ca9a06b896a66472253`.
+- Additional supplied image references: NEIGHBOR_PORCH.png; BOARD_11.png; MHE-10-C wording from DELIVERY_RECORD.svg composited.
+- Targeted correction: None before selection.
+- Review: Correct Maya045/Nina047 sole phone holder, no physical box or resident, all six048 outside with threshold clear and Dan empty hands. Order reference supplied editorially; creator approval pending.
+- Status: illustrated composition draft; creator approval and individual motion first frames pending.
