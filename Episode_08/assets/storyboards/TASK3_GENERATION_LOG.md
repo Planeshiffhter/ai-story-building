@@ -25,3 +25,13 @@ Each image commit is pushed and its fetched remote commit/blob verified before i
 - Targeted correction: None before selection.
 - Review: Four distinct illustrations, listed cast, active prop states and editorial labels visually inspected; creator approval pending.
 - Status: illustrated composition draft; creator approval and individual motion first frames pending.
+
+## BOARD_19.png — SHOT_073–076
+
+- Image commit: `2673ec8f5a08f9f39536906a9008f0be8356fa19` (push and remote PNG verified).
+- Selected source: `exec-d8ccab04-6e69-4d79-abbb-788a9d48f576.png`; source SHA-256 `20204c12b792d834561fa7b4e01a4a22aa188f9e0ae8fe419d01094675fb2954`.
+- Final PNG SHA-256: `0c74a7cc863057a843b21698343a2b2f036ea03b73375203aa3a7924f3de5370`.
+- Additional supplied image references: HOME_TABLE.jpg; BOARD_18.png; rendered HOME_TABLE_seating.svg.
+- Targeted correction: Original exec-4f0493ae-bf87-4fd3-9254-9b41b74435e5.png moved Dan to the far side in SHOT_076; targeted image-tool edit restores Dan near-left, Max near-right and Leo left-end. Corrected panel visually rechecked.
+- Review: Four distinct illustrations, listed cast, active prop states and editorial labels visually inspected; creator approval pending.
+- Status: illustrated composition draft; creator approval and individual motion first frames pending.
