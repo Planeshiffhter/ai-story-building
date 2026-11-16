@@ -1,0 +1,17 @@
+# Task 3 — image generation and push record
+
+Branch `codex/next-12-storyboards` starts at `07ea5833a3d3ee5bb54a93b67d14c3477105f595`, preserving the previous ten-image batch. No pre-existing artwork is overwritten.
+
+Each board uses `image_gen.imagegen`, prompt version Task3-v1: exact four-shot screenplay briefs, explicit cast subsets and opening/action/end states, fixed W01 original identities, exact episode inventory and room geography. Actual local ADULTS_lineup.jpg and CHILDREN_lineup.jpg are supplied on every request; additional image references are recorded below. Model version/seed is not exposed. Pillow supplies exact shot labels and any stated editorial text; no programmatic drawing substitutes for the illustrations. Final PNGs are RGB 1672×941, matching adjacent boards. Each opens successfully, passes PNG integrity verification, and is visually inspected. File/structural validity is not creator visual approval or an approved motion first frame.
+
+Each image commit is pushed and its fetched remote commit/blob verified before its SHA is logged here and before generating the next board. Original source outputs are identified by basename/hash; final deliverables are retained in GitHub and do not rely on temporary source files. No video/audio generation or unrelated code changes are performed.
+
+## BOARD_12.png — SHOT_045–048
+
+- Image commit: `82da38253f6a5be97892e4e93ba901d517fc0386` (push and remote PNG verified).
+- Selected source: `exec-2cb5aaa2-5265-47ec-be1d-e7053150b13b.png`; source SHA-256 `76442011c532bbb4cde312a26b0481aa5643e70dda2739d0c43ccb5fab9b0be4`.
+- Final PNG SHA-256: `bea9ef156ccc2ae6b4ef57596fa10dc1fcc4a35a3d5c6127e7a95be56a8d05bf`.
+- Additional supplied image references: POTTING_BENCH.png; BOARD_11.png; MINT/BASIL/RADISH stake names and WATER_RECORD/GROWTH_JOURNAL wording composited.
+- Targeted correction: None before selection.
+- Review: All visible actors gloved; three bench pots/saucers; radish bare; pause before pouring, can-to-measure transfer, then measure-to-mint pour inspected. Stake names and measured water states composited. Creator approval pending.
+- Status: illustrated composition draft; creator approval and individual motion first frames pending.
