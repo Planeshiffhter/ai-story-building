@@ -25,3 +25,13 @@ Each image commit is pushed and its fetched remote commit/blob verified before i
 - Targeted correction: None before selection.
 - Review: One whole cake out of empty packaging; six cut wedges066; Dan and Leo plated plus four board wedges067; Ella and Maya plated plus two board wedges068; adult knife restricted to kitchen; creator approval pending.
 - Status: illustrated composition draft; creator approval and individual motion first frames pending.
+
+## BOARD_18.png — SHOT_069–072
+
+- Image commit: `e09402110d48487a3887990741c258bb73f95bcf` (push and remote PNG verified).
+- Selected source: `exec-e2f03081-8806-409c-91bb-4f944def9e1b.png`; source SHA-256 `992b6bb84777d0f02a40028af2ab125dd2f14d59807dd8ee870465410c112309`.
+- Final PNG SHA-256: `e9318dcf75988a104fa9cb4dab0a70f67bc296985624df11bf940f26fed8bdb1`.
+- Additional supplied image references: BOARD_17.png; HOME_KITCHEN.jpg; HOME_TABLE.jpg; rendered seating diagram; original exec-cac5ad3c-5e31-4c07-b731-22701fb744d8.png; exact serving/checklist states composited.
+- Targeted correction: Targeted edit restored SHOT_069 from kitchen to original dining room, Ella far-left/Max near-right, Nina standing at right end with empty board, three correct cropped individual servings and sole berry on Max plate; rechecked.
+- Review: Final serving leaves empty board069; sharp tools and empty board in kitchen070; one checklist and Nina phone071; six untouched wedges on six canonical plates, one berry only Max072. Creator approval pending.
+- Status: illustrated composition draft; creator approval and individual motion first frames pending.
