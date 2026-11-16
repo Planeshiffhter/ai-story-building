@@ -1,5 +1,8 @@
 # Episodes 04–10 — finish the still-image packages
 
+> **Storyboard completion update (2026-11-16):** All 200 required storyboard PNG files now exist and were merged into `main` via [PR #15](https://github.com/anneshabiswaas22-collab/ai-story-building/pull/15). The guide below was written when artwork was missing; use it now for **targeted verified visual corrections**, not automatic regeneration. Consult [current production status](CURRENT_PRODUCTION_STATUS.md) and the live inventory command.
+
+
 Use the episode guides below to generate the missing artwork and correct existing drafts in your preferred image tool. Each guide contains copy-ready prompts for all twenty storyboard sheets. The screenplay and continuity ledger remain the authority when a generated image disagrees with them. Existing images are composition drafts awaiting creator acceptance.
 
 | Episode | Copy-ready image guide |

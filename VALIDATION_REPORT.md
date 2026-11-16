@@ -1,5 +1,8 @@
 # Validation and artwork handoff status
 
+> **Historical checkpoint, NOT the current board count.** This report preserves an earlier validation snapshot. As of 2026-11-16, Codex has completed and merged **200/200** genuine storyboard sheets, and all 10 episodes pass full structural checks. The current source suite passed **104 tests**. Visual/creator approval, original PNG masters, individual motion frames, audio and video remain pending. See [current production status](CURRENT_PRODUCTION_STATUS.md) and `python tools/list_missing_storyboards.py` for live status.
+
+
 The complete written continuation is saved. Current artwork: **110/140 sheets**. The creator requested copy-ready guides for another image tool; all seven guides contain20 full sheet prompts, 80 panel briefs and five clean-view prompts. No automatic voices or video were generated.
 
 ## Results
