@@ -15,3 +15,13 @@ Each image commit is pushed and its fetched remote commit/blob verified before i
 - Targeted correction: None before selection.
 - Review: All visible actors gloved; three bench pots/saucers; radish bare; pause before pouring, can-to-measure transfer, then measure-to-mint pour inspected. Stake names and measured water states composited. Creator approval pending.
 - Status: illustrated composition draft; creator approval and individual motion first frames pending.
+
+## BOARD_16.png — SHOT_061–064
+
+- Image commit: `80be9603387a37e4d1589e58060b4630cfc1dcaa` (push and remote PNG verified).
+- Selected source: `exec-1f3602e7-3a6e-4d2d-a277-f46e077ce8dd.png`; source SHA-256 `b1faa4464a2eef9a25397bf9da26e1d9a712599207e47091a7b95ff5417b5bb3`.
+- Final PNG SHA-256: `ca9cdfaff50c86e3b3a7014cdea6934bac657d4cc9ceac31d113641896acc932`.
+- Additional supplied image references: GARDEN_POTS.png; POTTING_BENCH.png; BOARD_12.png; exact stake/water text composited.
+- Targeted correction: None before selection.
+- Review: Gloves through064, three pots on ground, no planted pots on bench, bare radish soil, cleanup tray and storage of can200 inspected. Notebook marks are diagrams, not real exposed seeds. Creator approval pending.
+- Status: illustrated composition draft; creator approval and individual motion first frames pending.
