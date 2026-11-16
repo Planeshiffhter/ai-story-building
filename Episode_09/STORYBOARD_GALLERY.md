@@ -72,7 +72,7 @@ SHOT_041: Write before you stick · SHOT_042: Mint has a nameplate · SHOT_043: 
 
 ## BOARD_12 — SHOT_045–SHOT_048
 
-Illustration pending.
+![BOARD_12 — SHOT_045–SHOT_048](assets/storyboards/BOARD_12.png)
 
 SHOT_045: Day one means day one · SHOT_046: The generous gardener pauses · SHOT_047: A smaller way to check · SHOT_048: A measured drink for mint
 
@@ -96,7 +96,7 @@ SHOT_057: Drainage is not a bath · SHOT_058: Sunlight has a place · SHOT_059: 
 
 ## BOARD_16 — SHOT_061–SHOT_064
 
-Illustration pending.
+![BOARD_16 — SHOT_061–SHOT_064](assets/storyboards/BOARD_16.png)
 
 SHOT_061: A place for quiet beginnings · SHOT_062: A picture that tells the truth · SHOT_063: The bench has finished its part · SHOT_064: The unused water is still water
 
@@ -114,13 +114,13 @@ SHOT_069: A promise without a timer · SHOT_070: What the coin can grow · SHOT_
 
 ## BOARD_19 — SHOT_073–SHOT_076
 
-Illustration pending.
+![BOARD_19 — SHOT_073–SHOT_076](assets/storyboards/BOARD_19.png)
 
 SHOT_073: The quiet pot has company · SHOT_074: One question helped more · SHOT_075: Everyone left a useful mark · SHOT_076: What grows next is a surprise
 
 ## BOARD_20 — SHOT_077–SHOT_080
 
-Illustration pending.
+![BOARD_20 — SHOT_077–SHOT_080](assets/storyboards/BOARD_20.png)
 
 SHOT_077: A very small ambition · SHOT_078: One last honest entry · SHOT_079: A garden does not need applause · SHOT_080: The next visit can wait
 
