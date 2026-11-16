@@ -242,6 +242,12 @@ class Episode01ValidationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Episode_04: missing commissioned episode package'):
             CHECK.validate(self.root)
 
+    def test_artwork_provenance_json_is_allowed(self):
+        folder = self.root / 'artwork_qa' / 'records'
+        folder.mkdir(parents=True)
+        (folder / 'ep05-board18.json').write_text('{"verified": false}')
+        self.assertTrue(CHECK.validate(self.root).startswith('PASS:'))
+
     def test_json_helpers_are_not_added_to_the_source_tree(self):
         (self.root / 'Episode_01' / 'helper.json').write_text('{}')
         with self.assertRaisesRegex(ValueError, 'no JSON files in the active source tree'):

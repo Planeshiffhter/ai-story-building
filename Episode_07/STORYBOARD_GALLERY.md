@@ -66,7 +66,7 @@ SHOT_037: Look before the first step · SHOT_038: Across in one group · SHOT_03
 
 ## BOARD_11 — SHOT_041–SHOT_044
 
-Illustration pending.
+![BOARD_11 — SHOT_041–SHOT_044](assets/storyboards/BOARD_11.png)
 
 SHOT_041: Northbound at last · SHOT_042: Check a whole line · SHOT_043: Sit before it arrives · SHOT_044: Tickets without confetti
 

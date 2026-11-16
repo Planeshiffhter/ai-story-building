@@ -108,13 +108,13 @@ SHOT_065: The fountain keeps its voice · SHOT_066: The last bites take time · 
 
 ## BOARD_18 — SHOT_069–SHOT_072
 
-Illustration pending.
+![BOARD_18 — SHOT_069–SHOT_072](assets/storyboards/BOARD_18.png)
 
 SHOT_069: Fold the meeting place · SHOT_070: One last landmark check · SHOT_071: A picture with the top marked · SHOT_072: The quiet guide receives thanks
 
 ## BOARD_19 — SHOT_073–SHOT_076
 
-Illustration pending.
+![BOARD_19 — SHOT_073–SHOT_076](assets/storyboards/BOARD_19.png)
 
 SHOT_073: Two benches, one good memory · SHOT_074: Through the gate together · SHOT_075: The correct kind of shortcut · SHOT_076: Home with a small story
 

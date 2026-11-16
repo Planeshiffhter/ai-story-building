@@ -38,3 +38,10 @@ The already-submitted BOARD17–20 batch then returned17 and20 but failed with H
 ## Acceptance limits
 
 The unchanged cast previews preserve the source identities; generated panels vary in likeness, exact poses, seats, props and counts. The factual corrections above remain required before creator visual acceptance or individual motion first-frame approval. [CONTINUITY.md](../../CONTINUITY.md), [exact map](../overlays/PARK_MAP.svg) and [position diagram](../PICNIC_positions.svg) govern corrections. A four-panel sheet is not a single motion input. Original full-resolution identity/home masters remain owner-controlled. No performed voices, animation, animatic, approved film or completed reusable motion factory is claimed.
+
+
+## Image-work checkpoint — 2026-11-15
+
+BOARD_18 and BOARD_19 are now genuine new reference-guided image_gen.imagegen outputs, covering SHOT_069–076. The episode now has20/20 actual boards. The prior18/20 description and quota evidence above are historical. Both new outputs were AI pixel-inspected; creator approval remains pending. Original source files, inputs, exact prompts, SHA-256 hashes, deterministic labels and remaining concerns are in the root IMAGE_QA_REPORT.md and artwork_qa records. No underlying tool model name is exposed.
+
+Targeted repairs so far: BOARD_01/004 duplicate tabletop map removed, other three panels retained; BOARD_13/052 seventh sandwich removed and unscripted Dan removed, six parcels on six plates remain. Other known defects, including050duplicateLeo, vessels/portions, fixed seats and precise map lettering, remain open. File completion is not visual acceptance. No voice/video generation.

@@ -398,7 +398,15 @@ def validate(repo_root=None):
     validate_label_audit(episode)
     svg_count = validate_svgs(episode)
     link_count = validate_links(episode)
-    require(not list(root.rglob('*.json')), 'repository: no JSON files in the active source tree')
+    # The episode source format is Markdown/SRT/SVG. Codex's separately
+    # audited artwork provenance legitimately uses JSON under artwork_qa/records.
+    # Preserve the original guard against unexpected JSON helper files.
+    unsupported_json = [
+        f for f in root.rglob('*.json')
+        if f.relative_to(root).parts[:2] != ('artwork_qa', 'records')
+    ]
+    require(not unsupported_json, 'repository: no JSON files in the active source tree '
+            'outside artwork_qa/records')
     for number in range(4, 11):
         folder = root / f'Episode_{number:02}'
         require(folder.is_dir() and (folder / 'STORY.md').is_file()
