@@ -24,8 +24,35 @@ Actual references: unchanged `../characters/ADULTS_lineup.jpg`, `../characters/C
 
 Major visible errors are corrected through image generation; remaining facial/anatomical, sock/cube count, name lettering, zipper/pouch and seating details still need creator review against the screenplay and original owner-controlled PNG masters. Exact text comes from editableSVGs rather than generated lettering. No voice, animation or finished-film claim is made.
 
-## External completion blocker and remaining corrections
+## Historical quota blocker and remaining corrections
 
-The image tool returned HTTP429 `usage_limit_reached` during requests for sheets16/18. Its reported daily-limit reset was **2026-11-15 17:44:41UTC** (`resets_at=1794764681`). Further image calls stopped. Sheets16–20 are NOT saved:61–80 remain unillustrated. One attempted17 response exposed inline image data without an output path; its data was not retained before the isolate ended, so it is not counted as a deliverable. No unverified replacement image was created.
+The image tool returned HTTP429 `usage_limit_reached` during requests for sheets16/18. Its reported daily-limit reset was **2026-11-15 17:44:41UTC** (`resets_at=1794764681`). Further image calls stopped. At that earlier checkpoint sheets16–20 were not saved. Task 2 below adds BOARD_16 (061–064); BOARD_17–20 (065–080) remain missing. One attempted17 response exposed inline image data without an output path; its data was not retained before the isolate ended, so it is not counted as a deliverable. No unverified replacement image was created.
 
-Major pending fixes are explicit, not claimed approved: BOARD05/017 invented suitcase in laundry; BOARD06/023 missing lavenderpouch from case; BOARD07 depicts rigidboxes instead of zipped fabriccubes; BOARD08/032 shoes instead of green-heeled socks and an extra cube; BOARD09/036 duplicates coralpair; BOARD11/041 and044 mismatches activecube/name-tab positions; BOARD13/049 and052 exposes extra/reappearing socks; BOARD15/057–058 changes cubby geography/state. [PENDING_ART.md](PENDING_ART.md) supplies exact resume targets. Earlier successful02/03 targeted corrections are recorded above. All15 saved sheets were visually inspected; passing PNG checks only establishes file integrity, not visual continuity acceptance.
+Major pending fixes are explicit, not claimed approved: BOARD05/017 invented suitcase in laundry; BOARD06/023 missing lavenderpouch from case; BOARD07 depicts rigidboxes instead of zipped fabriccubes; BOARD08/032 shoes instead of green-heeled socks and an extra cube; BOARD09/036 duplicates coralpair; BOARD11/041 and044 mismatches activecube/name-tab positions; BOARD13/049 and052 exposes extra/reappearing socks; BOARD15/057–058 changes cubby geography/state. [PENDING_ART.md](PENDING_ART.md) supplies exact resume targets. Earlier successful02/03 targeted corrections are recorded above. At the earlier checkpoint all15 saved sheets were visually inspected; passing PNG checks only establishes file integrity, not visual continuity acceptance.
+
+
+## Task 2 batch — 2026-11-16
+
+Fresh branch `codex/next-10-storyboards` started at main `0804694d972df82e19b03eb4408b18f7284c3b0b` (173/200 active sheets). Every requested path was checked missing against freshly fetched main before its generation. Each image was separately committed, pushed, fetched back, and its remote commit/blob verified before requesting the next image. This batch adds exactly ten sheets overall, bringing the repository to 183/200; no earlier PNG was changed.
+
+Tool: `image_gen.imagegen`, prompt version **Task2-v1** per board: original adult/child identities and fixed W01 clothing plus each of the four screenplay camera/action/opening/end-state briefs, explicit visible-cast subsets, exact inventory and safety constraints, no generated shot labels or typography. The tool does not expose a model version/seed. Both actual saved `assets/characters/ADULTS_lineup.jpg` and `assets/characters/CHILDREN_lineup.jpg` from this episode were supplied on every call. Additional supplied image references are listed per sheet below. Narrative/prop authority: this episode’s STORY, CONTINUITY, SCENE_REFERENCE_PLAN and relevant SVG overlays.
+
+Finishing: Pillow compositor adds exact white-on-black SHOT labels in 2×2 reading order, normalizes to the existing **1672×941 RGB PNG** resolution only when necessary, and adds explicit editorial text strips. Illustrations themselves are image-tool outputs, not programmatic drawings or copied prior boards. Every final PNG opened successfully, passed PNG verification, and was visually inspected in all four panels. Source basenames identify genuine generated outputs; source files outside Git are not relied on for deliverable preservation. Final PNGs are retained on the remote branch.
+
+No reusable earlier BOARD_16 draft was present. Laundry/guest-room references and BOARD_07 supplied the room and original suitcase design; adjacent BOARD_15 was inspected but its rigid-box/empty-top-row errors were not adopted. Cube-name tabs and a viewpoint strip were composited using STORAGE_MAP.svg: top DAN/MAYA/NINA, bottom LEO/ELLA/MAX. Grandma Ruth is absent; the lavender pouch remains hidden inside the closed case.
+
+| Sheet / shots | Generated source basename | Additional supplied image references | Image commit | Final PNG SHA-256 |
+|---|---|---|---|---|
+| BOARD_16 / 061–064 | `exec-340a1bb7-6e35-4a6a-972c-866adc6bc5f4.png` | `LAUNDRY_NOOK.png`, `GUEST_ROOM.png`, `BOARD_07.png` | `8f8f427619cf089eb0c83652f6447f00ff21ea4f` | `49656d6fcba9752c6083df192ae7720f03a36de4868f01efb9bffc85442b492e` |
+
+### Visual review and approval limits
+
+Creator visual approval and all individual motion first frames remain **pending**. Structural checks cannot certify likeness, anatomy, spatial continuity or exact object states. No images from outside the ten-sheet batch were repaired, and no audio/video was generated.
+
+- SHOT_061: empty basket at counter, six closed fabric cubes, unused closed appliances and clear dry floor inspected.
+- SHOT_062: the six cube tabs have the correct editorial names, but **Max points toward Leo’s bottom-left cube, while Ella and Leo point toward knee/floor areas instead of their own cubes**. The gestures require correction before visual acceptance.
+- SHOT_063–064: one towel, closed suitcase on stand, absent/hidden pouch, no Ruth, and empty top drawer opening were inspected. The dresser appears repositioned/rotated in SHOT_064 relative to SHOT_063 and the rear-left reference; geography review/correction remains pending. No socks or cubes enter guest room.
+
+### Batch validation
+
+Both affected episode sync commands and `sync.py --check` passed. Series source/full-available-art checks, structural audit, and 800-shot production handoff passed. All **101** discovered unit tests passed. Current series inventory is **183/200**; Episode 08 remains partial at 16/20, with BOARD_17–20 still absent. Full structural art acceptance for this episode is not claimed. Source screenplay, dialogue, prompts, subtitles and validation code remain unchanged; passing checks do not resolve the gestures or dresser geography noted above.

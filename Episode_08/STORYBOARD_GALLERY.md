@@ -96,7 +96,7 @@ SHOT_057: The three adult cubes · SHOT_058: The three child cubes · SHOT_059: 
 
 ## BOARD_16 — SHOT_061–SHOT_064
 
-Illustration pending.
+![BOARD_16 — SHOT_061–SHOT_064](assets/storyboards/BOARD_16.png)
 
 SHOT_061: An empty basket can rest · SHOT_062: Find it without opening it · SHOT_063: A towel for the guest · SHOT_064: Ask about the place
 
