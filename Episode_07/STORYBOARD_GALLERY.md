@@ -72,55 +72,55 @@ SHOT_041: Northbound at last · SHOT_042: Check a whole line · SHOT_043: Sit be
 
 ## BOARD_12 — SHOT_045–SHOT_048
 
-Illustration pending.
+![BOARD_12 — SHOT_045–SHOT_048](assets/storyboards/BOARD_12.png)
 
 SHOT_045: The fare has no surprise · SHOT_046: The destination on the moving bus · SHOT_047: Doors after wheels · SHOT_048: Space for people getting off
 
 ## BOARD_13 — SHOT_049–SHOT_052
 
-Illustration pending.
+![BOARD_13 — SHOT_049–SHOT_052](assets/storyboards/BOARD_13.png)
 
 SHOT_049: A quiet hello to the driver · SHOT_050: Six tickets, one careful pass · SHOT_051: A steady step for Max · SHOT_052: Keep the evidence together
 
 ## BOARD_14 — SHOT_053–SHOT_056
 
-Illustration pending.
+![BOARD_14 — SHOT_053–SHOT_056](assets/storyboards/BOARD_14.png)
 
 SHOT_053: Three pairs of seats · SHOT_054: A bag below the window · SHOT_055: At last, a departure · SHOT_056: A window, not a steering wheel
 
 ## BOARD_15 — SHOT_057–SHOT_060
 
-Illustration pending.
+![BOARD_15 — SHOT_057–SHOT_060](assets/storyboards/BOARD_15.png)
 
 SHOT_057: The route on the leaflet · SHOT_058: A little travel time · SHOT_059: A smaller voice is enough · SHOT_060: One request, once
 
 ## BOARD_16 — SHOT_061–SHOT_064
 
-Illustration pending.
+![BOARD_16 — SHOT_061–SHOT_064](assets/storyboards/BOARD_16.png)
 
 SHOT_061: Ready does not mean standing · SHOT_062: The library through the glass · SHOT_063: Arrival before the aisle · SHOT_064: Six people off safely
 
 ## BOARD_17 — SHOT_065–SHOT_068
 
-Illustration pending.
+![BOARD_17 — SHOT_065–SHOT_068](assets/storyboards/BOARD_17.png)
 
 SHOT_065: Through the right door · SHOT_066: Three old friends come out · SHOT_067: Return the red and blue · SHOT_068: The last return makes room
 
 ## BOARD_18 — SHOT_069–SHOT_072
 
-Illustration pending.
+![BOARD_18 — SHOT_069–SHOT_072](assets/storyboards/BOARD_18.png)
 
 SHOT_069: A display with possibilities · SHOT_070: Leo chooses a wider world · SHOT_071: Ella finds the next small thing · SHOT_072: A dinosaur that fits
 
 ## BOARD_19 — SHOT_073–SHOT_076
 
-Illustration pending.
+![BOARD_19 — SHOT_073–SHOT_076](assets/storyboards/BOARD_19.png)
 
 SHOT_073: Borrowing has a record · SHOT_074: Three books checked, no new fare · SHOT_075: Back into the right places · SHOT_076: Open one new page
 
 ## BOARD_20 — SHOT_077–SHOT_080
 
-Illustration pending.
+![BOARD_20 — SHOT_077–SHOT_080](assets/storyboards/BOARD_20.png)
 
 SHOT_077: A quiet place to be honest · SHOT_078: Both parts of the team · SHOT_079: A story for Grandpa later · SHOT_080: The right arrival
 

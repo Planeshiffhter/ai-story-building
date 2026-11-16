@@ -19,7 +19,7 @@ Twenty four-panel sheet slots map all 80 story shots. Generated images are compo
 | BOARD_13 | SHOT_049–SHOT_052 | A joke that stays a joke | [BOARD_13.png](assets/storyboards/BOARD_13.png) | Illustrated draft; creator approval pending |
 | BOARD_14 | SHOT_053–SHOT_056 | Nothing is missing | [BOARD_14.png](assets/storyboards/BOARD_14.png) | Illustrated draft; creator approval pending |
 | BOARD_15 | SHOT_057–SHOT_060 | The three adult cubes | [BOARD_15.png](assets/storyboards/BOARD_15.png) | Illustrated draft; creator approval pending |
-| BOARD_16 | SHOT_061–SHOT_064 | An empty basket can rest | [BOARD_16.png](assets/storyboards/BOARD_16.png) | Illustration pending; creator approval pending |
+| BOARD_16 | SHOT_061–SHOT_064 | An empty basket can rest | [BOARD_16.png](assets/storyboards/BOARD_16.png) | Illustrated draft; creator approval pending |
 | BOARD_17 | SHOT_065–SHOT_068 | The towel finds its drawer | [BOARD_17.png](assets/storyboards/BOARD_17.png) | Illustration pending; creator approval pending |
 | BOARD_18 | SHOT_069–SHOT_072 | Clean hands after the job | [BOARD_18.png](assets/storyboards/BOARD_18.png) | Illustration pending; creator approval pending |
 | BOARD_19 | SHOT_073–SHOT_076 | Six people, familiar seats | [BOARD_19.png](assets/storyboards/BOARD_19.png) | Illustration pending; creator approval pending |
