@@ -1,5 +1,7 @@
 # Episode10 — actual storyboard sources and unresolved review
 
+**Task 3 current inventory: 15/20 sheets are saved.** BOARD_11, BOARD_12, BOARD_13 and BOARD_15 were generated and individually pushed on `codex/next-12-storyboards`; [the per-image generation/push log](TASK3_GENERATION_LOG.md) records actual sources, references, hashes, verified image commits and the pre-commit box-label correction. Only BOARD_16–20 remain missing, reserved for the following task. Gallery/index sync and its check passed. Earlier missing-sheet lists below describe historical checkpoints. All sheets remain composition drafts pending creator approval; no older art, screenplay, audio or video was changed by this batch.
+
 **11/20 sheets are saved.** Missing: BOARD_11, BOARD_12, BOARD_13, BOARD_15, BOARD_16, BOARD_17, BOARD_18, BOARD_19, BOARD_20. These are composition drafts, not creator-approved motion first frames.
 
 All selected images were made by the image-generation tool with actual adult/child lineup JPGs and relevant clean-location references. Sheets01/02 also use the same provisional Rose reference as Episode04. No older episode board was relabeled as new artwork. Ed and neighbor never receive visible faces.

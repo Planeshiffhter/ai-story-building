@@ -45,3 +45,9 @@ Each image commit is pushed and its fetched remote commit/blob verified before i
 - Targeted correction: None before selection.
 - Review: Four distinct illustrations, listed cast, active prop states and editorial labels visually inspected; creator approval pending.
 - Status: illustrated composition draft; creator approval and individual motion first frames pending.
+
+## Final batch validation
+
+All twelve requested sheets were generated and individually pushed/verified; current branch inventory is **195/200** real boards. Only Episode 10 BOARD_16–20 remain absent and were not requested or generated. Previous artwork, source screenplays, dialogue, prompts, subtitles and validation code were preserved.
+
+`python tools/check_series.py`, `python tools/audit_series.py`, and `python tools/production_handoff.py --output-dir /tmp/production-handoff` passed (800 aligned shot records). All **101** discovered unit tests passed. Affected Episode 08/09/10 sync checks passed; newly complete Episode 08 and Episode 09 full checkers passed at 20/20 sheets each. Whole-series strict-art completion was not run expecting success. Creator visual approval remains pending; neither file counts nor structural tests approve artwork or motion first frames.
