@@ -15,3 +15,13 @@ Each image commit is pushed and its fetched remote commit/blob verified before i
 - Targeted correction: None before selection.
 - Review: Four distinct illustrations, listed cast, active prop states and editorial labels visually inspected; creator approval pending.
 - Status: illustrated composition draft; creator approval and individual motion first frames pending.
+
+## BOARD_18.png — SHOT_069–072
+
+- Image commit: `cd334614e27d2e45972e4e088b6d2938e3e50243` (push and remote PNG verified).
+- Selected source: `exec-2175e245-5496-4d84-ae2d-7b5dea195047.png`; source SHA-256 `9834d43db18d6f415d3909ea30e7ba8ab04a0c60becb3e8d019eb77ddb2e003a`.
+- Final PNG SHA-256: `10a009af562ec3aff877a8a0759a93146adc75acb12c098e6db4d7eb281276e9`.
+- Additional supplied image references: HOME_KITCHEN.jpg; BOARD_17.png.
+- Targeted correction: None before selection.
+- Review: Four distinct illustrations, listed cast, active prop states and editorial labels visually inspected; creator approval pending.
+- Status: illustrated composition draft; creator approval and individual motion first frames pending.
