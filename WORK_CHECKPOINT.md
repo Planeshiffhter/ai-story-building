@@ -1,3 +1,5 @@
+> **2026-11-16 completion:** The series now has 200/200 storyboard sheets merged on `main` (PR #15). See [current production status](CURRENT_PRODUCTION_STATUS.md). All images remain creator-unapproved drafts.
+>
 > **Live repository warning (2026-11-16):** This is a historical recovery checkpoint. Do not use its fixed board counts to assign new Codex image jobs. Fetch latest main or the active Codex branch and run `python tools/list_missing_storyboards.py --limit 12` to discover genuinely missing PNGs. Image existence is not visual approval.
 
 # Current repository recovery checkpoint — non-image audit

@@ -1,5 +1,7 @@
 # Maple House English: AI developer instructions
 
+**Current milestone (2026-11-16):** All 200 planned four-panel storyboard PNG files are saved and merged (PR #15). CI's strict structural art gates pass and the 104-test source suite passed on `main`. These images are **not creator-approved**; documented likeness, quantity, prop and staging corrections, approved individual motion first frames, voice and movie production remain separate. See `CURRENT_PRODUCTION_STATUS.md` and run `python tools/list_missing_storyboards.py` for the live inventory. Do not regenerate completed sheets merely because an older guide says they were missing.
+
 Read the root README and `Episode_01/{README,STORY,CONTINUITY,STORYBOARD_INDEX}.md` before changes.
 For Episode 02 work, also read `Episode_02/{README,STORY,CONTINUITY,STORYBOARD_INDEX}.md`; its fruit inventory and picnic geography are distinct from Episode 01.
 For Episode 03 work, read `Episode_03/{README,STORY,CONTINUITY,STORYBOARD_INDEX}.md`; preserve its one-batch recipe, blue/yellow bowls, six cooking pairs, adult stove zone and fixed dining seats.

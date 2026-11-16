@@ -2,6 +2,8 @@
 
 **One complete planned story at a time.** An original 3D animated American-English family comedy with six recurring family characters: Dan, Maya, Nina, Leo, Ella and Max.
 
+**Storyboard milestone (2026-11-16): 200/200 unique PNG storyboard sheets saved on `main`, covering 800 authored shot concepts.** Strict full-art structural checks and all 104 automated tests passed. These are still **unapproved visual drafts**, not approved motion first frames or completed animated movies. See [current production status](CURRENT_PRODUCTION_STATUS.md); always run `python tools/list_missing_storyboards.py` for a live count.
+
 ## Episode folders
 
 | Folder | Status |
@@ -78,7 +80,7 @@ Read [VALIDATION_REPORT.md](VALIDATION_REPORT.md), [CODEX_IMAGE_TASKS.md](CODEX_
 
 - [Series character and geography canon](SERIES_CANON.md)
 - [Non-image engineering completion report](AUDIT_AND_COMPLETION_REPORT.md)
-- [Codex's exact image backlog (delegated; not generated here)](CODEX_IMAGE_TASKS.md)
+- [Historical missing-image baseline and remaining visual-correction checklist](CODEX_IMAGE_TASKS.md)
 - [Optional A1–B2 English-learning review](ENGLISH_LEARNING_QA.md)
 - [Dynamic verification and 800-shot manifest script](tools/audit_series.py)
 
@@ -98,7 +100,7 @@ python -m unittest discover -s tests -v
 
 The production handoff includes **800 shot-level JSONL specifications**, an 800-row status index, **790 adjacent-shot continuity-review pairs**, a voice-dialogue workload table, and episode-level subtitle/pacing statistics. All reference candidates, action/open/end states and script dialogue are extracted from current episode sources and validated against prompts/SRT. No motion first frame, voice performance, generated image or finished film is claimed. GitHub Actions uploads these files in its `episode-audit-and-shot-manifest` artifact.
 
-The strict structural art gate (`python tools/check_series.py --strict-art`) must fail until all 200 genuine board sheets exist. Exact missing images and visual correction targets remain in `CODEX_IMAGE_TASKS.md`.
+Since the 200/200 storyboard merge, both `python tools/check_series.py --strict-art` and `python tools/audit_series.py --strict-art` pass on the completed `main` inventory and now run in CI. Both must fail if required artwork is later missing or invalid. Historical missing-image descriptions in `CODEX_IMAGE_TASKS.md` should not be treated as a live generation queue; existing visual-correction targets still require verification and review.
 
 ## Live storyboard inventory (for Codex cloud checkpoints)
 
