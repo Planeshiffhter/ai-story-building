@@ -15,3 +15,13 @@ Each image commit is pushed and its fetched remote commit/blob verified before i
 - Targeted correction: None before selection.
 - Review: Exact cast subsets, one phone with Nina061, six-person washing scene, one covered strawberry063, first opening by Maya064 with broken seal and one whole plain cake inspected. Creator approval pending.
 - Status: illustrated composition draft; creator approval and individual motion first frames pending.
+
+## BOARD_17.png — SHOT_065–068
+
+- Image commit: `e59714aff60dc885d188bc93e34b5543d59f6d68` (push and remote PNG verified).
+- Selected source: `exec-96e81f25-f54b-4e1c-9037-ba6abfc585f0.png`; source SHA-256 `8d0a3404caf6bb376459273ecaf857886621d55866a2c03cb3d29d4afb36c41b`.
+- Final PNG SHA-256: `95c11013a4056ab57618fb40ab54f964a7cd62f543b91d897b0372268a823940`.
+- Additional supplied image references: BOARD_16.png; HOME_TABLE.jpg; rendered shared HOME_TABLE_seating.svg; exact SERVING_LEDGER counts composited.
+- Targeted correction: None before selection.
+- Review: One whole cake out of empty packaging; six cut wedges066; Dan and Leo plated plus four board wedges067; Ella and Maya plated plus two board wedges068; adult knife restricted to kitchen; creator approval pending.
+- Status: illustrated composition draft; creator approval and individual motion first frames pending.
