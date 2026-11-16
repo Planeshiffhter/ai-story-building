@@ -35,3 +35,13 @@ Each image commit is pushed and its fetched remote commit/blob verified before i
 - Targeted correction: Targeted edit restored SHOT_069 from kitchen to original dining room, Ella far-left/Max near-right, Nina standing at right end with empty board, three correct cropped individual servings and sole berry on Max plate; rechecked.
 - Review: Final serving leaves empty board069; sharp tools and empty board in kitchen070; one checklist and Nina phone071; six untouched wedges on six canonical plates, one berry only Max072. Creator approval pending.
 - Status: illustrated composition draft; creator approval and individual motion first frames pending.
+
+## BOARD_19.png — SHOT_073–076
+
+- Image commit: `8c6a9cd8c6593deb4892edcbe501662239290c14` (push and remote PNG verified).
+- Selected source: `exec-b0a8bb88-7015-4076-b691-3a1b1dd42062.png`; source SHA-256 `8c44537cd3300fc081ccbbaa38dfd570e8599b46755278965f99bcd9f4f05449`.
+- Final PNG SHA-256: `2f29d206a3c040696fddc2e99155fef8171c452fe0f5820cdfaa65c444da2416`.
+- Additional supplied image references: BOARD_18.png; HOME_TABLE.jpg; rendered shared seating diagram; original exec-48b31f54-ecaf-4830-a57d-299bb002fc04.png; exact call/eating states composited.
+- Targeted correction: Targeted edit replaced mistaken kitchen backdrops across073–076 with original dining room; kept cast, phone ownership, full-to-bitten wedge progression and sole strawberry. Rechecked before image commit.
+- Review: Nina right-hand audio call073 with no Ed face, call ended/phone face-down074, six partly eaten original wedges075, Max berry still present, no refills; creator approval pending.
+- Status: illustrated composition draft; creator approval and individual motion first frames pending.
