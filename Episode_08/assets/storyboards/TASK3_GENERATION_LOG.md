@@ -35,3 +35,13 @@ Each image commit is pushed and its fetched remote commit/blob verified before i
 - Targeted correction: Original exec-4f0493ae-bf87-4fd3-9254-9b41b74435e5.png moved Dan to the far side in SHOT_076; targeted image-tool edit restores Dan near-left, Max near-right and Leo left-end. Corrected panel visually rechecked.
 - Review: Four distinct illustrations, listed cast, active prop states and editorial labels visually inspected; creator approval pending.
 - Status: illustrated composition draft; creator approval and individual motion first frames pending.
+
+## BOARD_20.png — SHOT_077–080
+
+- Image commit: `030e2ef7f04a061274e0242a8c0eaff16fc79f84` (push and remote PNG verified).
+- Selected source: `exec-f68dbe09-0dc6-4a92-a6b6-71c19530f825.png`; source SHA-256 `ec1b3766a18f4ec074a10192829b28b7864dd3be3c3898cb3165b03ce72e26ed`.
+- Final PNG SHA-256: `eca2a241239af5b34ab9b29789ba0bdaab7e4ed5f9189244f67abe203201514f`.
+- Additional supplied image references: BOARD_19.png; rendered HOME_TABLE_seating.svg; ending wording from END_CARD_overlay.svg.
+- Targeted correction: None before selection.
+- Review: Four distinct illustrations, listed cast, active prop states and editorial labels visually inspected; creator approval pending.
+- Status: illustrated composition draft; creator approval and individual motion first frames pending.
