@@ -25,3 +25,13 @@ Each image commit is pushed and its fetched remote commit/blob verified before i
 - Targeted correction: None before selection.
 - Review: Correct Maya045/Nina047 sole phone holder, no physical box or resident, all six048 outside with threshold clear and Dan empty hands. Order reference supplied editorially; creator approval pending.
 - Status: illustrated composition draft; creator approval and individual motion first frames pending.
+
+## BOARD_13.png — SHOT_049–052
+
+- Image commit: `d133e0b3e5a908004783786f4a9f57f4e65038a0` (push and remote PNG verified).
+- Selected source: `exec-20c82acb-0796-4196-a74c-f4340552ee87.png`; source SHA-256 `4adaadb15a93a1891d9da323f8c9872fa3b4166a8e9855e71bf3332353cbb51d`.
+- Final PNG SHA-256: `39f75c5a51ecfe176c9c36d2714d92365a9b6a401621ac1e336dbd8369f92682`.
+- Additional supplied image references: NEIGHBOR_PORCH.png; BOARD_12.png; BOARD_14.png; original exec-3caa2432-1b63-4cf3-85df-348e328f96c9.png; exact order wording composited.
+- Targeted correction: Targeted image-tool edit replaced changing round logo with the same smudged rectangular lid label across050–052; staging, cast, single Maya-held phone and resident box ownership preserved and rechecked.
+- Review: No box049; resident-only cropped brown-sleeved hands retain one sealed closed box050–052; no face/body, exposed cake, family handover, extra phone or broken seal. Creator approval pending.
+- Status: illustrated composition draft; creator approval and individual motion first frames pending.
