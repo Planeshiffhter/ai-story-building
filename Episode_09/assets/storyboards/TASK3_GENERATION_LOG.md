@@ -25,3 +25,13 @@ Each image commit is pushed and its fetched remote commit/blob verified before i
 - Targeted correction: None before selection.
 - Review: Gloves through064, three pots on ground, no planted pots on bench, bare radish soil, cleanup tray and storage of can200 inspected. Notebook marks are diagrams, not real exposed seeds. Creator approval pending.
 - Status: illustrated composition draft; creator approval and individual motion first frames pending.
+
+## BOARD_19.png — SHOT_073–076
+
+- Image commit: `ac655ef89e3eef9e40348ac901ecf7a4a1eb52d0` (push and remote PNG verified).
+- Selected source: `exec-9c870502-a5ff-4e13-a5ff-cd6569454902.png`; source SHA-256 `c8d4668c4fe5de25536c6ba1873a737be5cc45b531c18b0afda1d8dda6d4978d`.
+- Final PNG SHA-256: `e0f254283378c474556f53fb3f082d3d4f4d32b62dedf6d638ae65aa468a6295`.
+- Additional supplied image references: GARDEN_POTS.png; HOME_GARDEN.png; BOARD_16.png; exact stake/water wording composited.
+- Targeted correction: None before selection.
+- Review: Bare washed hands; three labeled ground pots and empty saucers; unchanged bare radish soil; no tools, extra watering, Ben or future-party props. Notebook ownership and cast subsets inspected; creator approval pending.
+- Status: illustrated composition draft; creator approval and individual motion first frames pending.
