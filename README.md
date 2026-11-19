@@ -88,6 +88,8 @@ The GitHub Actions workflow uploads the current `episode-audit-and-shot-manifest
 
 ## Source-only production assembly and QA
 
+For video-focused work, use the [essential video correction guide](docs/VIDEO_MUST_FIX.md). The handoff now exports individual video briefs with required corrections and character/location inputs, plus a queue that defers incidental still polish. Existing image QA and production approval remain pending until actual media is reviewed.
+
 Generate a reproducible complete source-derived handoff **without images, audio or video**:
 
 ```bash

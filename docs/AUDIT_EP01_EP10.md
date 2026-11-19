@@ -70,7 +70,9 @@ The branch also clarifies selected versus paid food, explicit prop transfers and
 
 ## Repository validation
 
-Local validation on Python 3.12.14 passed:
+**Video-focused continuation — 2026-11-20:** The [essential video guide](VIDEO_MUST_FIX.md) carries 309 major findings into required per-shot video corrections and explicitly defers 16 incidental still-polish findings. All 800 video briefs now use source-aligned cast, actions, states and dialogue, with character/location reference inputs and composition-only storyboard policy. Current local validation passes 123 regression tests, both strict series checks, QA evidence and document checks, all ten sync checks and handoff export. The selected image pixels and their QA statuses remain unchanged. These preparation changes do not establish that a rendered video has corrected any defect.
+
+Audit checkpoint validation (2026-11-19) on Python 3.12.14 passed:
 
 - `python tools/check_series.py --strict-art`: all ten source packages and all 200 selected storyboard sheets pass structural checks.
 - `python tools/audit_series.py --strict-art --report /tmp/maple-audit-series.md --manifest /tmp/maple-audit-shots.tsv`: 800 shots, 200 sheets, zero structural issues or missing boards.

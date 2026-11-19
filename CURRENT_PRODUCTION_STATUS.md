@@ -2,6 +2,10 @@
 
 The [master audit](docs/AUDIT_EP01_EP10.md) records the current panel findings and validation results.
 
+## Video preparation — 2026-11-20
+
+The [essential video guide](docs/VIDEO_MUST_FIX.md) prioritizes 309 shot corrections and defers 16 incidental still-polish findings. The production handoff exports all 800 individual video briefs, using only the scripted visible actors and clean location references. Unapproved storyboards are composition guidance and are excluded from the prepared first-frame inputs. This prepares generation instructions; image defects, rendered-video review and creator approval remain outstanding.
+
 ## Audit branch validation — 2026-11-19
 
 On `audit/episode-01-10`, all 800 shot-review records now match current screenplay actions, panel mappings and full selected-image hashes. They record **325 major visual failures and 475 rows awaiting human review**; creator approval remains pending. Local strict structural checks, all ten sync checks, production handoff generation and 113 regression tests pass. These audit-branch results extend the historical merge checkpoint below; the [master audit](docs/AUDIT_EP01_EP10.md) gives recovery evidence and reproduction commands.

@@ -1,4 +1,5 @@
 """Regression tests for source-derived non-image production manifest / continuity queue."""
+import csv
 import json
 from pathlib import Path
 import tempfile
@@ -93,6 +94,52 @@ class ProductionHandoffTests(unittest.TestCase):
                             and row["motion_video"] == "not_documented"
                             for row in self.records))
 
+    def test_video_inputs_exclude_unapproved_frames_and_full_cast_lineups(self):
+        for row in self.records:
+            preparation = row["video_preparation"]
+            self.assertEqual(preparation["board_input_policy"], "composition_only")
+            self.assertIs(preparation["use_board_as_first_frame"], False)
+            inputs = preparation["reference_inputs"]
+            paths = (inputs["visible_characters"] + inputs["supporting_cast"]
+                     + [inputs["environment"]])
+            self.assertTrue(all((ROOT / path).is_file() for path in paths))
+            self.assertFalse(any("/storyboards/" in path or "lineup" in path for path in paths))
+
+    def test_video_character_references_match_only_the_visible_cast(self):
+        family = {"DAN", "MAYA", "NINA", "LEO", "ELLA", "MAX"}
+        for row in self.records:
+            inputs = row["video_preparation"]["reference_inputs"]
+            selected = {Path(path).stem.split("_")[0] for path in
+                        inputs["visible_characters"] + inputs["supporting_cast"]}
+            self.assertEqual(selected, set(row["visible_cast"]))
+            self.assertFalse(selected & set(row["offscreen_cast"]))
+            self.assertEqual({Path(path).stem.split("_")[0]
+                              for path in inputs["visible_characters"]},
+                             set(row["visible_cast"]) & family)
+
+    def test_grape_safety_correction_is_carried_into_video_prompt(self):
+        row = self.records[80 + 59]
+        preparation = row["video_preparation"]
+        self.assertEqual((row["episode"], row["shot_id"]), ("02", "SHOT_060"))
+        self.assertEqual(preparation["priority"], "must_fix_in_video")
+        self.assertIn(row["action"], preparation["prompt"])
+        self.assertIn("one grape lengthwise into four small pieces", preparation["prompt"])
+        self.assertIn(preparation["required_correction"], preparation["prompt"])
+        self.assertIn("quarter", preparation["required_correction"])
+        self.assertEqual(preparation["visual_qa"]["status"], "FAIL")
+
+    def test_saucer_draining_correction_does_not_claim_existing_art_fixed(self):
+        row = self.records[8 * 80 + 56]
+        preparation = row["video_preparation"]
+        self.assertEqual((row["episode"], row["shot_id"]), ("09", "SHOT_057"))
+        self.assertEqual(preparation["priority"], "must_fix_in_video")
+        self.assertIn(preparation["required_correction"], preparation["prompt"])
+        self.assertIn("pots upright", preparation["required_correction"])
+        self.assertIn("saucers", preparation["required_correction"])
+        self.assertEqual(preparation["visual_qa"]["status"], "FAIL")
+        self.assertEqual(row["motion_video"], "not_documented")
+        self.assertEqual(row["production_approval"], "pending")
+
     def test_790_reviewable_adjacent_shot_transitions(self):
         transitions = review_rows(self.records)
         self.assertEqual(len(transitions), 790)
@@ -116,6 +163,19 @@ class ProductionHandoffTests(unittest.TestCase):
             self.assertIn("ROSE", voice)
             self.assertIn("not_recorded_or_verified", voice)
             self.assertTrue((target / "README.md").is_file())
+            with (target / "video-preparation.tsv").open(encoding="utf-8", newline="") as stream:
+                preparation = list(csv.DictReader(stream, delimiter="\t"))
+            with (target / "video-must-fix.tsv").open(encoding="utf-8", newline="") as stream:
+                must_fix = list(csv.DictReader(stream, delimiter="\t"))
+            self.assertEqual(len(preparation), 800)
+            expected = {(row["episode"], row["shot_id"]) for row in self.records
+                        if row["video_preparation"]["priority"] == "must_fix_in_video"}
+            self.assertEqual({(row["episode"], row["shot"]) for row in must_fix}, expected)
+            self.assertTrue(all(row["priority"] == "must_fix_in_video" for row in must_fix))
+            self.assertTrue(all(row["use_board_as_first_frame"] == "false" for row in preparation))
+            for number in range(1, 11):
+                brief = (target / f"video-prompts/Episode_{number:02}.md").read_text(encoding="utf-8")
+                self.assertEqual(sum(line.startswith("## SHOT_") for line in brief.splitlines()), 80)
 
     def test_prompt_mutation_is_rejected(self):
         episode = ROOT / "Episode_04"
