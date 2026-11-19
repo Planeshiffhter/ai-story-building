@@ -60,6 +60,9 @@ COVERAGE = re.compile(
     r'(?<![\w/])(?P<count>\d+)\s*(?:/|\s+of\s+)\s*(?P<total>200|140|20)\b(?!:)', re.I,
 )
 BOARD = re.compile(r'\bBOARD_?(\d{2})\b', re.I)
+NAMED_BOARD_RANGE = re.compile(
+    r'\bBOARD_?(\d{2})(?:\.png)?\s*[-–]\s*(?:BOARD_?)?(\d{2})(?:\.png)?\b', re.I,
+)
 MISSING_NAMED = re.compile(
     r'(?:\bmissing(?:\s+(?:sheets?|boards?))?\s*:\s*BOARD_?\d'
     r'|\bBOARD_?\d\d(?:\.png)?(?:\s*[/,–-]\s*(?:BOARD_?)?\d\d)*'
@@ -70,7 +73,11 @@ MISSING_RANGE = re.compile(
     r"\s+(?:are|is|remain|remains)\s+(?:missing|ungenerated|absent)\b", re.I,
 )
 MISSING_PICTURE = re.compile(
-    r'(?:illustration (?:missing|pending)|missing; generate this sheet'
+    r'(?:illustration missing'
+    # A saved illustration may still await approval or visual review.
+    r'|illustration pending\b(?!\s*[:;—-]?\s*'
+    r'(?:(?:creator|visual|human|final)\s+)*(?:approval|acceptance|review)\b)'
+    r'|missing; generate this sheet'
     r'|PNG (?:not generated|generation blocked))', re.I,
 )
 
@@ -128,10 +135,12 @@ def storyboard_status_issues(root: Path) -> list[str]:
                 if line.startswith("### BOARD_"):
                     guide_board = BOARD.search(line)
                 if MISSING_PICTURE.search(line) or MISSING_NAMED.search(line):
-                    refs = BOARD.findall(line)
+                    refs = set(BOARD.findall(line))
+                    for first, last in NAMED_BOARD_RANGE.findall(line):
+                        refs.update(f"{board:02}" for board in range(int(first), min(20, int(last)) + 1))
                     if not refs and line.startswith("Status:") and doc.name == "IMAGE_GENERATION_GUIDE.md":
-                        refs = [guide_board[1]] if guide_board else []
-                    for board in set(refs):
+                        refs = {guide_board[1]} if guide_board else set()
+                    for board in sorted(refs):
                         if (root / episode / "assets/storyboards" / f"BOARD_{board}.png").is_file():
                             errors.append(f"{relative}:{number}: calls existing BOARD_{board}.png missing")
     return errors

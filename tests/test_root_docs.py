@@ -49,6 +49,54 @@ class RootDocsTests(unittest.TestCase):
             (path / "README.md").write_text("[bad](missing.txt)")
             self.assertTrue(any("missing.txt" in item for item in root_link_issues(path)))
 
+    def test_saved_illustration_can_await_creator_approval_or_visual_review(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            for n in range(1, 11):
+                (root / f"Episode_{n:02}/assets/storyboards").mkdir(parents=True)
+            episode = root / "Episode_08"
+            (episode / "assets/storyboards/BOARD_17.png").touch()
+            doc = episode / "STORY.md"
+            picture = "[BOARD_17.png](assets/storyboards/BOARD_17.png), panel 1. "
+            for status in (
+                "Illustration pending creator approval.",
+                "Illustration pending: creator visual approval.",
+                "Illustration pending visual review.",
+                "Illustration pending acceptance.",
+            ):
+                with self.subTest(status=status):
+                    doc.write_text(picture + status)
+                    self.assertEqual(storyboard_status_issues(root), [])
+            for status in (
+                "Illustration pending.",
+                "Illustration missing.",
+                "Illustration pending: planned PNG not generated.",
+                "Illustration pending creator approval; PNG not generated.",
+            ):
+                with self.subTest(status=status):
+                    doc.write_text(picture + status)
+                    self.assertTrue(any("BOARD_17.png missing" in issue
+                                        for issue in storyboard_status_issues(root)))
+
+    def test_named_missing_range_checks_saved_middle_board(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            for n in range(1, 11):
+                (root / f"Episode_{n:02}/assets/storyboards").mkdir(parents=True)
+            episode = root / "Episode_08"
+            (episode / "assets/storyboards/BOARD_17.png").touch()
+            doc = episode / "CHECKPOINT.md"
+            for claim in (
+                "BOARD_16–BOARD_18 are missing.",
+                "BOARD_16.png–BOARD_18.png are missing.",
+                "BOARD_16-18 remain missing.",
+            ):
+                with self.subTest(claim=claim):
+                    doc.write_text(claim)
+                    self.assertEqual(storyboard_status_issues(root), [
+                        "Episode_08/CHECKPOINT.md:1: calls existing BOARD_17.png missing",
+                    ])
+
     def test_external_urls_and_section_links_are_ignored(self):
         with tempfile.TemporaryDirectory() as folder:
             path = Path(folder)
