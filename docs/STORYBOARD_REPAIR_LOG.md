@@ -7,7 +7,8 @@ The active request is to fix the selected storyboard PNGs themselves. Video-prom
 | Episode / sheet | Verified image change | Recovery and evidence |
 |---|---|---|
 | 01 / BOARD_04 | SHOT_013 now shows Ella raising four fingers for the four carrots. All four panels and printed shot badges were rechecked. | [Selected sheet](../Episode_01/assets/storyboards/BOARD_04.png) · [Correction record](../artwork_qa/records/ep01-board04-counting-correction.json) |
+| 08 / BOARD_08 | SHOT_032 shoes replaced with socks; six flat punched tags restored in031/032;031 points to first cube.029 pointing still needs repair. | [Selected sheet](../Episode_08/assets/storyboards/BOARD_08.png) · [Correction record](../artwork_qa/records/ep08-board08-socks-and-tabs-correction.json) |
 
-Current QA inventory: **324 shots with major visual defects; 476 awaiting human review**. The counting repair removes one documented major discrepancy. Creator acceptance and individual motion-frame approval remain pending. Other storyboard defects have not been declared fixed.
+Current QA inventory: **323 shots with major visual defects; 477 awaiting human review**. Selected repairs remove only the visually verified discrepancies recorded above. Creator acceptance and individual motion-frame approval remain pending. Other storyboard defects have not been declared fixed.
 
 Each selected edit preserves the prior image through its parent Git commit, retains the returned ImageGen source, updates all four panel evidence hashes and records what was visually confirmed. The Episode 01 printed-label audit is refreshed against the new pixels. Corrections are committed and pushed as checkpoints before requesting the next image.
