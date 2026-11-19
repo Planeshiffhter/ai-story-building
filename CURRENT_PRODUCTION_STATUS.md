@@ -4,7 +4,7 @@ The [master audit](docs/AUDIT_EP01_EP10.md) records the current panel findings a
 
 ## Active storyboard repairs — 2026-11-20
 
-The creator has requested fixes to the actual storyboard images and withdrawn the video-prompt workaround. The [image repair log](docs/STORYBOARD_REPAIR_LOG.md) records selected PNG changes and remaining defects. Selected corrections and any remaining panel issues are recorded in the repair log; creator approval remains pending. Current QA records list 316 major visual discrepancies and 484 shots awaiting human review.
+The creator has requested fixes to the actual storyboard images and withdrawn the video-prompt workaround. The [image repair log](docs/STORYBOARD_REPAIR_LOG.md) records selected PNG changes and remaining defects. Selected corrections and any remaining panel issues are recorded in the repair log; creator approval remains pending. Current QA records list 312 major visual discrepancies and 488 shots awaiting human review.
 
 ## Audit branch validation — 2026-11-19
 
