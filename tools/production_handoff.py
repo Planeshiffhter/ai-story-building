@@ -24,7 +24,6 @@ from tools.episode_package import (
     FAMILY, load_config, shots, validate_subtitles,
     PROMPT_FIELDS, cast_names, seconds,
 )
-from tools.video_constraints import attach_video_preparation, export_video_preparation
 
 ISSUE_TERMS = {
     "phone": ("phone", "call", "screen"),
@@ -188,7 +187,7 @@ def build_records(root: Path = ROOT) -> list[dict]:
     if len(records) != 800 or any(rec["global_shot"] != i
                                   for i, rec in enumerate(records, 1)):
         raise ValueError("series handoff must have exactly 800 consecutive shot records")
-    return attach_video_preparation(records, root)
+    return records
 
 
 def review_rows(records: list[dict]) -> list[dict]:
@@ -228,7 +227,6 @@ def write_tsv(path: Path, rows: list[dict], columns: list[str]) -> None:
 
 def export(records: list[dict], output_dir: Path) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
-    export_video_preparation(records, output_dir)
     with (output_dir / "shot-production.jsonl").open("w", encoding="utf-8") as stream:
         for record in records:
             stream.write(json.dumps(record, ensure_ascii=False, sort_keys=True) + "\n")
@@ -287,10 +285,6 @@ def export(records: list[dict], output_dir: Path) -> None:
                if r["board_panel"] == 1 and not r["references"]["board_exists"]]
     crowded = [f"{r['episode']}/{r['shot_id']} ({r['dialogue_words']} words)"
                for r in records if r["dialogue_words"] > 24]
-    video_priorities = {
-        priority: sum(row["video_preparation"]["priority"] == priority for row in records)
-        for priority in ("must_fix_in_video", "defer_still_polish", "review_generated_take")
-    }
     report = [
         "# Source-derived production handoff (NOT a production approval)",
         "",
@@ -299,10 +293,6 @@ def export(records: list[dict], output_dir: Path) -> None:
         f"- Missing genuine storyboard sheets: {len(missing)}.",
         f"- Adjacent-shot state transitions queued for human/agent review: {len(queue)}.",
         f"- Dialogue pacing candidates (>24 words / 15 editorial seconds): {len(crowded)}.",
-        f"- Shots with required video corrections: {video_priorities['must_fix_in_video']}.",
-        f"- Still-polish repairs deferred: {video_priorities['defer_still_polish']}.",
-        f"- Other shots awaiting generated-take review: {video_priorities['review_generated_take']}.",
-        "- Storyboards are composition references only; none is selected as an approved video starting frame.",
         "- Voice timing, actor likeness, completed motion takes and approval remain unverified.",
         "",
         "## Missing storyboard files",
@@ -318,11 +308,8 @@ def export(records: list[dict], output_dir: Path) -> None:
         "- adjacent-shot-continuity-review.tsv: 790 transitions needing human/source review (no invented auto-pass).",
         "- voice-dialogue-workload.tsv: character speaking turns, words and shot counts by episode; no recorded voice inferred.",
         "- episode-dialogue-qa.tsv: episode word/cue totals and pacing review counts.",
-        "- video-preparation.tsv: 800 shot priorities, required corrections and reference-input policies.",
-        "- video-must-fix.tsv: essential corrections to enforce and verify in generated video.",
-        "- video-prompts/Episode_01.md through Episode_10.md: source-aligned video briefs using only the named cast and location references.",
         "",
-        "Run this again after source, audit or artwork changes. Corrected instructions do not repair existing pixels or approve future takes. This does not create image/audio/video files.",
+        "Run this again after Codex adds artwork. It does not create image/audio/video files.",
         "",
     ]
     (output_dir / "README.md").write_text("\n".join(report), encoding="utf-8")
@@ -343,9 +330,6 @@ def main() -> int:
                   and not r["references"]["board_exists"])
     print(f"PASS: {len(records)}/800 aligned story/prompt/SRT shot records, "
           f"{200 - missing}/200 actual board sheets, {missing} missing")
-    corrections = sum(r["video_preparation"]["priority"] == "must_fix_in_video" for r in records)
-    print(f"Video preparation: {corrections} required shot corrections; "
-          "unapproved boards excluded as starting frames.")
     print("Every image is an unapproved composition draft; no media generation performed.")
     return 0
 

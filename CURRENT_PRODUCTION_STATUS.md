@@ -2,9 +2,9 @@
 
 The [master audit](docs/AUDIT_EP01_EP10.md) records the current panel findings and validation results.
 
-## Video preparation — 2026-11-20
+## Active storyboard repairs — 2026-11-20
 
-The [essential video guide](docs/VIDEO_MUST_FIX.md) prioritizes 309 shot corrections and defers 16 incidental still-polish findings. The production handoff exports all 800 individual video briefs, using only the scripted visible actors and clean location references. Unapproved storyboards are composition guidance and are excluded from the prepared first-frame inputs. This prepares generation instructions; image defects, rendered-video review and creator approval remain outstanding.
+The creator has requested fixes to the actual storyboard images and withdrawn the video-prompt workaround. The [image repair log](docs/STORYBOARD_REPAIR_LOG.md) records selected PNG changes and remaining defects. Episode 01 SHOT_013's four-carrot counting gesture is corrected in BOARD_04; creator approval remains pending. Current QA records list 324 major visual discrepancies and 476 shots awaiting human review.
 
 ## Audit branch validation — 2026-11-19
 

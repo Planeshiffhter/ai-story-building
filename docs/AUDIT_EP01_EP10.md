@@ -35,7 +35,7 @@ The current checkout had no uncommitted or untracked work, stashes, unreachable 
 
 The baseline ledger was checked against all 960 original Git paths, blob IDs, byte counts and SHA-256 digests. Its decisions are 685 KEEP, 246 ARCHIVE, 21 REVIEW and eight DELETE. All eight deleted files were empty; the other baseline paths remain present. The documented archive procedure was executed locally: a tar was built from `09063a7`, restored into a new empty directory, and its exact 268-member path set and every checksum verified. No external archive upload or storage restoration is claimed; the historical source directories remain in the checkout.
 
-## Current panel findings
+## Panel findings at the audit checkpoint — 2026-11-19
 
 The ten [shot-review TSVs](qa/README.md) retain the expected action, observed pixels, severity, correction, selected-image evidence, status and verification for each of the 800 shots. All rows now identify the correct panel and a full SHA-256 matching the current selected sheet. Refreshing an evidence hash does not grant visual acceptance.
 
@@ -70,9 +70,9 @@ The branch also clarifies selected versus paid food, explicit prop transfers and
 
 ## Repository validation
 
-**Video-focused continuation — 2026-11-20:** The [essential video guide](VIDEO_MUST_FIX.md) carries 309 major findings into required per-shot video corrections and explicitly defers 16 incidental still-polish findings. All 800 video briefs now use source-aligned cast, actions, states and dialogue, with character/location reference inputs and composition-only storyboard policy. Current local validation passes 123 regression tests, both strict series checks, QA evidence and document checks, all ten sync checks and handoff export. The selected image pixels and their QA statuses remain unchanged. These preparation changes do not establish that a rendered video has corrected any defect.
+**Active image correction — 2026-11-20:** The creator has withdrawn the video-instruction workaround and requested actual storyboard repairs. See the [image repair log](STORYBOARD_REPAIR_LOG.md) for current selected PNGs, recovery records and live remaining counts. Episode 01 SHOT_013's counting hand is now corrected; the historical checkpoint totals above precede that repair.
 
-Audit checkpoint validation (2026-11-19) on Python 3.12.14 passed:
+Local validation on Python 3.12.14 passed:
 
 - `python tools/check_series.py --strict-art`: all ten source packages and all 200 selected storyboard sheets pass structural checks.
 - `python tools/audit_series.py --strict-art --report /tmp/maple-audit-series.md --manifest /tmp/maple-audit-shots.tsv`: 800 shots, 200 sheets, zero structural issues or missing boards.
