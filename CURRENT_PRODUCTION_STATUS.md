@@ -1,6 +1,8 @@
-# Current production status — 2026-11-16
+# Current production status
 
-## Saved and verified
+The [master audit](docs/AUDIT_EP01_EP10.md) records the current panel findings and validation results.
+
+## File coverage and structural checks at the 2026-11-16 merge
 
 - **10/10 written episodes**; 80 timed 15-second screenplay shots per episode, for **800/800** written shot concepts (20 minutes of story per episode).
 - **200/200 unique four-panel storyboard PNGs**, exactly 20 sheets per episode, covering all 800 concepts. All were checked by the merged repository's structural checkers. This is *file and source completeness*, **not** visual or creator acceptance.
